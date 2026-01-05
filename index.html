@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Warith Al-Awadi | AI & Technology</title>
 
-<!-- Google Font -->
 <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;600;800&display=swap" rel="stylesheet">
 
 <style>
 :root{
-  --bg-dark:#0f1115;
-  --bg-card:#171a21;
-  --accent:#c8b08a;
-  --text:#eaeaea;
+  --bg:#0e1015;
+  --card:#171a22;
+  --accent:#c7b089;
+  --text:#f1f1f1;
   --muted:#9aa0a6;
 }
 
@@ -24,76 +23,73 @@ body{
   margin:0;
   font-family:'Tajawal',sans-serif;
   background:
-    linear-gradient(rgba(15,17,21,.92),rgba(15,17,21,.92)),
-    url("https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80");
+    linear-gradient(rgba(14,16,21,.93),rgba(14,16,21,.93)),
+    url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1600&q=80");
   background-size:cover;
   background-attachment:fixed;
   color:var(--text);
 }
 
-/* Container */
 .container{
   max-width:1100px;
   margin:auto;
-  padding:60px 20px;
+  padding:50px 20px;
 }
 
-/* Hero */
+/* HERO */
 .hero{
   display:grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns:1fr 2fr;
   gap:40px;
   align-items:center;
-  margin-bottom:60px;
 }
 
 .hero img{
   width:100%;
-  border-radius:20px;
-  box-shadow:0 20px 50px rgba(0,0,0,.6);
+  border-radius:22px;
+  box-shadow:0 25px 60px rgba(0,0,0,.7);
 }
 
-/* Hero Text */
 .hero h1{
-  font-size:42px;
-  margin:0 0 10px;
+  font-size:44px;
+  margin:0;
   font-weight:800;
 }
 
 .hero h2{
+  margin:10px 0 20px;
   color:var(--accent);
   font-weight:600;
-  margin:0 0 20px;
 }
 
 .hero p{
+  font-size:18px;
   line-height:1.9;
   color:var(--muted);
-  font-size:18px;
 }
 
-/* Buttons */
+/* BUTTONS */
 .buttons{
-  margin-top:25px;
   display:flex;
-  gap:15px;
+  gap:14px;
   flex-wrap:wrap;
+  margin-top:25px;
 }
 
 .btn{
-  padding:14px 26px;
-  border-radius:30px;
-  text-decoration:none;
+  padding:14px 28px;
+  border-radius:40px;
   font-weight:600;
+  text-decoration:none;
   transition:.3s;
 }
 
-.btn-primary{
+.btn-main{
   background:var(--accent);
   color:#000;
 }
 
-.btn-primary:hover{opacity:.85}
+.btn-main:hover{opacity:.85}
 
 .btn-outline{
   border:1px solid var(--accent);
@@ -105,31 +101,51 @@ body{
   color:#000;
 }
 
-/* Sections */
+/* SECTIONS */
 .section{
-  background:var(--bg-card);
-  border-radius:20px;
+  background:var(--card);
+  border-radius:22px;
   padding:35px;
-  margin-bottom:30px;
+  margin-top:35px;
 }
 
 .section h3{
   margin-top:0;
-  color:var(--accent);
   font-size:26px;
+  color:var(--accent);
+}
+
+.section p, .section li{
+  line-height:1.9;
+  color:var(--muted);
+  font-size:17px;
 }
 
 .section ul{
-  padding:0;
   list-style:none;
+  padding:0;
 }
 
-.section li{
-  margin-bottom:12px;
-  line-height:1.8;
+/* TOOLS GRID */
+.tools{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:20px;
 }
 
-/* Footer */
+.tool{
+  background:#11131a;
+  border:1px solid #222;
+  border-radius:16px;
+  padding:20px;
+}
+
+.tool h4{
+  margin:0 0 8px;
+  color:var(--text);
+}
+
+/* FOOTER */
 footer{
   text-align:center;
   margin-top:60px;
@@ -137,7 +153,7 @@ footer{
   font-size:14px;
 }
 
-/* Responsive */
+/* MOBILE */
 @media(max-width:900px){
   .hero{
     grid-template-columns:1fr;
@@ -151,59 +167,72 @@ footer{
 
 <div class="container">
 
-  <!-- HERO -->
-  <div class="hero">
-    <img src="profile.jpg" alt="Warith Al-Awadi">
-    <div>
-      <h1>Warith Al-Awadi</h1>
-      <h2>Artificial Intelligence • Technology • Automation</h2>
-      <p>
-        مهندس وتقني متخصص في الذكاء الاصطناعي، الأتمتة، والطاقة.
-        أعمل على تحويل الأفكار إلى أنظمة ذكية عملية تُستخدم في الواقع،
-        مع تركيز على الحلول الحديثة والتقنيات المستقبلية.
-      </p>
+<!-- HERO -->
+<div class="hero">
+  <img src="profile.jpg" alt="Warith Al-Awadi">
+  <div>
+    <h1>Warith Al-Awadi</h1>
+    <h2>AI • Technology • Automation</h2>
+    <p>
+      مهندس وتقني متخصص في الذكاء الاصطناعي والأتمتة والتقنيات الحديثة.
+      أقدّم محتوى عملي واقعي يشرح الأدوات الحديثة ويحوّل الذكاء الاصطناعي
+      من مفهوم نظري إلى حلول تُستخدم فعلياً.
+    </p>
 
-      <div class="buttons">
-        <a class="btn btn-primary" href="https://github.com/Warithh/lof9x" target="_blank">GitHub</a>
-        <a class="btn btn-outline" href="https://instagram.com/lof9x" target="_blank">Instagram</a>
-        <a class="btn btn-outline" href="https://t.me/lof9x" target="_blank">Telegram</a>
-      </div>
+    <div class="buttons">
+      <a class="btn btn-outline" href="https://instagram.com/lof9x" target="_blank">Instagram</a>
+      <a class="btn btn-outline" href="https://t.me/lof99" target="_blank">Telegram</a>
     </div>
   </div>
 
-  <!-- ABOUT -->
-  <div class="section">
-    <h3>من أنا</h3>
-    <p>
-      أقدّم محتوى يومي مبسّط واحترافي عن أحدث أدوات وتقنيات الذكاء الاصطناعي،
-      مع تطبيقات عملية تفيد الطلاب، المطورين، ورواد الأعمال.
-    </p>
-  </div>
+<!-- ABOUT -->
+<div class="section">
+  <h3>ماذا أقدّم؟</h3>
+  <p>
+    شرح مبسّط وعميق لأحدث أدوات الذكاء الاصطناعي، مع أمثلة عملية
+    تفيد الطلاب، المطورين، ورواد الأعمال.
+  </p>
+</div>
 
-  <!-- TOOLS -->
-  <div class="section">
-    <h3>مجالات أعمل بها</h3>
-    <ul>
-      <li>• نماذج الذكاء الاصطناعي (LLMs)</li>
-      <li>• الأتمتة و Workflow الذكي</li>
-      <li>• AI Agents متعددة المهام</li>
-      <li>• تحليل البيانات والأنظمة الذكية</li>
-      <li>• الطاقة والتكنولوجيا الحديثة</li>
-    </ul>
+<!-- TOOLS -->
+<div class="section">
+  <h3>مجالات التركيز</h3>
+  <div class="tools">
+    <div class="tool">
+      <h4>AI Models</h4>
+      <p>نماذج الذكاء الاصطناعي التوليدية واستخدامها عملياً.</p>
+    </div>
+    <div class="tool">
+      <h4>AI Agents</h4>
+      <p>وكلاء ذكيون ينفذون مهام متعددة ذاتياً.</p>
+    </div>
+    <div class="tool">
+      <h4>Automation</h4>
+      <p>ربط الأدوات وتحويل العمليات إلى أنظمة ذكية.</p>
+    </div>
+    <div class="tool">
+      <h4>Data & Analytics</h4>
+      <p>تحليل البيانات واتخاذ القرار بالذكاء الاصطناعي.</p>
+    </div>
+    <div class="tool">
+      <h4>Energy & Tech</h4>
+      <p>التقنيات الحديثة والطاقة الذكية.</p>
+    </div>
   </div>
+</div>
 
-  <!-- CTA -->
-  <div class="section">
-    <h3>تابعني</h3>
-    <p>
-      إذا كنت مهتماً بالتقنية، الذكاء الاصطناعي، أو مستقبل الأتمتة —
-      ستجد هنا محتوى عملي حقيقي بعيد عن التهويل.
-    </p>
-  </div>
+<!-- CTA -->
+<div class="section">
+  <h3>لماذا المتابعة؟</h3>
+  <p>
+    لا نظريات فارغة، لا تهويل.
+    فقط أدوات حقيقية، شروحات واضحة، وتطبيقات قابلة للاستخدام.
+  </p>
+</div>
 
-  <footer>
-    © 2025 — Warith Al-Awadi | lof9x
-  </footer>
+<footer>
+  © 2025 — Warith Al-Awadi | lof9x
+</footer>
 
 </div>
 
