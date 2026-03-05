@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://warithh.github.io/lof9x/sitemap.xml

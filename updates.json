@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Gemini 3.1 Flash-Lite — نموذج مبني للذكاء على نطاق واسع",
+    "summary": "تحديثات نماذج DeepMind ضمن صفحة النماذج، مع طرح Flash-Lite ضمن مارس 2026.",
+    "date": "March 2026",
+    "type": "Model Release",
+    "org": "Google DeepMind",
+    "url": "https://deepmind.google/models/"
+  },
+  {
+    "title": "Gemini 3.1 Pro — مهام معقدة واستدلال أقوى",
+    "summary": "طرح Gemini 3.1 Pro (فبراير 2026) كنموذج أقوى للمهام المعقدة.",
+    "date": "February 2026",
+    "type": "Model Release",
+    "org": "Google DeepMind",
+    "url": "https://deepmind.google/models/"
+  },
+  {
+    "title": "Gemini 3 Deep Think — ترقية للعلوم والهندسة",
+    "summary": "تحديث Deep Think موجه للبحث العلمي والهندسي، مع إتاحة ضمن تطبيق Gemini وخيارات وصول عبر API.",
+    "date": "Feb 12, 2026",
+    "type": "Model Update",
+    "org": "Google",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/"
+  },
+  {
+    "title": "OpenAI: إيقاف GPT-4o وبعض النماذج الأقدم داخل ChatGPT",
+    "summary": "إعلان رسمي حول إيقاف GPT-4o وGPT-4.1 وo4-mini داخل ChatGPT (تفاصيل وتواريخ واضحة).",
+    "date": "Jan 29, 2026",
+    "type": "Platform Update",
+    "org": "OpenAI",
+    "url": "https://openai.com/index/retiring-gpt-4o-and-older-models/"
+  },
+  {
+    "title": "OpenAI Open Models — نماذج open-weight للتخصيص",
+    "summary": "صفحة OpenAI الرسمية للنماذج المفتوحة/الأوزان المفتوحة للتخصيص وتشغيلها ببيئات مختلفة.",
+    "date": "2026",
+    "type": "Open Models",
+    "org": "OpenAI",
+    "url": "https://openai.com/open-models/"
+  },
+  {
+    "title": "AI Agent Trends 2026 — توجهات الوكلاء (Agents)",
+    "summary": "تقرير من Google Cloud عن توجهات agentic AI وتأثيرها على الأعمال في 2026 وما بعدها.",
+    "date": "2026",
+    "type": "Report",
+    "org": "Google Cloud",
+    "url": "https://cloud.google.com/resources/content/ai-agent-trends-2026"
+  }
+]

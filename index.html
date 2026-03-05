@@ -1,244 +1,239 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<!doctype html>
+<html lang="en" dir="ltr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Warith Al-Awadi | AI & Technology</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;600;800&display=swap" rel="stylesheet">
-
-<style>
-:root{
-  --bg:#0e1015;
-  --card:#171a22;
-  --accent:#c7b089;
-  --text:#f1f1f1;
-  --muted:#9aa0a6;
-}
-
-*{box-sizing:border-box}
-
-body{
-  margin:0;
-  font-family:'Tajawal',sans-serif;
-  background:
-    linear-gradient(rgba(14,16,21,.93),rgba(14,16,21,.93)),
-    url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1600&q=80");
-  background-size:cover;
-  background-attachment:fixed;
-  color:var(--text);
-}
-
-.container{
-  max-width:1100px;
-  margin:auto;
-  padding:50px 20px;
-}
-
-/* HERO */
-.hero{
-  display:grid;
-  grid-template-columns:1fr 2fr;
-  gap:40px;
-  align-items:center;
-}
-
-.hero img{
-  width:100%;
-  border-radius:22px;
-  box-shadow:0 25px 60px rgba(0,0,0,.7);
-}
-
-.hero h1{
-  font-size:44px;
-  margin:0;
-  font-weight:800;
-}
-
-.hero h2{
-  margin:10px 0 20px;
-  color:var(--accent);
-  font-weight:600;
-}
-
-.hero p{
-  font-size:18px;
-  line-height:1.9;
-  color:var(--muted);
-}
-
-/* BUTTONS */
-.buttons{
-  display:flex;
-  gap:14px;
-  flex-wrap:wrap;
-  margin-top:25px;
-}
-
-.btn{
-  padding:14px 28px;
-  border-radius:40px;
-  font-weight:600;
-  text-decoration:none;
-  transition:.3s;
-}
-
-.btn-main{
-  background:var(--accent);
-  color:#000;
-}
-
-.btn-main:hover{opacity:.85}
-
-.btn-outline{
-  border:1px solid var(--accent);
-  color:var(--accent);
-}
-
-.btn-outline:hover{
-  background:var(--accent);
-  color:#000;
-}
-
-/* SECTIONS */
-.section{
-  background:var(--card);
-  border-radius:22px;
-  padding:35px;
-  margin-top:35px;
-}
-
-.section h3{
-  margin-top:0;
-  font-size:26px;
-  color:var(--accent);
-}
-
-.section p, .section li{
-  line-height:1.9;
-  color:var(--muted);
-  font-size:17px;
-}
-
-.section ul{
-  list-style:none;
-  padding:0;
-}
-
-/* TOOLS GRID */
-.tools{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
-  gap:20px;
-}
-
-.tool{
-  background:#11131a;
-  border:1px solid #222;
-  border-radius:16px;
-  padding:20px;
-}
-
-.tool h4{
-  margin:0 0 8px;
-  color:var(--text);
-}
-
-/* FOOTER */
-footer{
-  text-align:center;
-  margin-top:60px;
-  color:var(--muted);
-  font-size:14px;
-}
-
-/* MOBILE */
-@media(max-width:900px){
-  .hero{
-    grid-template-columns:1fr;
-    text-align:center;
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Warith Al-Awadi | AI Engineering Platform</title>
+  <meta name="description" content="Premium AI technology platform by Warith Al-Awadi covering AI engineering, automation, tools, projects, and innovation insights.">
+  <meta name="theme-color" content="#090b16">
+  <meta property="og:title" content="Warith Al-Awadi | AI Engineering Platform">
+  <meta property="og:description" content="AI technology hub for updates, tools, projects, and engineering innovation.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://warithh.github.io/lof9x/">
+  <meta property="og:image" content="https://warithh.github.io/lof9x/assets/og-image.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://warithh.github.io/lof9x/">
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="./sitemap.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Warith Al-Awadi",
+    "url": "https://warithh.github.io/lof9x/",
+    "jobTitle": "AI Engineer and Technology Innovator",
+    "sameAs": [
+      "https://github.com/warithh",
+      "https://www.linkedin.com/in/%D9%88%D8%A7%D8%B1%D8%AB-%D9%85%D8%AD%D9%85%D8%AF-%D8%A7%D9%84%D8%B9%D9%88%D8%A7%D8%AF%D9%8A-835836319",
+      "https://www.instagram.com/lof9x",
+      "https://t.me/lof99"
+    ],
+    "knowsAbout": [
+      "Artificial Intelligence",
+      "AI Automation",
+      "Software Engineering",
+      "Smart Energy Technology"
+    ]
   }
-}
-</style>
+  </script>
 </head>
-
 <body>
+  <canvas id="bgCanvas" aria-hidden="true"></canvas>
+  <div class="noise"></div>
 
-<div class="container">
+  <header class="site-header glass reveal">
+    <a href="#home" class="brand" aria-label="Warith Al-Awadi">
+      <span class="brand-dot"></span>
+      <span>Warith Al-Awadi</span>
+    </a>
 
-<!-- HERO -->
-<div class="hero">
-  <img src="./profile.jpg" alt="Warith Al-Awadi">
-  <div>
-    <h1>Warith Al-Awadi</h1>
-    <h2>AI • Technology • Automation</h2>
-    <p>
-      مهندس وتقني متخصص في الذكاء الاصطناعي والأتمتة والتقنيات الحديثة.
-      أقدّم محتوى عملي واقعي يشرح الأدوات الحديثة ويحوّل الذكاء الاصطناعي
-      من مفهوم نظري إلى حلول تُستخدم فعلياً.
-    </p>
+    <nav class="nav-links">
+      <a href="#updates" data-i18n="nav.updates"></a>
+      <a href="#tools" data-i18n="nav.tools"></a>
+      <a href="#projects" data-i18n="nav.projects"></a>
+      <a href="#services" data-i18n="nav.services"></a>
+      <a href="#blog" data-i18n="nav.blog"></a>
+      <a href="#contact" data-i18n="nav.contact"></a>
+    </nav>
 
-    <div class="buttons">
-   <a class="btn btn-outline" href="./tools.html">قائمة أدوات AI</a>
-      <a class="btn btn-outline" href="https://instagram.com/lof9x" target="_blank">Instagram</a>
-      <a class="btn btn-outline" href="https://t.me/lof99" target="_blank">Telegram</a>
+    <div class="nav-actions">
+      <button id="cmdButton" class="btn btn-ghost" data-i18n="nav.commandPalette"></button>
+      <button id="themeToggle" class="btn btn-ghost" data-i18n="nav.theme"></button>
+      <button id="langToggle" class="btn btn-glass" aria-label="Toggle language">AR</button>
     </div>
-  </div>
+  </header>
 
+  <main class="container" id="home">
+    <section class="hero reveal">
+      <div class="hero-main glass">
+        <p class="eyebrow" data-i18n="hero.eyebrow"></p>
+        <h1 data-i18n="hero.title"></h1>
+        <p class="hero-sub" data-i18n="hero.subtitle"></p>
+        <div class="hero-actions">
+          <a href="#updates" class="btn btn-primary" data-i18n="hero.ctaUpdates"></a>
+          <a href="#projects" class="btn btn-ghost" data-i18n="hero.ctaProjects"></a>
+        </div>
+      </div>
+    </section>
 
-<!-- ABOUT -->
-<div class="section">
-  <h3>ماذا أقدّم؟</h3>
-  <p>
-    شرح مبسّط وعميق لأحدث أدوات الذكاء الاصطناعي، مع أمثلة عملية
-    تفيد الطلاب، المطورين، ورواد الأعمال.
-  </p>
-</div>
+    <section class="section reveal" id="about">
+      <div class="about-card glass">
+        <div class="about-media">
+          <img
+            src="./assets/profile.jpg"
+            alt="Warith Al-Awadi"
+            loading="lazy"
+            onerror="this.onerror=null;this.src='./assets/profile-placeholder.svg';"
+          >
+        </div>
+        <div class="about-content">
+          <div class="section-head">
+            <h2 data-i18n="about.title"></h2>
+            <p data-i18n="about.subtitle"></p>
+          </div>
+          <p class="about-bio" data-i18n="about.bio"></p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="./cv.html" data-i18n="about.cvButton"></a>
+          </div>
+          <div class="meta">
+            <span class="tag" data-i18n="about.tags.aiEngineering"></span>
+            <span class="tag" data-i18n="about.tags.automation"></span>
+            <span class="tag" data-i18n="about.tags.software"></span>
+            <span class="tag" data-i18n="about.tags.energy"></span>
+          </div>
+          <div class="about-stats">
+            <div class="card">
+              <h3 data-i18n="about.stats.focusValue"></h3>
+              <p data-i18n="about.stats.focusLabel"></p>
+            </div>
+            <div class="card">
+              <h3 data-i18n="about.stats.audienceValue"></h3>
+              <p data-i18n="about.stats.audienceLabel"></p>
+            </div>
+            <div class="card">
+              <h3 data-i18n="about.stats.missionValue"></h3>
+              <p data-i18n="about.stats.missionLabel"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!-- TOOLS -->
-<div class="section">
-  <h3>مجالات التركيز</h3>
-  <div class="tools">
-    <div class="tool">
-      <h4>AI Models</h4>
-      <p>نماذج الذكاء الاصطناعي التوليدية واستخدامها عملياً.</p>
+    <section id="updates" class="section reveal">
+      <div class="section-head">
+        <h2 data-i18n="updates.title"></h2>
+        <p data-i18n="updates.subtitle"></p>
+      </div>
+      <div id="updatesGrid" class="grid grid-3"></div>
+    </section>
+
+    <section id="tools" class="section reveal">
+      <div class="section-head">
+        <h2 data-i18n="tools.title"></h2>
+        <p data-i18n="tools.subtitle"></p>
+      </div>
+      <div class="toolbar glass">
+        <input id="toolSearch" type="search" data-i18n-placeholder="tools.searchPlaceholder" autocomplete="off">
+        <div class="tools-controls">
+          <label for="toolSort" data-i18n="tools.sortLabel"></label>
+          <select id="toolSort" aria-label="Tool sort">
+            <option value="relevance" data-i18n="tools.sortRelevance"></option>
+            <option value="popular" data-i18n="tools.sortPopular"></option>
+            <option value="newest" data-i18n="tools.sortNewest"></option>
+            <option value="name" data-i18n="tools.sortName"></option>
+          </select>
+        </div>
+        <div id="toolCategories" class="category-chips"></div>
+        <div id="toolBadges" class="category-chips"></div>
+      </div>
+      <div id="toolsGrid" class="grid grid-3"></div>
+    </section>
+
+    <section id="projects" class="section reveal">
+      <div class="section-head">
+        <h2 data-i18n="projects.title"></h2>
+        <p data-i18n="projects.subtitle"></p>
+      </div>
+      <div id="projectsGrid" class="grid grid-3"></div>
+    </section>
+
+    <section id="services" class="section reveal">
+      <div class="section-head">
+        <h2 data-i18n="services.title"></h2>
+        <p data-i18n="services.subtitle"></p>
+      </div>
+      <div id="servicesGrid" class="grid grid-3"></div>
+    </section>
+
+    <section id="blog" class="section reveal">
+      <div class="section-head">
+        <h2 data-i18n="blog.title"></h2>
+        <p data-i18n="blog.subtitle"></p>
+      </div>
+      <div id="blogGrid" class="grid grid-2"></div>
+      <article id="blogViewer" class="blog-viewer glass hidden">
+        <button id="closePost" class="btn btn-ghost" data-i18n="blog.close"></button>
+        <div id="blogContent"></div>
+      </article>
+    </section>
+
+    <section id="contact" class="section reveal">
+      <div class="section-head">
+        <h2 data-i18n="contact.title"></h2>
+        <p data-i18n="contact.subtitle"></p>
+      </div>
+      <div class="contact-grid">
+        <div class="glass contact-card">
+          <h3 data-i18n="contact.emailTitle"></h3>
+          <p class="contact-email" id="emailText">warthmohamed99@gmail.com</p>
+          <button id="copyEmail" class="btn btn-primary" data-i18n="contact.copyEmail"></button>
+        </div>
+        <div class="glass contact-card">
+          <h3 data-i18n="contact.connectTitle"></h3>
+          <div class="socials">
+            <a href="https://t.me/lof99" target="_blank" rel="noopener">Telegram</a>
+            <a href="https://instagram.com/lof9x" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://github.com/warithh" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/%D9%88%D8%A7%D8%B1%D8%AB-%D9%85%D8%AD%D9%85%D8%AF-%D8%A7%D9%84%D8%B9%D9%88%D8%A7%D8%AF%D9%8A-835836319" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>© <span id="year"></span> Warith Al-Awadi</p>
+    <p id="lastBuild"></p>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <section id="toolDetailsModal" class="palette hidden" aria-modal="true" role="dialog">
+    <article class="palette-box glass tool-modal">
+      <div class="card-top">
+        <h3 id="toolDetailsTitle"></h3>
+        <button id="closeToolDetails" class="btn btn-ghost" data-i18n="tools.closeDetails"></button>
+      </div>
+      <p id="toolDetailsDescription"></p>
+      <div id="toolDetailsDeep"></div>
+      <div id="toolDetailsMeta" class="meta"></div>
+      <div class="meta">
+        <a id="toolDetailsVisit" class="card-link" target="_blank" rel="noopener">Visit</a>
+      </div>
+    </article>
+  </section>
+
+  <section id="commandPalette" class="palette hidden" aria-modal="true" role="dialog">
+    <div class="palette-box glass">
+      <input id="paletteInput" type="text" placeholder="Type a command...">
+      <ul id="paletteList"></ul>
     </div>
-    <div class="tool">
-      <h4>AI Agents</h4>
-      <p>وكلاء ذكيون ينفذون مهام متعددة ذاتياً.</p>
-    </div>
-    <div class="tool">
-      <h4>Automation</h4>
-      <p>ربط الأدوات وتحويل العمليات إلى أنظمة ذكية.</p>
-    </div>
-    <div class="tool">
-      <h4>Data & Analytics</h4>
-      <p>تحليل البيانات واتخاذ القرار بالذكاء الاصطناعي.</p>
-    </div>
-    <div class="tool">
-      <h4>Energy & Tech</h4>
-      <p>التقنيات الحديثة والطاقة الذكية.</p>
-    </div>
-  </div>
-</div>
+  </section>
 
-<!-- CTA -->
-<div class="section">
-  <h3>لماذا المتابعة؟</h3>
-  <p>
-    لا نظريات فارغة، لا تهويل.
-    فقط أدوات حقيقية، شروحات واضحة، وتطبيقات قابلة للاستخدام.
-  </p>
-</div>
-
-<footer>
-  © 2025 — Warith Al-Awadi | lof9x
-</footer>
-
-</div>
-
+  <script src="./tool-guides.js" defer></script>
+  <script src="./script.js" defer></script>
 </body>
 </html>
-
-
