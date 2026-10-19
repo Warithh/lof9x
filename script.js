@@ -816,6 +816,15 @@ function escapeHtml(value) {
     .replace(/'/g, "&#39;");
 }
 
+/** Site-root asset paths (./assets/...) work from home; rewrite for nested pages. */
+function resolveAsset(path) {
+  if (!path) return "";
+  if (/^(https?:|data:|blob:)/i.test(path)) return path;
+  const cleaned = String(path).replace(/^\.\.\//, "").replace(/^\.\//, "");
+  const fromNested = /\/(cases|tools)\//.test(location.pathname);
+  return (fromNested ? "../" : "./") + cleaned;
+}
+
 function slugify(value) {
   return String(value || "")
     .toLowerCase()
@@ -925,11 +934,12 @@ function renderImpact(cases) {
     card.style.setProperty("--stagger", `${index * 45}ms`);
     const title = escapeHtml(pickLangValue(item.title));
     const subtitle = escapeHtml(pickLangValue(item.subtitle));
-    const cover = escapeHtml(item.cover || item.coverFallback || "./assets/project-edtech.svg");
+    const cover = escapeHtml(resolveAsset(item.cover || item.coverFallback || "./assets/project-edtech.svg"));
+    const fallback = escapeHtml(resolveAsset(item.coverFallback || "./assets/project-edtech.svg"));
     const href = `./cases/view.html?id=${encodeURIComponent(item.id)}`;
     card.innerHTML = `
       <img class="project-thumb" src="${cover}" alt="${title}" loading="lazy"
-        onerror="this.onerror=null;this.src='${escapeHtml(item.coverFallback || "./assets/project-edtech.svg")}';">
+        onerror="this.onerror=null;this.src='${fallback}';">
       <div class="card-top">
         <h3>${title}</h3>
         <a class="card-link" href="${href}">${escapeHtml(t("impact.readCase"))}</a>
@@ -1293,7 +1303,7 @@ function renderProjects() {
       ? `<div class="meta">${actions.join("")}</div>`
       : `<div class="meta"><span class="tag">${isAr ? "فكرة مشروع" : "Project Idea"}</span></div>`;
     card.innerHTML = `
-      <img src="${escapeHtml(project.image)}" class="project-thumb" alt="${escapeHtml(pickLangValue(project.name))}" loading="lazy">
+      <img src="${escapeHtml(resolveAsset(project.image))}" class="project-thumb" alt="${escapeHtml(pickLangValue(project.name))}" loading="lazy" decoding="async">
       <div class="card-top">
         <h3>${escapeHtml(pickLangValue(project.name))}</h3>
       </div>
@@ -1408,19 +1418,35 @@ function closePostViewer() {
 }
 
 function revealObserver() {
+  const nodes = [...document.querySelectorAll(".reveal:not(.in)")];
+  if (!nodes.length) return;
+
+  const reveal = (element) => element.classList.add("in");
+
+  if (!("IntersectionObserver" in window)) {
+    nodes.forEach(reveal);
+    return;
+  }
+
+  // Large sections (e.g. tools grid) never hit high thresholds — use near-zero.
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          entry.target.classList.add("in");
+          reveal(entry.target);
           observer.unobserve(entry.target);
         }
       });
     },
-    { threshold: 0.12 }
+    { threshold: 0.01, rootMargin: "120px 0px" }
   );
 
-  document.querySelectorAll(".reveal:not(.in)").forEach((element) => observer.observe(element));
+  nodes.forEach((element) => observer.observe(element));
+
+  // Safety net: never leave content permanently invisible.
+  window.setTimeout(() => {
+    document.querySelectorAll(".reveal:not(.in)").forEach(reveal);
+  }, 1200);
 }
 
 function setupGradientBackground() {

@@ -17,7 +17,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style.css?v=6">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -105,7 +105,10 @@
           <img
             src="./assets/profile.jpg"
             alt="Warith Al-Awadi"
-            loading="lazy"
+            width="900"
+            height="1200"
+            decoding="async"
+            fetchpriority="high"
             onerror="this.onerror=null;this.src='./assets/profile-placeholder.svg';"
           >
         </div>
@@ -151,7 +154,7 @@
       <div id="updatesGrid" class="grid grid-3"></div>
     </section>
 
-    <section id="tools" class="section reveal">
+    <section id="tools" class="section">
       <div class="section-head">
         <h2 data-i18n="tools.title"></h2>
         <p data-i18n="tools.subtitle"></p>
@@ -265,6 +268,6 @@
   </section>
 
   <script src="./tool-guides.js" defer></script>
-  <script src="./script.js?v=5" defer></script>
+  <script src="./script.js?v=6" defer></script>
 </body>
 </html>

@@ -14,6 +14,12 @@ const state = {
 
 function t(key) { return ui[state.lang]?.[key] || ui.en[key] || key; }
 function pick(value) { if (value == null) return ""; if (typeof value === "string") return value; return value[state.lang] || value.en || value.ar || ""; }
+function resolveAsset(path) {
+  if (!path) return "";
+  if (/^(https?:|data:|blob:)/i.test(path)) return path;
+  const cleaned = String(path).replace(/^\.\.\//, "").replace(/^\.\//, "");
+  return "../" + cleaned;
+}
 
 function applyChrome() {
   document.documentElement.lang = state.lang;
@@ -37,10 +43,11 @@ function renderIndex() {
   if (!grid) return;
   document.title = t("indexTitle") + " | lof9x";
   grid.innerHTML = state.cases.map((item) => {
-    const fallback = item.coverFallback || item.cover;
+    const cover = resolveAsset(item.cover);
+    const fallback = resolveAsset(item.coverFallback || item.cover);
     return [
       '<a class="case-card" href="./view.html?id=' + encodeURIComponent(item.id) + '">',
-      '<img src="' + item.cover + '" alt="' + pick(item.title) + '" loading="lazy" onerror="this.onerror=null;this.src=\'' + fallback + '\'">',
+      '<img src="' + cover + '" alt="' + pick(item.title) + '" loading="lazy" onerror="this.onerror=null;this.src=\'' + fallback + '\'">',
       '<div class="body">',
       '<p class="eyebrow">' + pick(item.eyebrow) + '</p>',
       '<h3>' + pick(item.title) + '</h3>',
@@ -67,10 +74,11 @@ function renderView() {
   if (item.demo) ctas.push('<a class="btn btn-primary" href="' + item.demo + '" target="_blank" rel="noopener">' + t("live") + '</a>');
   if (item.github) ctas.push('<a class="btn" href="' + item.github + '" target="_blank" rel="noopener">' + t("github") + '</a>');
   ctas.push('<a class="btn" href="./index.html">' + t("allCases") + '</a>');
-  const fallback = item.coverFallback || item.cover;
+  const cover = resolveAsset(item.cover);
+  const fallback = resolveAsset(item.coverFallback || item.cover);
   root.innerHTML = [
     '<article class="hero-card">',
-    '<img class="cover" src="' + item.cover + '" alt="' + pick(item.title) + '" onerror="this.onerror=null;this.src=\'' + fallback + '\'">',
+    '<img class="cover" src="' + cover + '" alt="' + pick(item.title) + '" onerror="this.onerror=null;this.src=\'' + fallback + '\'">',
     '<p class="eyebrow">' + pick(item.eyebrow) + '</p>',
     '<h1>' + pick(item.title) + '</h1>',
     '<p class="lead">' + pick(item.subtitle) + '</p>',

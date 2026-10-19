@@ -768,7 +768,8 @@ html[data-theme="light"] .toast {
 
 @media (prefers-reduced-motion: reduce) {
   .hero-plane { animation: none; }
-  .reveal { transition: none; }
+  .js .reveal,
+  .reveal { opacity: 1; transform: none; transition: none; }
   .btn:hover,
   .card:hover { transform: none; }
 }
