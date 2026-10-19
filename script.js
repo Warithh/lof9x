@@ -630,7 +630,7 @@ const fallbackProjects = [
       "Realtime",
       "RBAC"
     ],
-    "image": "./assets/cases/it-division-live.jpg",
+    "image": "./assets/projects/proj-it-division.jpg",
     "demo": "https://edu-platform-najaf-prod-2026.web.app",
     "learn": "./cases/view.html?id=it-division"
   },
@@ -650,7 +650,7 @@ const fallbackProjects = [
       "Arabic UX",
       "Workflow Automation"
     ],
-    "image": "./assets/cases/graduate-studies.svg",
+    "image": "./assets/projects/proj-graduate.jpg",
     "learn": "./cases/view.html?id=graduate-studies"
   },
   {
@@ -668,7 +668,7 @@ const fallbackProjects = [
       "Assessment UX",
       "GitHub Pages"
     ],
-    "image": "./assets/cases/exam-platforms.svg",
+    "image": "./assets/projects/proj-exam-en.jpg",
     "demo": "https://warithh.github.io/warith-exam-iq/",
     "github": "https://github.com/Warithh/warith-exam-iq",
     "learn": "./cases/view.html?id=exam-platforms"
@@ -687,7 +687,7 @@ const fallbackProjects = [
       "Education",
       "Assessment"
     ],
-    "image": "./assets/project-exam.svg",
+    "image": "./assets/projects/proj-exam-ar.jpg",
     "github": "https://github.com/Warithh/WARITHARABICEXAM"
   },
   {
@@ -704,7 +704,7 @@ const fallbackProjects = [
       "Engineering",
       "Assessment"
     ],
-    "image": "./assets/project-edtech.svg",
+    "image": "./assets/projects/proj-exam-eng.jpg",
     "github": "https://github.com/Warithh/engeaxam"
   },
   {
@@ -722,7 +722,7 @@ const fallbackProjects = [
       "Curated AI Tools",
       "Agentic Workflows"
     ],
-    "image": "./assets/project-ai.svg",
+    "image": "./assets/projects/proj-lof9x-ai.jpg",
     "demo": "https://warithh.github.io/lof9x/",
     "github": "https://github.com/Warithh/lof9x"
   },
@@ -740,7 +740,7 @@ const fallbackProjects = [
       "AI API",
       "Automation"
     ],
-    "image": "./assets/project-ai.svg",
+    "image": "./assets/projects/proj-telegram-bot.jpg",
     "github": "https://github.com/Warithh/warith_ai_bot"
   },
   {
@@ -760,7 +760,7 @@ const fallbackProjects = [
       "CI/CD",
       "Bilingual UX"
     ],
-    "image": "./assets/project-toolkit.svg"
+    "image": "./assets/projects/proj-stack.jpg"
   }
 ];
 
