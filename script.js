@@ -8,7 +8,7 @@ const fallbackI18nByLang = {
   en: {
   nav: { updates: "AI Updates", tools: "AI Tools", projects: "Projects", services: "Services", blog: "Insights", contact: "Contact", commandPalette: "Command", theme: "Theme" },
   hero: {
-    eyebrow: "Lecturer Â· AI Engineer Â· EdTech Builder",
+    eyebrow: "Lecturer · AI Engineer · EdTech Builder",
     title: "Practical AI for classrooms, exams, and real workflows",
     subtitle: "Independent hub by Warith Al-Awadi: curated AI tools, education platforms, and automation you can actually use.",
     ctaUpdates: "Contact me",
@@ -18,7 +18,7 @@ const fallbackI18nByLang = {
   },
   about: {
     title: "About Warith Al-Awadi",
-    subtitle: "University lecturer Â· AI solutions Â· Educational software",
+    subtitle: "University lecturer · AI solutions · Educational software",
     bio: "Graduate of Computer Network Technologies Engineering and a lecturer at Al-Najaf Engineering Technical College. I build exam platforms, AI-assisted learning tools, and automation that help students and educators move faster with clearer results.",
     cvButton: "Professional CV",
     tags: {
@@ -57,7 +57,7 @@ const fallbackI18nByLang = {
     detailModel: "Usage model",
     noResults: "No matching tools found."
   },
-  projects: { title: "Selected Projects", subtitle: "Independent public work â€” exam prep, AI hubs, and learning tools." },
+  projects: { title: "Selected Projects", subtitle: "Independent public work — exam prep, AI hubs, and learning tools." },
   services: {
     title: "How I can help",
     subtitle: "Consulting and build work with measurable classroom or ops outcomes.",
@@ -76,7 +76,7 @@ const fallbackI18nByLang = {
     emailTitle: "Email",
     copyEmail: "Copy email",
     copySuccess: "Email copied.",
-    copyError: "Copy failed â€” please copy manually.",
+    copyError: "Copy failed — please copy manually.",
     connectTitle: "Social"
   },
   footer: { lastUpdated: "Last update:" },
@@ -88,93 +88,93 @@ const fallbackI18nByLang = {
   theme: { dark: "Dark", light: "Light" }
   },
   ar: {
-    nav: { updates: "ØªØ­Ø¯ÙŠØ«Ø§Øª AI", tools: "Ø£Ø¯ÙˆØ§Øª AI", projects: "Ø§Ù„Ù…Ø´Ø§Ø±ÙŠØ¹", services: "Ø§Ù„Ø®Ø¯Ù…Ø§Øª", blog: "Ø±Ø¤Ù‰", contact: "ØªÙˆØ§ØµÙ„", commandPalette: "Ø£ÙˆØ§Ù…Ø±", theme: "Ù…Ø¸Ù‡Ø±" },
+    nav: { updates: "تحديثات AI", tools: "أدوات AI", projects: "المشاريع", services: "الخدمات", blog: "رؤى", contact: "تواصل", commandPalette: "أوامر", theme: "مظهر" },
     hero: {
-      eyebrow: "Ø£Ø³ØªØ§Ø° Ø¬Ø§Ù…Ø¹ÙŠ Â· Ù…Ù‡Ù†Ø¯Ø³ Ø°ÙƒØ§Ø¡ Ø§ØµØ·Ù†Ø§Ø¹ÙŠ Â· Ø¨Ù†Ø§Ø¡ Ù…Ù†ØµØ§Øª ØªØ¹Ù„ÙŠÙ…ÙŠØ©",
-      title: "Ø°ÙƒØ§Ø¡ Ø§ØµØ·Ù†Ø§Ø¹ÙŠ Ø¹Ù…Ù„ÙŠ Ù„Ù„Ù‚Ø§Ø¹Ø§Øª ÙˆØ§Ù„Ø§Ù…ØªØ­Ø§Ù†Ø§Øª ÙˆØ³ÙŠØ± Ø§Ù„Ø¹Ù…Ù„",
-      subtitle: "Ù…Ø±ÙƒØ² Ù…Ø³ØªÙ‚Ù„ Ù„ÙˆØ§Ø±Ø« Ø§Ù„Ø¹ÙˆØ§Ø¯ÙŠ: Ø£Ø¯ÙˆØ§Øª AI Ù…Ø®ØªØ§Ø±Ø©ØŒ Ù…Ù†ØµØ§Øª Ø§Ù…ØªØ­Ø§Ù†Ø§ØªØŒ ÙˆØ£ØªÙ…ØªØ© Ù‚Ø§Ø¨Ù„Ø© Ù„Ù„Ø§Ø³ØªØ®Ø¯Ø§Ù… ÙÙˆØ±Ù‹Ø§.",
-      ctaUpdates: "ØªÙˆØ§ØµÙ„ Ù…Ø¹ÙŠ",
-      ctaProjects: "Ø¹Ø±Ø¶ Ø§Ù„Ù…Ø´Ø§Ø±ÙŠØ¹",
-      sideTitle: "Ø§Ù„ØªØ±ÙƒÙŠØ²",
-      features: { one: "Ø¹Ø±Ø¨ÙŠ / Ø¥Ù†Ø¬Ù„ÙŠØ²ÙŠ", two: "ØªØ­Ø¯ÙŠØ«Ø§Øª AI Ø­ÙŠØ©", three: "Ù…Ù†ØµØ§Øª Ø§Ù…ØªØ­Ø§Ù†Ø§Øª ÙˆØªØ¹Ù„Ù‘Ù…", four: "Ø£ØªÙ…ØªØ© ØªØ·Ø¨ÙŠÙ‚ÙŠØ©" }
+      eyebrow: "أستاذ جامعي · مهندس ذكاء اصطناعي · بناء منصات تعليمية",
+      title: "ذكاء اصطناعي عملي للقاعات والامتحانات وسير العمل",
+      subtitle: "مركز مستقل لوارث العوادي: أدوات AI مختارة، منصات امتحانات، وأتمتة قابلة للاستخدام فورًا.",
+      ctaUpdates: "تواصل معي",
+      ctaProjects: "عرض المشاريع",
+      sideTitle: "التركيز",
+      features: { one: "عربي / إنجليزي", two: "تحديثات AI حية", three: "منصات امتحانات وتعلّم", four: "أتمتة تطبيقية" }
     },
     about: {
-      title: "Ø¹Ù† ÙˆØ§Ø±Ø« Ø§Ù„Ø¹ÙˆØ§Ø¯ÙŠ",
-      subtitle: "Ø£Ø³ØªØ§Ø° Ø¬Ø§Ù…Ø¹ÙŠ Â· Ø­Ù„ÙˆÙ„ AI Â· Ø¨Ø±Ù…Ø¬ÙŠØ§Øª ØªØ¹Ù„ÙŠÙ…ÙŠØ©",
-      bio: "Ø®Ø±ÙŠØ¬ Ù‡Ù†Ø¯Ø³Ø© ØªÙ‚Ù†ÙŠØ§Øª Ø´Ø¨ÙƒØ§Øª Ø§Ù„Ø­Ø§Ø³ÙˆØ¨ØŒ ÙˆØ£Ø³ØªØ§Ø° ÙÙŠ Ø§Ù„ÙƒÙ„ÙŠØ© Ø§Ù„ØªÙ‚Ù†ÙŠØ© Ø§Ù„Ù‡Ù†Ø¯Ø³ÙŠØ© Ø§Ù„Ù†Ø¬Ù. Ø£Ø¨Ù†ÙŠ Ù…Ù†ØµØ§Øª Ø§Ù…ØªØ­Ø§Ù†Ø§Øª ÙˆØ£Ø¯ÙˆØ§Øª ØªØ¹Ù„Ù‘Ù… Ù…Ø¯Ø¹ÙˆÙ…Ø© Ø¨Ø§Ù„Ø°ÙƒØ§Ø¡ Ø§Ù„Ø§ØµØ·Ù†Ø§Ø¹ÙŠ ÙˆØ£ØªÙ…ØªØ© ØªØ³Ø§Ø¹Ø¯ Ø§Ù„Ø·Ù„Ø¨Ø© ÙˆØ§Ù„Ø£Ø³Ø§ØªØ°Ø© Ø¹Ù„Ù‰ Ø¥Ù†Ø¬Ø§Ø² Ø£ÙˆØ¶Ø­ ÙˆØ£Ø³Ø±Ø¹.",
-      cvButton: "Ø§Ù„Ø³ÙŠØ±Ø© Ø§Ù„Ù…Ù‡Ù†ÙŠØ©",
+      title: "عن وارث العوادي",
+      subtitle: "أستاذ جامعي · حلول AI · برمجيات تعليمية",
+      bio: "خريج هندسة تقنيات شبكات الحاسوب، وأستاذ في الكلية التقنية الهندسية النجف. أبني منصات امتحانات وأدوات تعلّم مدعومة بالذكاء الاصطناعي وأتمتة تساعد الطلبة والأساتذة على إنجاز أوضح وأسرع.",
+      cvButton: "السيرة المهنية",
       tags: {
-        aiEngineering: "Ø°ÙƒØ§Ø¡ Ø§ØµØ·Ù†Ø§Ø¹ÙŠ ØªØ·Ø¨ÙŠÙ‚ÙŠ",
-        automation: "Ø£ØªÙ…ØªØ©",
-        software: "Ù…Ù†ØµØ§Øª ØªØ¹Ù„ÙŠÙ…ÙŠØ©",
-        energy: "Ø£Ù†Ø¸Ù…Ø© Ø§Ù…ØªØ­Ø§Ù†Ø§Øª"
+        aiEngineering: "ذكاء اصطناعي تطبيقي",
+        automation: "أتمتة",
+        software: "منصات تعليمية",
+        energy: "أنظمة امتحانات"
       },
       stats: {
-        focusValue: "AI ØªØ·Ø¨ÙŠÙ‚ÙŠ",
-        focusLabel: "Ù„Ù„Ø§Ø³ØªØ®Ø¯Ø§Ù… Ø¯Ø§Ø®Ù„ Ø§Ù„Ù‚Ø§Ø¹Ø© ÙˆØ§Ù„Ø¥Ù†ØªØ§Ø¬",
-        audienceValue: "Ø·Ù„Ø¨Ø© + ÙƒØ§Ø¯Ø±",
-        audienceLabel: "ÙƒÙ„ÙŠØ§Øª ÙˆØ£Ø³Ø§ØªØ°Ø© ÙˆÙ…ØªØ¹Ù„Ù…ÙˆÙ†",
-        missionValue: "Ø£Ø¯ÙˆØ§Øª Ù…ÙÙŠØ¯Ø©",
-        missionLabel: "ÙˆØ§Ø¶Ø­Ø© ÙˆØ³Ø±ÙŠØ¹Ø© ÙˆÙ‚Ø§Ø¨Ù„Ø© Ù„Ù„ØµÙŠØ§Ù†Ø©"
+        focusValue: "AI تطبيقي",
+        focusLabel: "للاستخدام داخل القاعة والإنتاج",
+        audienceValue: "طلبة + كادر",
+        audienceLabel: "كليات وأساتذة ومتعلمون",
+        missionValue: "أدوات مفيدة",
+        missionLabel: "واضحة وسريعة وقابلة للصيانة"
       }
     },
-    updates: { title: "Ø¢Ø®Ø± ØªØ­Ø¯ÙŠØ«Ø§Øª Ø§Ù„Ø°ÙƒØ§Ø¡ Ø§Ù„Ø§ØµØ·Ù†Ø§Ø¹ÙŠ", subtitle: "Ø¥ØµØ¯Ø§Ø±Ø§Øª ÙˆØªÙ‚Ø§Ø±ÙŠØ± Ù…Ø®ØªØ§Ø±Ø© ØªØ³ØªØ­Ù‚ Ø§Ù„Ù…ØªØ§Ø¨Ø¹Ø©." },
+    updates: { title: "آخر تحديثات الذكاء الاصطناعي", subtitle: "إصدارات وتقارير مختارة تستحق المتابعة." },
     tools: {
-      title: "Ø¯Ù„ÙŠÙ„ Ø£Ø¯ÙˆØ§Øª Ø§Ù„Ø°ÙƒØ§Ø¡ Ø§Ù„Ø§ØµØ·Ù†Ø§Ø¹ÙŠ",
-      subtitle: "Ø£Ø¯ÙˆØ§Øª Ù…Ø®ØªØ§Ø±Ø© Ù„Ù„ØªØ¯Ø±ÙŠØ³ ÙˆØ§Ù„Ø¨Ø±Ù…Ø¬Ø© ÙˆØ§Ù„Ø£ØªÙ…ØªØ©.",
-      searchPlaceholder: "Ø§Ø¨Ø­Ø« Ø¹Ù† Ø£Ø¯Ø§Ø©...",
-      allCategories: "ÙƒÙ„ Ø§Ù„ÙØ¦Ø§Øª",
-      allBadges: "ÙƒÙ„ Ø§Ù„Ø´Ø§Ø±Ø§Øª",
-      sortLabel: "Ø§Ù„ØªØ±ØªÙŠØ¨:",
-      sortRelevance: "Ø§Ù„Ø£ÙƒØ«Ø± ØµÙ„Ø©",
-      sortPopular: "Ø§Ù„Ø£ÙƒØ«Ø± Ø´Ù‡Ø±Ø©",
-      sortNewest: "Ø§Ù„Ø£Ø­Ø¯Ø«",
-      sortName: "Ø§Ù„Ø§Ø³Ù…",
-      viewDetails: "Ø§Ù„ØªÙØ§ØµÙŠÙ„",
-      openPage: "ØµÙØ­Ø© Ø§Ù„Ø£Ø¯Ø§Ø©",
-      closeDetails: "Ø¥ØºÙ„Ø§Ù‚",
-      detailWhat: "Ù…Ø§Ø°Ø§ ØªÙØ¹Ù„ Ø§Ù„Ø£Ø¯Ø§Ø©ØŸ",
-      detailBestFor: "Ø£ÙØ¶Ù„ Ø§Ø³ØªØ®Ø¯Ø§Ù…",
-      detailHowToUse: "Ø·Ø±ÙŠÙ‚Ø© Ø§Ù„Ø§Ø³ØªØ®Ø¯Ø§Ù… Ø§Ù„Ù…Ù‚ØªØ±Ø­Ø©",
-      detailModel: "Ù†Ù…ÙˆØ°Ø¬ Ø§Ù„Ø§Ø³ØªØ®Ø¯Ø§Ù…",
-      noResults: "Ù„Ø§ ØªÙˆØ¬Ø¯ Ù†ØªØ§Ø¦Ø¬ Ù…Ø·Ø§Ø¨Ù‚Ø©."
+      title: "دليل أدوات الذكاء الاصطناعي",
+      subtitle: "أدوات مختارة للتدريس والبرمجة والأتمتة.",
+      searchPlaceholder: "ابحث عن أداة...",
+      allCategories: "كل الفئات",
+      allBadges: "كل الشارات",
+      sortLabel: "الترتيب:",
+      sortRelevance: "الأكثر صلة",
+      sortPopular: "الأكثر شهرة",
+      sortNewest: "الأحدث",
+      sortName: "الاسم",
+      viewDetails: "التفاصيل",
+      openPage: "صفحة الأداة",
+      closeDetails: "إغلاق",
+      detailWhat: "ماذا تفعل الأداة؟",
+      detailBestFor: "أفضل استخدام",
+      detailHowToUse: "طريقة الاستخدام المقترحة",
+      detailModel: "نموذج الاستخدام",
+      noResults: "لا توجد نتائج مطابقة."
     },
-    projects: { title: "Ù…Ø´Ø§Ø±ÙŠØ¹ Ù…Ø®ØªØ§Ø±Ø©", subtitle: "Ø£Ø¹Ù…Ø§Ù„ Ø¹Ø§Ù…Ø© Ù…Ø³ØªÙ‚Ù„Ø© â€” ØªØ­Ø¶ÙŠØ± Ø§Ù…ØªØ­Ø§Ù†Ø§ØªØŒ Ù…Ø±Ø§ÙƒØ² AIØŒ ÙˆØ£Ø¯ÙˆØ§Øª ØªØ¹Ù„Ù‘Ù…." },
+    projects: { title: "مشاريع مختارة", subtitle: "أعمال عامة مستقلة — تحضير امتحانات، مراكز AI، وأدوات تعلّم." },
     services: {
-      title: "ÙƒÙŠÙ Ø£Ø³Ø§Ø¹Ø¯Ùƒ",
-      subtitle: "Ø§Ø³ØªØ´Ø§Ø±Ø© ÙˆØªÙ†ÙÙŠØ° Ø¨Ù†ØªØ§Ø¦Ø¬ Ù…Ù„Ù…ÙˆØ³Ø© ÙÙŠ Ø§Ù„ØªØ¹Ù„ÙŠÙ… Ø£Ùˆ Ø§Ù„ØªØ´ØºÙŠÙ„.",
+      title: "كيف أساعدك",
+      subtitle: "استشارة وتنفيذ بنتائج ملموسة في التعليم أو التشغيل.",
       items: {
-        aiAutomation: { title: "Ø£ØªÙ…ØªØ© Ø¨Ø§Ù„Ø°ÙƒØ§Ø¡ Ø§Ù„Ø§ØµØ·Ù†Ø§Ø¹ÙŠ", description: "ØªØ­ÙˆÙŠÙ„ Ø§Ù„Ù…Ù‡Ø§Ù… Ø§Ù„ØªØ¯Ø±ÙŠØ³ÙŠØ© ÙˆØ§Ù„ØªØ´ØºÙŠÙ„ÙŠØ© Ø§Ù„Ù…ØªÙƒØ±Ø±Ø© Ø¥Ù„Ù‰ ØªØ¯ÙÙ‚Ø§Øª Ù…ÙˆØ«ÙˆÙ‚Ø©." },
-        aiConsulting: { title: "Ø§Ø³ØªØ´Ø§Ø±Ø§Øª AI", description: "Ø®Ø§Ø±Ø·Ø© Ø·Ø±ÙŠÙ‚ Ø¹Ù…Ù„ÙŠØ© Ù„ØªØ¨Ù†Ù‘ÙŠ Ø§Ù„Ø°ÙƒØ§Ø¡ Ø§Ù„Ø§ØµØ·Ù†Ø§Ø¹ÙŠ ÙÙŠ Ø§Ù„ØªØ¹Ù„ÙŠÙ… ÙˆØ§Ù„ÙØ±Ù‚ Ø§Ù„ØµØºÙŠØ±Ø©." },
-        smartEnergy: { title: "Ù…Ù†ØµØ§Øª Ø§Ù…ØªØ­Ø§Ù†Ø§Øª", description: "ØªØ¬Ø§Ø±Ø¨ ØªØ¯Ø±ÙŠØ¨ ÙˆØªÙ‚ÙŠÙŠÙ… Ø¢Ù…Ù†Ø© ÙˆÙˆØ§Ø¶Ø­Ø© Ù„Ù„Ø·Ù„Ø¨Ø©." },
-        softwareDevelopment: { title: "Ù…Ù†ØµØ§Øª ÙˆÙŠØ¨", description: "Ù…ÙˆØ§Ù‚Ø¹ ÙˆØ£Ø¯ÙˆØ§Øª Ø­Ø¯ÙŠØ«Ø© Ø«Ù†Ø§Ø¦ÙŠØ© Ø§Ù„Ù„ØºØ© Ø¬Ø§Ù‡Ø²Ø© Ù„Ù„Ù…Ø³ØªØ®Ø¯Ù… Ø§Ù„Ø­Ù‚ÙŠÙ‚ÙŠ." },
-        educationContent: { title: "Ù…Ø­ØªÙˆÙ‰ ØªØ¹Ù„ÙŠÙ…ÙŠ ØªÙ‚Ù†ÙŠ", description: "Ù…ÙˆØ§Ø¯ ØªØ¯Ø±ÙŠØ¨ ÙˆØ£Ø¯ÙˆØ§Øª Ù…Ø³Ø§Ø¹Ø¯Ø© Ù„Ù„Ø·Ù„Ø¨Ø© ÙˆØ§Ù„Ø£Ø³Ø§ØªØ°Ø©." }
+        aiAutomation: { title: "أتمتة بالذكاء الاصطناعي", description: "تحويل المهام التدريسية والتشغيلية المتكررة إلى تدفقات موثوقة." },
+        aiConsulting: { title: "استشارات AI", description: "خارطة طريق عملية لتبنّي الذكاء الاصطناعي في التعليم والفرق الصغيرة." },
+        smartEnergy: { title: "منصات امتحانات", description: "تجارب تدريب وتقييم آمنة وواضحة للطلبة." },
+        softwareDevelopment: { title: "منصات ويب", description: "مواقع وأدوات حديثة ثنائية اللغة جاهزة للمستخدم الحقيقي." },
+        educationContent: { title: "محتوى تعليمي تقني", description: "مواد تدريب وأدوات مساعدة للطلبة والأساتذة." }
       }
     },
-    blog: { title: "Ø±Ø¤Ù‰", subtitle: "Ù…Ù„Ø§Ø­Ø¸Ø§Øª Ù‚ØµÙŠØ±Ø© Ø¹Ù† AI Ø§Ù„ØªØ·Ø¨ÙŠÙ‚ÙŠ ÙˆØ§Ù„ØªØ¹Ù„ÙŠÙ… Ø¨Ø§Ù„ØªÙ‚Ù†ÙŠØ©.", read: "Ù‚Ø±Ø§Ø¡Ø©", close: "Ø¥ØºÙ„Ø§Ù‚", loadError: "ØªØ¹Ø°Ø± ØªØ­Ù…ÙŠÙ„ Ø§Ù„Ù…Ù‚Ø§Ù„." },
+    blog: { title: "رؤى", subtitle: "ملاحظات قصيرة عن AI التطبيقي والتعليم بالتقنية.", read: "قراءة", close: "إغلاق", loadError: "تعذر تحميل المقال." },
     contact: {
-      title: "ØªÙˆØ§ØµÙ„",
-      subtitle: "Ù„Ù„ØªØ¹Ù„ÙŠÙ… Ø§Ù„ØªÙ‚Ù†ÙŠ Ø£Ùˆ Ø£Ø¯ÙˆØ§Øª AI Ø£Ùˆ Ø§Ù„ØªØ¹Ø§ÙˆÙ†.",
-      emailTitle: "Ø§Ù„Ø¨Ø±ÙŠØ¯",
-      copyEmail: "Ù†Ø³Ø® Ø§Ù„Ø¨Ø±ÙŠØ¯",
-      copySuccess: "ØªÙ… Ù†Ø³Ø® Ø§Ù„Ø¨Ø±ÙŠØ¯.",
-      copyError: "ØªØ¹Ø°Ø± Ø§Ù„Ù†Ø³Ø® â€” Ø§Ù†Ø³Ø®Ù‡ ÙŠØ¯ÙˆÙŠÙ‹Ø§.",
-      connectTitle: "Ø§Ù„ØªÙˆØ§ØµÙ„ Ø§Ù„Ø§Ø¬ØªÙ…Ø§Ø¹ÙŠ"
+      title: "تواصل",
+      subtitle: "للتعليم التقني أو أدوات AI أو التعاون.",
+      emailTitle: "البريد",
+      copyEmail: "نسخ البريد",
+      copySuccess: "تم نسخ البريد.",
+      copyError: "تعذر النسخ — انسخه يدويًا.",
+      connectTitle: "التواصل الاجتماعي"
     },
-    footer: { lastUpdated: "Ø¢Ø®Ø± ØªØ­Ø¯ÙŠØ«:" },
-    common: { source: "Ø§Ù„Ù…ØµØ¯Ø±", visit: "Ø²ÙŠØ§Ø±Ø©", demo: "Ù…Ø¨Ø§Ø´Ø±", learn: "ØªØ¹Ù„Ù‘Ù…" },
+    footer: { lastUpdated: "آخر تحديث:" },
+    common: { source: "المصدر", visit: "زيارة", demo: "مباشر", learn: "تعلّم" },
     commandPalette: {
-      placeholder: "Ø§ÙƒØªØ¨ Ø£Ù…Ø±Ù‹Ø§...",
-      commands: { updates: "Ø§Ù„Ø§Ù†ØªÙ‚Ø§Ù„ Ø¥Ù„Ù‰ Ø§Ù„ØªØ­Ø¯ÙŠØ«Ø§Øª", tools: "Ø§Ù„Ø§Ù†ØªÙ‚Ø§Ù„ Ø¥Ù„Ù‰ Ø§Ù„Ø£Ø¯ÙˆØ§Øª", projects: "Ø§Ù„Ø§Ù†ØªÙ‚Ø§Ù„ Ø¥Ù„Ù‰ Ø§Ù„Ù…Ø´Ø§Ø±ÙŠØ¹", switchLanguage: "ØªØ¨Ø¯ÙŠÙ„ Ø§Ù„Ù„ØºØ©", copyEmail: "Ù†Ø³Ø® Ø§Ù„Ø¨Ø±ÙŠØ¯", switchTheme: "ØªØ¨Ø¯ÙŠÙ„ Ø§Ù„Ù…Ø¸Ù‡Ø±" }
+      placeholder: "اكتب أمرًا...",
+      commands: { updates: "الانتقال إلى التحديثات", tools: "الانتقال إلى الأدوات", projects: "الانتقال إلى المشاريع", switchLanguage: "تبديل اللغة", copyEmail: "نسخ البريد", switchTheme: "تبديل المظهر" }
     },
-    theme: { dark: "Ø¯Ø§ÙƒÙ†", light: "ÙØ§ØªØ­" }
+    theme: { dark: "داكن", light: "فاتح" }
   }
 };
 
 const fallbackUpdates = [
   {
-    title: { en: "OpenAI platform update", ar: "ØªØ­Ø¯ÙŠØ« Ù…Ù†ØµØ© OpenAI" },
-    summary: { en: "Major improvements in model workflows and tooling.", ar: "ØªØ­Ø³ÙŠÙ†Ø§Øª ÙƒØ¨ÙŠØ±Ø© ÙÙŠ ØªØ¯ÙÙ‚Ø§Øª Ø¹Ù…Ù„ Ø§Ù„Ù†Ù…Ø§Ø°Ø¬ ÙˆØ§Ù„Ø£Ø¯ÙˆØ§Øª." },
+    title: { en: "OpenAI platform update", ar: "تحديث منصة OpenAI" },
+    summary: { en: "Major improvements in model workflows and tooling.", ar: "تحسينات كبيرة في تدفقات عمل النماذج والأدوات." },
     organization: "OpenAI",
     date: "2026",
     category: "Platform",
@@ -184,291 +184,291 @@ const fallbackUpdates = [
 
 const fallbackTools = [
   {
-    name: { en: "ChatGPT", ar: "Ø´Ø§Øª Ø¬ÙŠ Ø¨ÙŠ ØªÙŠ" },
-    description: { en: "All-in-one AI assistant for writing, coding, analysis, voice interaction, and agentic workflows.", ar: "Ù…Ø³Ø§Ø¹Ø¯ Ø´Ø§Ù…Ù„ Ù„Ù„ÙƒØªØ§Ø¨Ø© ÙˆØ§Ù„Ø¨Ø±Ù…Ø¬Ø© ÙˆØ§Ù„ØªØ­Ù„ÙŠÙ„ ÙˆØ§Ù„ØªÙØ§Ø¹Ù„ Ø§Ù„ØµÙˆØªÙŠ ÙˆØ¨Ù†Ø§Ø¡ ØªØ¯ÙÙ‚Ø§Øª Ø¹Ù…Ù„ Ø°ÙƒÙŠØ©." },
+    name: { en: "ChatGPT", ar: "شات جي بي تي" },
+    description: { en: "All-in-one AI assistant for writing, coding, analysis, voice interaction, and agentic workflows.", ar: "مساعد شامل للكتابة والبرمجة والتحليل والتفاعل الصوتي وبناء تدفقات عمل ذكية." },
     link: "https://chatgpt.com",
     category: "AI Chat"
   },
   {
-    name: { en: "Claude", ar: "ÙƒÙ„ÙˆØ¯" },
-    description: { en: "Strong long-context assistant for deep reasoning, document analysis, and professional writing.", ar: "Ù…Ø³Ø§Ø¹Ø¯ Ù‚ÙˆÙŠ ÙÙŠ ÙÙ‡Ù… Ø§Ù„Ø³ÙŠØ§Ù‚ Ø§Ù„Ø·ÙˆÙŠÙ„ ÙˆØ§Ù„Ø§Ø³ØªØ¯Ù„Ø§Ù„ ÙˆØªØ­Ù„ÙŠÙ„ Ø§Ù„ÙˆØ«Ø§Ø¦Ù‚ ÙˆØ§Ù„ÙƒØªØ§Ø¨Ø© Ø§Ù„Ø§Ø­ØªØ±Ø§ÙÙŠØ©." },
+    name: { en: "Claude", ar: "كلود" },
+    description: { en: "Strong long-context assistant for deep reasoning, document analysis, and professional writing.", ar: "مساعد قوي في فهم السياق الطويل والاستدلال وتحليل الوثائق والكتابة الاحترافية." },
     link: "https://claude.ai",
     category: "AI Chat"
   },
   {
-    name: { en: "Gemini", ar: "Ø¬ÙŠÙ…Ù†Ø§ÙŠ" },
-    description: { en: "Google's multimodal AI platform for chat, reasoning, coding, and workspace productivity.", ar: "Ù…Ù†ØµØ© Ø¬ÙˆØ¬Ù„ Ù…ØªØ¹Ø¯Ø¯Ø© Ø§Ù„ÙˆØ³Ø§Ø¦Ø· Ù„Ù„Ù…Ø­Ø§Ø¯Ø«Ø© ÙˆØ§Ù„Ø§Ø³ØªØ¯Ù„Ø§Ù„ ÙˆØ§Ù„Ø¨Ø±Ù…Ø¬Ø© ÙˆØ§Ù„Ø¥Ù†ØªØ§Ø¬ÙŠØ©." },
+    name: { en: "Gemini", ar: "جيمناي" },
+    description: { en: "Google's multimodal AI platform for chat, reasoning, coding, and workspace productivity.", ar: "منصة جوجل متعددة الوسائط للمحادثة والاستدلال والبرمجة والإنتاجية." },
     link: "https://gemini.google.com",
     category: "AI Chat"
   },
   {
-    name: { en: "Perplexity Assistant", ar: "Ø¨ÙŠØ±Ø¨Ù„ÙƒØ³ÙŠØªÙŠ Ø£Ø³ÙŠØ³ØªÙ†Øª" },
-    description: { en: "AI assistant with web-backed answers and references for accurate knowledge retrieval.", ar: "Ù…Ø³Ø§Ø¹Ø¯ Ø°ÙƒÙŠ ÙŠÙ‚Ø¯Ù… Ø¥Ø¬Ø§Ø¨Ø§Øª Ù…Ø¯Ø¹ÙˆÙ…Ø© Ø¨Ø§Ù„ÙˆÙŠØ¨ Ù…Ø¹ Ù…Ø±Ø§Ø¬Ø¹ Ù„Ù„Ø­ØµÙˆÙ„ Ø¹Ù„Ù‰ Ù…Ø¹Ø±ÙØ© Ø£Ø¯Ù‚." },
+    name: { en: "Perplexity Assistant", ar: "بيربلكسيتي أسيستنت" },
+    description: { en: "AI assistant with web-backed answers and references for accurate knowledge retrieval.", ar: "مساعد ذكي يقدم إجابات مدعومة بالويب مع مراجع للحصول على معرفة أدق." },
     link: "https://www.perplexity.ai",
     category: "AI Chat"
   },
   {
-    name: { en: "Cursor", ar: "ÙƒÙŠØ±Ø³Ø±" },
-    description: { en: "AI-native code editor for pair programming, refactoring, debugging, and large codebase navigation.", ar: "Ù…Ø­Ø±Ø± Ø¨Ø±Ù…Ø¬ÙŠ Ù…Ø¯Ø¹ÙˆÙ… Ø¨Ø§Ù„Ø°ÙƒØ§Ø¡ Ø§Ù„Ø§ØµØ·Ù†Ø§Ø¹ÙŠ Ù„Ù„Ø¨Ø±Ù…Ø¬Ø© Ø§Ù„Ø«Ù†Ø§Ø¦ÙŠØ© ÙˆØ¥Ø¹Ø§Ø¯Ø© Ø§Ù„Ù‡ÙŠÙƒÙ„Ø© ÙˆØªØªØ¨Ø¹ Ø§Ù„Ù…Ø´Ø§Ø±ÙŠØ¹ Ø§Ù„ÙƒØ¨ÙŠØ±Ø©." },
+    name: { en: "Cursor", ar: "كيرسر" },
+    description: { en: "AI-native code editor for pair programming, refactoring, debugging, and large codebase navigation.", ar: "محرر برمجي مدعوم بالذكاء الاصطناعي للبرمجة الثنائية وإعادة الهيكلة وتتبع المشاريع الكبيرة." },
     link: "https://cursor.com",
     category: "Coding AI"
   },
   {
-    name: { en: "GitHub Copilot", ar: "Ø¬ÙŠØª Ù‡Ø¨ ÙƒÙˆØ¨Ø§ÙŠÙ„ÙˆØª" },
-    description: { en: "AI coding companion inside IDEs for suggestions, test generation, and pull request assistance.", ar: "Ù…Ø±Ø§ÙÙ‚ Ø¨Ø±Ù…Ø¬ÙŠ Ø¯Ø§Ø®Ù„ Ø¨ÙŠØ¦Ø§Øª Ø§Ù„ØªØ·ÙˆÙŠØ± Ù„ØªÙˆÙ„ÙŠØ¯ Ø§Ù„Ø§Ù‚ØªØ±Ø§Ø­Ø§Øª ÙˆØ§Ù„Ø§Ø®ØªØ¨Ø§Ø±Ø§Øª ÙˆØ§Ù„Ù…Ø³Ø§Ø¹Ø¯Ø© ÙÙŠ Ø·Ù„Ø¨Ø§Øª Ø§Ù„Ø¯Ù…Ø¬." },
+    name: { en: "GitHub Copilot", ar: "جيت هب كوبايلوت" },
+    description: { en: "AI coding companion inside IDEs for suggestions, test generation, and pull request assistance.", ar: "مرافق برمجي داخل بيئات التطوير لتوليد الاقتراحات والاختبارات والمساعدة في طلبات الدمج." },
     link: "https://github.com/features/copilot",
     category: "Coding AI"
   },
   {
-    name: { en: "v0 by Vercel", ar: "ÙÙŠ ØµÙØ± Ù…Ù† ÙÙŠØ±Ø³Ù„" },
-    description: { en: "Generates modern UI components and front-end code from prompts with developer-ready output.", ar: "ÙŠÙ†Ø´Ø¦ Ù…ÙƒÙˆÙ†Ø§Øª ÙˆØ§Ø¬Ù‡Ø§Øª Ø­Ø¯ÙŠØ«Ø© ÙˆÙƒÙˆØ¯ ÙˆØ§Ø¬Ù‡Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© Ù…Ù† Ø§Ù„Ù†ØµÙˆØµ Ù…Ø¹ Ù…Ø®Ø±Ø¬Ø§Øª Ø¬Ø§Ù‡Ø²Ø© Ù„Ù„Ù…Ø·ÙˆØ±." },
+    name: { en: "v0 by Vercel", ar: "في صفر من فيرسل" },
+    description: { en: "Generates modern UI components and front-end code from prompts with developer-ready output.", ar: "ينشئ مكونات واجهات حديثة وكود واجهات أمامية من النصوص مع مخرجات جاهزة للمطور." },
     link: "https://v0.dev",
     category: "Coding AI"
   },
   {
-    name: { en: "Midjourney", ar: "Ù…ÙŠØ¯Ø¬ÙˆØ±Ù†ÙŠ" },
-    description: { en: "Premium image generator for concept art, branding visuals, and high-fidelity creative assets.", ar: "Ù…ÙˆÙ„Ø¯ ØµÙˆØ± Ø§Ø­ØªØ±Ø§ÙÙŠ Ù„Ù„ØªØµÙ…ÙŠÙ… Ø§Ù„Ù…ÙØ§Ù‡ÙŠÙ…ÙŠ ÙˆØ§Ù„Ù‡ÙˆÙŠØ© Ø§Ù„Ø¨ØµØ±ÙŠØ© ÙˆØ¥Ù†ØªØ§Ø¬ Ø£ØµÙˆÙ„ Ø¥Ø¨Ø¯Ø§Ø¹ÙŠØ© Ø¹Ø§Ù„ÙŠØ© Ø§Ù„Ø¬ÙˆØ¯Ø©." },
+    name: { en: "Midjourney", ar: "ميدجورني" },
+    description: { en: "Premium image generator for concept art, branding visuals, and high-fidelity creative assets.", ar: "مولد صور احترافي للتصميم المفاهيمي والهوية البصرية وإنتاج أصول إبداعية عالية الجودة." },
     link: "https://www.midjourney.com",
     category: "Image Generation"
   },
   {
-    name: { en: "DALL-E", ar: "Ø¯Ø§Ù„ Ø¥ÙŠ" },
-    description: { en: "Image generation and editing for product mockups, illustrations, and visual storytelling.", ar: "ØªÙˆÙ„ÙŠØ¯ ÙˆØªØ­Ø±ÙŠØ± Ø§Ù„ØµÙˆØ± Ù„Ù„Ù†Ù…Ø§Ø°Ø¬ Ø§Ù„Ø£ÙˆÙ„ÙŠØ© Ù„Ù„Ù…Ù†ØªØ¬Ø§Øª ÙˆØ§Ù„Ø±Ø³ÙˆÙ… Ø§Ù„ØªÙˆØ¶ÙŠØ­ÙŠØ© ÙˆØ§Ù„Ø³Ø±Ø¯ Ø§Ù„Ø¨ØµØ±ÙŠ." },
+    name: { en: "DALL-E", ar: "دال إي" },
+    description: { en: "Image generation and editing for product mockups, illustrations, and visual storytelling.", ar: "توليد وتحرير الصور للنماذج الأولية للمنتجات والرسوم التوضيحية والسرد البصري." },
     link: "https://openai.com/dall-e",
     category: "Image Generation"
   },
   {
-    name: { en: "Runway", ar: "Ø±Ø§Ù†ÙˆØ§ÙŠ" },
-    description: { en: "AI video suite for text-to-video, image-to-video, and cinematic creative production.", ar: "Ù…Ù†ØµØ© ÙÙŠØ¯ÙŠÙˆ Ø°ÙƒÙŠØ© Ù„ØªØ­ÙˆÙŠÙ„ Ø§Ù„Ù†Øµ Ø£Ùˆ Ø§Ù„ØµÙˆØ±Ø© Ø¥Ù„Ù‰ ÙÙŠØ¯ÙŠÙˆ ÙˆØ¥Ù†ØªØ§Ø¬ Ù…Ø´Ø§Ù‡Ø¯ Ø§Ø­ØªØ±Ø§ÙÙŠØ©." },
+    name: { en: "Runway", ar: "رانواي" },
+    description: { en: "AI video suite for text-to-video, image-to-video, and cinematic creative production.", ar: "منصة فيديو ذكية لتحويل النص أو الصورة إلى فيديو وإنتاج مشاهد احترافية." },
     link: "https://runwayml.com",
     category: "Video Generation"
   },
   {
-    name: { en: "Perplexity", ar: "Ø¨ÙŠØ±Ø¨Ù„ÙƒØ³ÙŠØªÙŠ" },
-    description: { en: "Research answer engine with citations, ideal for technical discovery and trend monitoring.", ar: "Ù…Ø­Ø±Ùƒ Ø¨Ø­Ø« ÙˆØ¥Ø¬Ø§Ø¨Ø§Øª Ù…Ø¹ Ù…ØµØ§Ø¯Ø± Ù…ÙˆØ«Ù‚Ø© Ù…Ù†Ø§Ø³Ø¨ Ù„Ù„Ø¨Ø­Ø« Ø§Ù„ØªÙ‚Ù†ÙŠ ÙˆÙ…ØªØ§Ø¨Ø¹Ø© Ø§Ù„Ù…Ø³ØªØ¬Ø¯Ø§Øª." },
+    name: { en: "Perplexity", ar: "بيربلكسيتي" },
+    description: { en: "Research answer engine with citations, ideal for technical discovery and trend monitoring.", ar: "محرك بحث وإجابات مع مصادر موثقة مناسب للبحث التقني ومتابعة المستجدات." },
     link: "https://www.perplexity.ai",
     category: "Research AI"
   },
   {
-    name: { en: "Notion AI", ar: "Ù†ÙˆØ´Ù† AI" },
-    description: { en: "Productivity assistant for notes, documentation, summaries, and collaborative knowledge management.", ar: "Ù…Ø³Ø§Ø¹Ø¯ Ø¥Ù†ØªØ§Ø¬ÙŠØ© Ù„Ù„Ù…Ù„Ø§Ø­Ø¸Ø§Øª ÙˆØ§Ù„ÙˆØ«Ø§Ø¦Ù‚ ÙˆØ§Ù„ØªÙ„Ø®ÙŠØµ ÙˆØ¥Ø¯Ø§Ø±Ø© Ø§Ù„Ù…Ø¹Ø±ÙØ© Ø§Ù„ØªØ¹Ø§ÙˆÙ†ÙŠØ©." },
+    name: { en: "Notion AI", ar: "نوشن AI" },
+    description: { en: "Productivity assistant for notes, documentation, summaries, and collaborative knowledge management.", ar: "مساعد إنتاجية للملاحظات والوثائق والتلخيص وإدارة المعرفة التعاونية." },
     link: "https://www.notion.so/product/ai",
     category: "Productivity AI"
   },
   {
-    name: { en: "Zapier AI", ar: "Ø²Ø§Ø¨ÙŠØ± AI" },
-    description: { en: "Automates business workflows with AI actions, app integrations, and trigger-based execution.", ar: "Ø£ØªÙ…ØªØ© Ø¹Ù…Ù„ÙŠØ§Øª Ø§Ù„Ø£Ø¹Ù…Ø§Ù„ Ø¹Ø¨Ø± ØªÙƒØ§Ù…Ù„ Ø§Ù„ØªØ·Ø¨ÙŠÙ‚Ø§Øª ÙˆØªÙ†ÙÙŠØ° Ø¥Ø¬Ø±Ø§Ø¡Ø§Øª Ø°ÙƒÙŠØ© Ø¨Ø­Ø³Ø¨ Ø§Ù„Ù…Ø­ÙØ²Ø§Øª." },
+    name: { en: "Zapier AI", ar: "زابير AI" },
+    description: { en: "Automates business workflows with AI actions, app integrations, and trigger-based execution.", ar: "أتمتة عمليات الأعمال عبر تكامل التطبيقات وتنفيذ إجراءات ذكية بحسب المحفزات." },
     link: "https://zapier.com/ai",
     category: "Productivity AI"
   },
   {
-    name: { en: "NotebookLM", ar: "Ù†ÙˆØªØ¨ÙˆÙƒ Ø¥Ù„ Ø¥Ù…" },
-    description: { en: "Research and study assistant that turns your sources into grounded summaries, Q&A, and audio overviews.", ar: "Ù…Ø³Ø§Ø¹Ø¯ Ø¨Ø­Ø« ÙˆØ¯Ø±Ø§Ø³Ø© ÙŠØ­ÙˆÙ„ Ù…ØµØ§Ø¯Ø±Ùƒ Ø¥Ù„Ù‰ ØªÙ„Ø®ÙŠØµØ§Øª Ù…ÙˆØ«Ù‚Ø© ÙˆØ£Ø³Ø¦Ù„Ø© ÙˆØ£Ø¬ÙˆØ¨Ø© ÙˆÙ…Ù„Ø®ØµØ§Øª ØµÙˆØªÙŠØ©." },
+    name: { en: "NotebookLM", ar: "نوتبوك إل إم" },
+    description: { en: "Research and study assistant that turns your sources into grounded summaries, Q&A, and audio overviews.", ar: "مساعد بحث ودراسة يحول مصادرك إلى تلخيصات موثقة وأسئلة وأجوبة وملخصات صوتية." },
     link: "https://notebooklm.google.com",
     category: "Research AI"
   },
   {
-    name: { en: "Grok", ar: "ØºØ±ÙˆÙƒ" },
-    description: { en: "Real-time conversational assistant connected to live information and multimodal reasoning workflows.", ar: "Ù…Ø³Ø§Ø¹Ø¯ Ù…Ø­Ø§Ø¯Ø«Ø© Ø¨Ø²Ù…Ù† Ø­Ù‚ÙŠÙ‚ÙŠ Ù…ØªØµÙ„ Ø¨Ø§Ù„Ù…Ø¹Ù„ÙˆÙ…Ø§Øª Ø§Ù„Ø­ÙŠØ© ÙˆÙŠØ¯Ø¹Ù… Ø§Ù„Ø§Ø³ØªØ¯Ù„Ø§Ù„ Ù…ØªØ¹Ø¯Ø¯ Ø§Ù„ÙˆØ³Ø§Ø¦Ø·." },
+    name: { en: "Grok", ar: "غروك" },
+    description: { en: "Real-time conversational assistant connected to live information and multimodal reasoning workflows.", ar: "مساعد محادثة بزمن حقيقي متصل بالمعلومات الحية ويدعم الاستدلال متعدد الوسائط." },
     link: "https://grok.com",
     category: "AI Chat"
   },
   {
-    name: { en: "n8n", ar: "Ø¥Ù†8Ø¥Ù†" },
-    description: { en: "Open-source workflow automation platform to build AI agents and integrate tools across your stack.", ar: "Ù…Ù†ØµØ© Ø£ØªÙ…ØªØ© ØªØ¯ÙÙ‚Ø§Øª Ø¹Ù…Ù„ Ù…ÙØªÙˆØ­Ø© Ø§Ù„Ù…ØµØ¯Ø± Ù„Ø¨Ù†Ø§Ø¡ ÙˆÙƒÙ„Ø§Ø¡ AI ÙˆØ±Ø¨Ø· Ø§Ù„Ø£Ø¯ÙˆØ§Øª Ø¹Ø¨Ø± Ù…Ù†Ø¸ÙˆÙ…ØªÙƒ Ø§Ù„ØªÙ‚Ù†ÙŠØ©." },
+    name: { en: "n8n", ar: "إن8إن" },
+    description: { en: "Open-source workflow automation platform to build AI agents and integrate tools across your stack.", ar: "منصة أتمتة تدفقات عمل مفتوحة المصدر لبناء وكلاء AI وربط الأدوات عبر منظومتك التقنية." },
     link: "https://n8n.io",
     category: "Agents & Automation"
   },
   {
-    name: { en: "Gamma", ar: "ØºØ§Ù…Ø§" },
-    description: { en: "AI presentation creator for pitch decks, reports, and visual storytelling in minutes.", ar: "Ø£Ø¯Ø§Ø© Ø¹Ø±ÙˆØ¶ ØªÙ‚Ø¯ÙŠÙ…ÙŠØ© Ø°ÙƒÙŠØ© Ù„Ø¨Ù†Ø§Ø¡ Ø¹Ø±ÙˆØ¶ Ø§Ù„Ù…Ø³ØªØ«Ù…Ø±ÙŠÙ† ÙˆØ§Ù„ØªÙ‚Ø§Ø±ÙŠØ± ÙˆØ§Ù„Ø³Ø±Ø¯ Ø§Ù„Ø¨ØµØ±ÙŠ Ø®Ù„Ø§Ù„ Ø¯Ù‚Ø§Ø¦Ù‚." },
+    name: { en: "Gamma", ar: "غاما" },
+    description: { en: "AI presentation creator for pitch decks, reports, and visual storytelling in minutes.", ar: "أداة عروض تقديمية ذكية لبناء عروض المستثمرين والتقارير والسرد البصري خلال دقائق." },
     link: "https://gamma.app",
     category: "Presentation AI"
   },
   {
-    name: { en: "Power BI Copilot", ar: "Ø¨Ø§ÙˆØ± Ø¨ÙŠ Ø¢ÙŠ ÙƒÙˆØ¨Ø§ÙŠÙ„ÙˆØª" },
-    description: { en: "Natural-language analytics assistant to build dashboards, insights, and executive reports faster.", ar: "Ù…Ø³Ø§Ø¹Ø¯ ØªØ­Ù„ÙŠÙ„Ø§Øª Ø¨Ø§Ù„Ù„ØºØ© Ø§Ù„Ø·Ø¨ÙŠØ¹ÙŠØ© Ù„Ø¨Ù†Ø§Ø¡ Ù„ÙˆØ­Ø§Øª Ù…Ø¹Ù„ÙˆÙ…Ø§Øª ÙˆØ§Ø³ØªØ®Ø±Ø§Ø¬ Ø±Ø¤Ù‰ ÙˆØªÙ‚Ø§Ø±ÙŠØ± ØªÙ†ÙÙŠØ°ÙŠØ© Ø¨Ø³Ø±Ø¹Ø©." },
+    name: { en: "Power BI Copilot", ar: "باور بي آي كوبايلوت" },
+    description: { en: "Natural-language analytics assistant to build dashboards, insights, and executive reports faster.", ar: "مساعد تحليلات باللغة الطبيعية لبناء لوحات معلومات واستخراج رؤى وتقارير تنفيذية بسرعة." },
     link: "https://www.microsoft.com/en-us/power-platform/products/power-bi",
     category: "Data AI"
   },
   {
-    name: { en: "Character.AI", ar: "ÙƒØ§Ø±ÙƒØªØ± AI" },
-    description: { en: "Role-based conversational platform for interactive dialogue and persona-driven AI chats.", ar: "Ù…Ù†ØµØ© Ù…Ø­Ø§Ø¯Ø«Ø§Øª ØªØ¹ØªÙ…Ø¯ Ø§Ù„Ø´Ø®ØµÙŠØ§Øª Ù„Ù„Ø£Ø¯ÙˆØ§Ø± Ø§Ù„ØªÙØ§Ø¹Ù„ÙŠØ© ÙˆØ­ÙˆØ§Ø±Ø§Øª AI Ø§Ù„Ù…ÙˆØ¬Ù‡Ø© Ø¨Ø§Ù„Ø´Ø®ØµÙŠØ©." },
+    name: { en: "Character.AI", ar: "كاركتر AI" },
+    description: { en: "Role-based conversational platform for interactive dialogue and persona-driven AI chats.", ar: "منصة محادثات تعتمد الشخصيات للأدوار التفاعلية وحوارات AI الموجهة بالشخصية." },
     link: "https://character.ai",
     category: "AI Chat",
     badges: ["Popular", "Free", "Students"]
   },
   {
-    name: { en: "Pi by Inflection", ar: "Ø¨Ø§ÙŠ Ù…Ù† Ø¥Ù†ÙÙ„ÙƒØ´Ù†" },
-    description: { en: "Personal conversational AI assistant focused on supportive dialogue and daily productivity.", ar: "Ù…Ø³Ø§Ø¹Ø¯ Ù…Ø­Ø§Ø¯Ø«Ø© Ø´Ø®ØµÙŠ ÙŠØ±ÙƒØ² Ø¹Ù„Ù‰ Ø§Ù„Ø­ÙˆØ§Ø± Ø§Ù„Ø¯Ø§Ø¹Ù… ÙˆØ§Ù„Ø¥Ù†ØªØ§Ø¬ÙŠØ© Ø§Ù„ÙŠÙˆÙ…ÙŠØ©." },
+    name: { en: "Pi by Inflection", ar: "باي من إنفلكشن" },
+    description: { en: "Personal conversational AI assistant focused on supportive dialogue and daily productivity.", ar: "مساعد محادثة شخصي يركز على الحوار الداعم والإنتاجية اليومية." },
     link: "https://pi.ai",
     category: "AI Chat",
     badges: ["Free", "Students"]
   },
   {
-    name: { en: "Tabnine", ar: "ØªØ§Ø¨ Ù†Ø§ÙŠÙ†" },
-    description: { en: "AI coding assistant for secure code completion and enterprise development teams.", ar: "Ù…Ø³Ø§Ø¹Ø¯ Ø¨Ø±Ù…Ø¬ÙŠ Ø°ÙƒÙŠ Ù„Ù„Ø¥ÙƒÙ…Ø§Ù„ Ø§Ù„Ø¢Ù…Ù† Ù„Ù„ÙƒÙˆØ¯ Ø¯Ø§Ø®Ù„ ÙØ±Ù‚ Ø§Ù„ØªØ·ÙˆÙŠØ± Ø§Ù„Ù…Ø¤Ø³Ø³ÙŠØ©." },
+    name: { en: "Tabnine", ar: "تاب ناين" },
+    description: { en: "AI coding assistant for secure code completion and enterprise development teams.", ar: "مساعد برمجي ذكي للإكمال الآمن للكود داخل فرق التطوير المؤسسية." },
     link: "https://www.tabnine.com",
     category: "Coding AI",
     badges: ["Paid", "Developers", "Enterprise"]
   },
   {
-    name: { en: "Sourcegraph Cody", ar: "ÙƒÙˆØ¯ÙŠ Ù…Ù† Ø³ÙˆØ±Ø³ ØºØ±Ø§Ù" },
-    description: { en: "Codebase-aware assistant for large repositories and cross-file engineering tasks.", ar: "Ù…Ø³Ø§Ø¹Ø¯ ÙˆØ§Ø¹Ù Ø¨Ø§Ù„Ù…Ø´Ø±ÙˆØ¹ Ù„Ù„Ù…Ø³ØªÙˆØ¯Ø¹Ø§Øª Ø§Ù„ÙƒØ¨ÙŠØ±Ø© ÙˆÙ…Ù‡Ø§Ù… Ø§Ù„Ù‡Ù†Ø¯Ø³Ø© Ø¹Ø¨Ø± Ù…Ù„ÙØ§Øª Ù…ØªØ¹Ø¯Ø¯Ø©." },
+    name: { en: "Sourcegraph Cody", ar: "كودي من سورس غراف" },
+    description: { en: "Codebase-aware assistant for large repositories and cross-file engineering tasks.", ar: "مساعد واعٍ بالمشروع للمستودعات الكبيرة ومهام الهندسة عبر ملفات متعددة." },
     link: "https://sourcegraph.com/cody",
     category: "Coding AI",
     badges: ["Paid", "Developers"]
   },
   {
-    name: { en: "Aider", ar: "Ø£ÙŠØ¯Ø±" },
-    description: { en: "Terminal-first AI pair programmer that edits real project files conversationally.", ar: "Ù…Ø±Ø§ÙÙ‚ Ø¨Ø±Ù…Ø¬ÙŠ Ø¹Ø¨Ø± Ø§Ù„Ø·Ø±ÙÙŠØ© ÙŠØ¹Ø¯Ù„ Ù…Ù„ÙØ§Øª Ø§Ù„Ù…Ø´Ø±ÙˆØ¹ ÙØ¹Ù„ÙŠÙ‹Ø§ Ø¹Ø¨Ø± Ø§Ù„Ù…Ø­Ø§Ø¯Ø«Ø©." },
+    name: { en: "Aider", ar: "أيدر" },
+    description: { en: "Terminal-first AI pair programmer that edits real project files conversationally.", ar: "مرافق برمجي عبر الطرفية يعدل ملفات المشروع فعليًا عبر المحادثة." },
     link: "https://aider.chat",
     category: "Coding AI",
     badges: ["OpenSource", "Developers", "Popular"]
   },
   {
-    name: { en: "Continue", ar: "ÙƒÙˆÙ†ØªÙŠÙ†ÙŠÙˆ" },
-    description: { en: "Open-source IDE extension for AI-assisted coding with flexible model backends.", ar: "Ø¥Ø¶Ø§ÙØ© Ù…ÙØªÙˆØ­Ø© Ø§Ù„Ù…ØµØ¯Ø± Ù„Ø¨ÙŠØ¦Ø§Øª Ø§Ù„ØªØ·ÙˆÙŠØ± ØªØ¯Ø¹Ù… Ø§Ù„Ø¨Ø±Ù…Ø¬Ø© Ø¨Ø§Ù„Ø°ÙƒØ§Ø¡ Ø§Ù„Ø§ØµØ·Ù†Ø§Ø¹ÙŠ Ø¨Ù…Ø±ÙˆÙ†Ø© Ø¹Ø§Ù„ÙŠØ©." },
+    name: { en: "Continue", ar: "كونتينيو" },
+    description: { en: "Open-source IDE extension for AI-assisted coding with flexible model backends.", ar: "إضافة مفتوحة المصدر لبيئات التطوير تدعم البرمجة بالذكاء الاصطناعي بمرونة عالية." },
     link: "https://www.continue.dev",
     category: "Coding AI",
     badges: ["OpenSource", "Free", "Developers"]
   },
   {
-    name: { en: "Playground AI", ar: "Ø¨Ù„Ø§ÙŠØºØ±Ø§ÙˆÙ†Ø¯ AI" },
-    description: { en: "Image generation and editing for creators, ads, and social content workflows.", ar: "ØªÙˆÙ„ÙŠØ¯ ÙˆØªØ­Ø±ÙŠØ± Ø§Ù„ØµÙˆØ± Ù„ØµÙ†Ø§Ø¹ Ø§Ù„Ù…Ø­ØªÙˆÙ‰ ÙˆØ§Ù„Ø¥Ø¹Ù„Ø§Ù†Ø§Øª ÙˆØªØ¯ÙÙ‚Ø§Øª Ø§Ù„Ø³ÙˆØ´Ø§Ù„." },
+    name: { en: "Playground AI", ar: "بلايغراوند AI" },
+    description: { en: "Image generation and editing for creators, ads, and social content workflows.", ar: "توليد وتحرير الصور لصناع المحتوى والإعلانات وتدفقات السوشال." },
     link: "https://playground.com",
     category: "Image Generation",
     badges: ["Free", "Designers", "Marketers"]
   },
   {
-    name: { en: "Recraft", ar: "Ø±ÙŠÙƒØ±Ø§ÙØª" },
-    description: { en: "Design-focused AI tool for vectors, icons, and brand-consistent visual assets.", ar: "Ø£Ø¯Ø§Ø© ØªØµÙ…ÙŠÙ… Ø°ÙƒÙŠØ© Ù„Ø¥Ù†Ø´Ø§Ø¡ ÙÙŠÙƒØªÙˆØ±Ø§Øª ÙˆØ£ÙŠÙ‚ÙˆÙ†Ø§Øª ÙˆØ£ØµÙˆÙ„ Ø¨ØµØ±ÙŠØ© Ù…ØªØ³Ù‚Ø© Ù…Ø¹ Ø§Ù„Ø¹Ù„Ø§Ù…Ø©." },
+    name: { en: "Recraft", ar: "ريكرافت" },
+    description: { en: "Design-focused AI tool for vectors, icons, and brand-consistent visual assets.", ar: "أداة تصميم ذكية لإنشاء فيكتورات وأيقونات وأصول بصرية متسقة مع العلامة." },
     link: "https://www.recraft.ai",
     category: "Image Generation",
     badges: ["Paid", "Designers"]
   },
   {
-    name: { en: "Veed AI", ar: "ÙÙŠØ¯ AI" },
-    description: { en: "Browser-based AI video editor for subtitles, social exports, and collaboration.", ar: "Ù…Ø­Ø±Ø± ÙÙŠØ¯ÙŠÙˆ Ø¹Ø¨Ø± Ø§Ù„Ù…ØªØµÙØ­ Ù„Ù„ØªØ±Ø¬Ù…Ø© Ø§Ù„ØªÙ„Ù‚Ø§Ø¦ÙŠØ© ÙˆØªØµØ¯ÙŠØ± Ø§Ù„Ø³ÙˆØ´Ø§Ù„ ÙˆØ§Ù„Ø¹Ù…Ù„ Ø§Ù„ØªØ¹Ø§ÙˆÙ†ÙŠ." },
+    name: { en: "Veed AI", ar: "فيد AI" },
+    description: { en: "Browser-based AI video editor for subtitles, social exports, and collaboration.", ar: "محرر فيديو عبر المتصفح للترجمة التلقائية وتصدير السوشال والعمل التعاوني." },
     link: "https://www.veed.io",
     category: "Video Generation",
     badges: ["Paid", "Marketers", "Creators"]
   },
   {
-    name: { en: "InVideo AI", ar: "Ø¥Ù† ÙÙŠØ¯ÙŠÙˆ AI" },
-    description: { en: "Text-to-video suite for rapid marketing videos and campaign content production.", ar: "Ù…Ù†ØµØ© ØªØ­ÙˆÙŠÙ„ Ø§Ù„Ù†Øµ Ø¥Ù„Ù‰ ÙÙŠØ¯ÙŠÙˆ Ù„Ø¥Ù†ØªØ§Ø¬ ÙÙŠØ¯ÙŠÙˆÙ‡Ø§Øª ØªØ³ÙˆÙŠÙ‚ÙŠØ© ÙˆÙ…Ø­ØªÙˆÙ‰ Ø§Ù„Ø­Ù…Ù„Ø§Øª Ø¨Ø³Ø±Ø¹Ø©." },
+    name: { en: "InVideo AI", ar: "إن فيديو AI" },
+    description: { en: "Text-to-video suite for rapid marketing videos and campaign content production.", ar: "منصة تحويل النص إلى فيديو لإنتاج فيديوهات تسويقية ومحتوى الحملات بسرعة." },
     link: "https://invideo.io/ai",
     category: "Video Generation",
     badges: ["Paid", "Marketers", "Creators"]
   },
   {
-    name: { en: "Wolfram|Alpha", ar: "ÙˆÙˆÙ„ÙØ±Ø§Ù… Ø£Ù„ÙØ§" },
-    description: { en: "Computational knowledge engine for mathematics, engineering, and science-heavy tasks.", ar: "Ù…Ø­Ø±Ùƒ Ù…Ø¹Ø±ÙØ© Ø­Ø³Ø§Ø¨ÙŠ Ù„Ù„Ø±ÙŠØ§Ø¶ÙŠØ§Øª ÙˆØ§Ù„Ù‡Ù†Ø¯Ø³Ø© ÙˆØ§Ù„Ø¹Ù„ÙˆÙ… ÙˆØ§Ù„Ù…Ù‡Ø§Ù… Ø§Ù„ØªÙ‚Ù†ÙŠØ© Ø§Ù„Ù…ÙƒØ«ÙØ©." },
+    name: { en: "Wolfram|Alpha", ar: "وولفرام ألفا" },
+    description: { en: "Computational knowledge engine for mathematics, engineering, and science-heavy tasks.", ar: "محرك معرفة حسابي للرياضيات والهندسة والعلوم والمهام التقنية المكثفة." },
     link: "https://www.wolframalpha.com",
     category: "Research AI",
     badges: ["Popular", "Students", "Researchers"]
   },
   {
-    name: { en: "ResearchRabbit", ar: "Ø±ÙŠØ³ÙŠØ±Ø´ Ø±Ø§Ø¨ÙŠØª" },
-    description: { en: "Visual discovery tool to map connected papers and build research collections.", ar: "Ø£Ø¯Ø§Ø© Ø¨ØµØ±ÙŠØ© Ù„Ø§ÙƒØªØ´Ø§Ù ÙˆØ±Ø¨Ø· Ø§Ù„Ø£ÙˆØ±Ø§Ù‚ Ø§Ù„Ø¹Ù„Ù…ÙŠØ© ÙˆØ¨Ù†Ø§Ø¡ Ù…Ø¬Ù…ÙˆØ¹Ø§Øª Ø¨Ø­Ø«ÙŠØ©." },
+    name: { en: "ResearchRabbit", ar: "ريسيرش رابيت" },
+    description: { en: "Visual discovery tool to map connected papers and build research collections.", ar: "أداة بصرية لاكتشاف وربط الأوراق العلمية وبناء مجموعات بحثية." },
     link: "https://www.researchrabbit.ai",
     category: "Research AI",
     badges: ["Free", "Researchers", "Students"]
   },
   {
-    name: { en: "ChatPDF", ar: "Ø´Ø§Øª Ø¨ÙŠ Ø¯ÙŠ Ø¥Ù" },
-    description: { en: "Document Q&A assistant for PDFs, reports, and lecture materials.", ar: "Ù…Ø³Ø§Ø¹Ø¯ Ø£Ø³Ø¦Ù„Ø© ÙˆØ£Ø¬ÙˆØ¨Ø© Ù„Ù…Ù„ÙØ§Øª PDF ÙˆØ§Ù„ØªÙ‚Ø§Ø±ÙŠØ± ÙˆÙ…ÙˆØ§Ø¯ Ø§Ù„Ù…Ø­Ø§Ø¶Ø±Ø§Øª." },
+    name: { en: "ChatPDF", ar: "شات بي دي إف" },
+    description: { en: "Document Q&A assistant for PDFs, reports, and lecture materials.", ar: "مساعد أسئلة وأجوبة لملفات PDF والتقارير ومواد المحاضرات." },
     link: "https://www.chatpdf.com",
     category: "Productivity AI",
     badges: ["Popular", "Free", "Students", "Educators"]
   },
   {
-    name: { en: "Taskade AI", ar: "ØªØ§Ø³ÙƒÙŠØ¯ AI" },
-    description: { en: "Collaborative productivity workspace with AI agents and project execution tools.", ar: "Ù…Ø³Ø§Ø­Ø© Ø¥Ù†ØªØ§Ø¬ÙŠØ© ØªØ¹Ø§ÙˆÙ†ÙŠØ© Ù…Ø¹ ÙˆÙƒÙ„Ø§Ø¡ AI ÙˆØ£Ø¯ÙˆØ§Øª ØªÙ†ÙÙŠØ° Ø§Ù„Ù…Ø´Ø§Ø±ÙŠØ¹." },
+    name: { en: "Taskade AI", ar: "تاسكيد AI" },
+    description: { en: "Collaborative productivity workspace with AI agents and project execution tools.", ar: "مساحة إنتاجية تعاونية مع وكلاء AI وأدوات تنفيذ المشاريع." },
     link: "https://www.taskade.com",
     category: "Productivity AI",
     badges: ["Paid", "Businesses", "Teams"]
   },
   {
-    name: { en: "Mem", ar: "Ù…ÙŠÙ…" },
-    description: { en: "AI-powered personal knowledge manager for organizing notes and context-aware writing.", ar: "Ù…Ù†ØµØ© Ø¥Ø¯Ø§Ø±Ø© Ù…Ø¹Ø±ÙØ© Ø´Ø®ØµÙŠØ© Ù„ØªÙ†Ø¸ÙŠÙ… Ø§Ù„Ù…Ù„Ø§Ø­Ø¸Ø§Øª ÙˆØ§Ù„ÙƒØªØ§Ø¨Ø© Ø§Ù„Ø³ÙŠØ§Ù‚ÙŠØ© Ø¨Ø§Ù„Ø°ÙƒØ§Ø¡ Ø§Ù„Ø§ØµØ·Ù†Ø§Ø¹ÙŠ." },
+    name: { en: "Mem", ar: "ميم" },
+    description: { en: "AI-powered personal knowledge manager for organizing notes and context-aware writing.", ar: "منصة إدارة معرفة شخصية لتنظيم الملاحظات والكتابة السياقية بالذكاء الاصطناعي." },
     link: "https://mem.ai",
     category: "Productivity AI",
     badges: ["Paid", "Professionals", "Researchers"]
   },
   {
-    name: { en: "Pipedream", ar: "Ø¨Ø§ÙŠØ¨ Ø¯Ø±ÙŠÙ…" },
-    description: { en: "Developer-friendly automation platform for APIs, events, and backend AI workflows.", ar: "Ù…Ù†ØµØ© Ø£ØªÙ…ØªØ© Ù„Ù„Ù…Ø·ÙˆØ±ÙŠÙ† Ù„Ø±Ø¨Ø· APIs ÙˆØ§Ù„Ø£Ø­Ø¯Ø§Ø« ÙˆØªØ¯ÙÙ‚Ø§Øª Ø§Ù„Ø®Ù„ÙÙŠØ© Ø§Ù„Ø°ÙƒÙŠØ©." },
+    name: { en: "Pipedream", ar: "بايب دريم" },
+    description: { en: "Developer-friendly automation platform for APIs, events, and backend AI workflows.", ar: "منصة أتمتة للمطورين لربط APIs والأحداث وتدفقات الخلفية الذكية." },
     link: "https://pipedream.com",
     category: "Agents & Automation",
     badges: ["API", "Developers", "Paid"]
   },
   {
-    name: { en: "Lindy", ar: "Ù„ÙŠÙ†Ø¯ÙŠ" },
-    description: { en: "AI automation platform for task-specific agents across email and operations.", ar: "Ù…Ù†ØµØ© Ø£ØªÙ…ØªØ© Ù„Ø¨Ù†Ø§Ø¡ ÙˆÙƒÙ„Ø§Ø¡ Ù…Ù‡Ø§Ù… Ù„Ù„Ø¨Ø±ÙŠØ¯ ÙˆØ§Ù„Ø¹Ù…Ù„ÙŠØ§Øª." },
+    name: { en: "Lindy", ar: "ليندي" },
+    description: { en: "AI automation platform for task-specific agents across email and operations.", ar: "منصة أتمتة لبناء وكلاء مهام للبريد والعمليات." },
     link: "https://www.lindy.ai",
     category: "Agents & Automation",
     badges: ["New", "Paid", "Businesses"]
   },
   {
-    name: { en: "Gumloop", ar: "ØºÙˆÙ…Ù„ÙˆØ¨" },
-    description: { en: "No-code AI workflow builder for operations teams and repetitive processes.", ar: "Ù…Ù†ØµØ© Ø¨Ø¯ÙˆÙ† ÙƒÙˆØ¯ Ù„Ø¨Ù†Ø§Ø¡ ØªØ¯ÙÙ‚Ø§Øª AI Ù„ÙØ±Ù‚ Ø§Ù„Ø¹Ù…Ù„ÙŠØ§Øª ÙˆØ§Ù„Ù…Ù‡Ø§Ù… Ø§Ù„Ù…ØªÙƒØ±Ø±Ø©." },
+    name: { en: "Gumloop", ar: "غوملوب" },
+    description: { en: "No-code AI workflow builder for operations teams and repetitive processes.", ar: "منصة بدون كود لبناء تدفقات AI لفرق العمليات والمهام المتكررة." },
     link: "https://www.gumloop.com",
     category: "Agents & Automation",
     badges: ["New", "Paid", "Teams"]
   },
   {
-    name: { en: "SlidesAI", ar: "Ø³Ù„Ø§ÙŠØ¯Ø² AI" },
-    description: { en: "AI slide generation assistant for turning long text into structured presentations.", ar: "Ù…Ø³Ø§Ø¹Ø¯ Ù„Ø¥Ù†Ø´Ø§Ø¡ Ø§Ù„Ø´Ø±Ø§Ø¦Ø­ Ø¨Ø§Ù„Ø°ÙƒØ§Ø¡ Ø§Ù„Ø§ØµØ·Ù†Ø§Ø¹ÙŠ Ù…Ù† Ø§Ù„Ù†ØµÙˆØµ Ø§Ù„Ø·ÙˆÙŠÙ„Ø© Ø¥Ù„Ù‰ Ø¹Ø±ÙˆØ¶ Ù…Ù†Ø¸Ù…Ø©." },
+    name: { en: "SlidesAI", ar: "سلايدز AI" },
+    description: { en: "AI slide generation assistant for turning long text into structured presentations.", ar: "مساعد لإنشاء الشرائح بالذكاء الاصطناعي من النصوص الطويلة إلى عروض منظمة." },
     link: "https://www.slidesai.io",
     category: "Presentation AI",
     badges: ["Paid", "Students", "Educators"]
   },
   {
-    name: { en: "Pitch", ar: "Ø¨ÙŠØªØ´" },
-    description: { en: "Team presentation platform with AI features for startup decks and reporting.", ar: "Ù…Ù†ØµØ© Ø¹Ø±ÙˆØ¶ Ù„Ù„ÙØ±Ù‚ Ø¨Ù…ÙŠØ²Ø§Øª AI Ù„Ø¹Ø±ÙˆØ¶ Ø§Ù„Ø´Ø±ÙƒØ§Øª Ø§Ù„Ù†Ø§Ø´Ø¦Ø© ÙˆØ§Ù„ØªÙ‚Ø§Ø±ÙŠØ±." },
+    name: { en: "Pitch", ar: "بيتش" },
+    description: { en: "Team presentation platform with AI features for startup decks and reporting.", ar: "منصة عروض للفرق بميزات AI لعروض الشركات الناشئة والتقارير." },
     link: "https://pitch.com",
     category: "Presentation AI",
     badges: ["Paid", "Teams", "Businesses"]
   },
   {
-    name: { en: "ThoughtSpot Sage", ar: "Ø«ÙˆØª Ø³Ø¨ÙˆØª Ø³ÙŠØ¬" },
-    description: { en: "Natural language analytics assistant for enterprise BI and dashboard intelligence.", ar: "Ù…Ø³Ø§Ø¹Ø¯ ØªØ­Ù„ÙŠÙ„Ø§Øª Ø¨Ù„ØºØ© Ø·Ø¨ÙŠØ¹ÙŠØ© Ù„Ø°ÙƒØ§Ø¡ Ø§Ù„Ø£Ø¹Ù…Ø§Ù„ Ø§Ù„Ù…Ø¤Ø³Ø³ÙŠ ÙˆÙ„ÙˆØ­Ø§Øª Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª." },
+    name: { en: "ThoughtSpot Sage", ar: "ثوت سبوت سيج" },
+    description: { en: "Natural language analytics assistant for enterprise BI and dashboard intelligence.", ar: "مساعد تحليلات بلغة طبيعية لذكاء الأعمال المؤسسي ولوحات البيانات." },
     link: "https://www.thoughtspot.com",
     category: "Data AI",
     badges: ["Paid", "Enterprise", "Businesses"]
   },
   {
-    name: { en: "Hex", ar: "Ù‡ÙŠÙƒØ³" },
-    description: { en: "Collaborative data workspace combining SQL, notebooks, dashboards, and AI analytics.", ar: "Ù…Ø³Ø§Ø­Ø© Ø¨ÙŠØ§Ù†Ø§Øª ØªØ¹Ø§ÙˆÙ†ÙŠØ© ØªØ¬Ù…Ø¹ SQL ÙˆØ¯ÙØ§ØªØ± Ø§Ù„ØªØ­Ù„ÙŠÙ„ ÙˆÙ„ÙˆØ­Ø§Øª Ø§Ù„Ù…Ø¹Ù„ÙˆÙ…Ø§Øª ÙˆØªØ­Ù„ÙŠÙ„Ø§Øª AI." },
+    name: { en: "Hex", ar: "هيكس" },
+    description: { en: "Collaborative data workspace combining SQL, notebooks, dashboards, and AI analytics.", ar: "مساحة بيانات تعاونية تجمع SQL ودفاتر التحليل ولوحات المعلومات وتحليلات AI." },
     link: "https://hex.tech",
     category: "Data AI",
     badges: ["Paid", "DataTeams", "Developers"]
   },
   {
-    name: { en: "Dataiku", ar: "Ø¯Ø§ØªØ§ÙŠÙƒÙˆ" },
-    description: { en: "Enterprise AI and analytics platform for model lifecycle, governance, and operations.", ar: "Ù…Ù†ØµØ© AI ÙˆØªØ­Ù„ÙŠÙ„Ø§Øª Ù…Ø¤Ø³Ø³ÙŠØ© Ù„Ø¥Ø¯Ø§Ø±Ø© Ø¯ÙˆØ±Ø© Ø­ÙŠØ§Ø© Ø§Ù„Ù†Ù…Ø§Ø°Ø¬ ÙˆØ§Ù„Ø­ÙˆÙƒÙ…Ø© ÙˆØ§Ù„Ø¹Ù…Ù„ÙŠØ§Øª." },
+    name: { en: "Dataiku", ar: "داتايكو" },
+    description: { en: "Enterprise AI and analytics platform for model lifecycle, governance, and operations.", ar: "منصة AI وتحليلات مؤسسية لإدارة دورة حياة النماذج والحوكمة والعمليات." },
     link: "https://www.dataiku.com",
     category: "Data AI",
     badges: ["Paid", "Enterprise", "DataTeams"]
   },
   {
-    name: { en: "Deepgram", ar: "Ø¯ÙŠØ¨ ØºØ±Ø§Ù…" },
-    description: { en: "Speech-to-text and voice AI API platform for real-time transcription and voice agents.", ar: "Ù…Ù†ØµØ© API Ù„Ù„ØµÙˆØª ÙˆØ§Ù„Ù†Ø³Ø® Ø§Ù„Ù„Ø­Ø¸ÙŠ Ù„ØªØ·Ø¨ÙŠÙ‚Ø§Øª Ø§Ù„ØªÙØ±ÙŠØº ÙˆÙˆÙƒÙ„Ø§Ø¡ Ø§Ù„ØµÙˆØª." },
+    name: { en: "Deepgram", ar: "ديب غرام" },
+    description: { en: "Speech-to-text and voice AI API platform for real-time transcription and voice agents.", ar: "منصة API للصوت والنسخ اللحظي لتطبيقات التفريغ ووكلاء الصوت." },
     link: "https://deepgram.com",
     category: "Audio AI",
     badges: ["API", "Developers", "Paid"]
   },
   {
-    name: { en: "AssemblyAI", ar: "Ø£Ø³ÙŠÙ…Ø¨Ù„ÙŠ AI" },
-    description: { en: "Advanced speech AI APIs for transcription, summarization, and audio intelligence.", ar: "ÙˆØ§Ø¬Ù‡Ø§Øª ØµÙˆØª Ù…ØªÙ‚Ø¯Ù…Ø© Ù„Ù„ØªÙØ±ÙŠØº ÙˆØ§Ù„ØªÙ„Ø®ÙŠØµ ÙˆØªØ­Ù„ÙŠÙ„Ø§Øª Ø§Ù„ØµÙˆØª Ø§Ù„Ø°ÙƒÙŠØ©." },
+    name: { en: "AssemblyAI", ar: "أسيمبلي AI" },
+    description: { en: "Advanced speech AI APIs for transcription, summarization, and audio intelligence.", ar: "واجهات صوت متقدمة للتفريغ والتلخيص وتحليلات الصوت الذكية." },
     link: "https://www.assemblyai.com",
     category: "Audio AI",
     badges: ["API", "Developers", "Paid"]
   },
   {
-    name: { en: "PlayHT", ar: "Ø¨Ù„Ø§ÙŠ Ø¥ØªØ´ ØªÙŠ" },
-    description: { en: "Text-to-speech and voice generation platform for narrations and multilingual products.", ar: "Ù…Ù†ØµØ© ØªØ­ÙˆÙŠÙ„ Ø§Ù„Ù†Øµ Ø¥Ù„Ù‰ ØµÙˆØª ÙˆØªÙˆÙ„ÙŠØ¯ Ø£ØµÙˆØ§Øª Ù„Ù„ØªØ¹Ù„ÙŠÙ‚ Ø§Ù„ØµÙˆØªÙŠ ÙˆØ§Ù„Ù…Ù†ØªØ¬Ø§Øª Ù…ØªØ¹Ø¯Ø¯Ø© Ø§Ù„Ù„ØºØ§Øª." },
+    name: { en: "PlayHT", ar: "بلاي إتش تي" },
+    description: { en: "Text-to-speech and voice generation platform for narrations and multilingual products.", ar: "منصة تحويل النص إلى صوت وتوليد أصوات للتعليق الصوتي والمنتجات متعددة اللغات." },
     link: "https://play.ht",
     category: "Audio AI",
     badges: ["API", "Creators", "Paid"]
@@ -477,15 +477,15 @@ const fallbackTools = [
 
 const fallbackPosts = [
   {
-    title: { en: "AI Systems for Production", ar: "Ø£Ù†Ø¸Ù…Ø© AI Ù„Ù„Ø¥Ù†ØªØ§Ø¬" },
-    excerpt: { en: "From prototype demos to reliable products.", ar: "Ù…Ù† Ø§Ù„Ù†Ù…ÙˆØ°Ø¬ Ø§Ù„Ø£ÙˆÙ„ÙŠ Ø¥Ù„Ù‰ Ù…Ù†ØªØ¬ Ù…ÙˆØ«ÙˆÙ‚." },
+    title: { en: "AI Systems for Production", ar: "أنظمة AI للإنتاج" },
+    excerpt: { en: "From prototype demos to reliable products.", ar: "من النموذج الأولي إلى منتج موثوق." },
     date: "2026-03-01",
     file: "ai-production-systems.md",
     fileAr: "ai-production-systems-ar.md"
   },
   {
-    title: { en: "Agentic Automation in 2026", ar: "Ø§Ù„Ø£ØªÙ…ØªØ© Ø§Ù„ÙˆÙƒÙŠÙ„Ø© ÙÙŠ 2026" },
-    excerpt: { en: "How autonomous workflows improve execution speed.", ar: "ÙƒÙŠÙ ØªØ±ÙØ¹ Ø§Ù„ØªØ¯ÙÙ‚Ø§Øª Ø§Ù„Ø°Ø§ØªÙŠØ© Ø³Ø±Ø¹Ø© Ø§Ù„ØªÙ†ÙÙŠØ°." },
+    title: { en: "Agentic Automation in 2026", ar: "الأتمتة الوكيلة في 2026" },
+    excerpt: { en: "How autonomous workflows improve execution speed.", ar: "كيف ترفع التدفقات الذاتية سرعة التنفيذ." },
     date: "2026-02-20",
     file: "agentic-automation-2026.md",
     fileAr: "agentic-automation-2026-ar.md"
@@ -535,54 +535,54 @@ After one successful workflow, expand agent patterns across departments.
   },
   ar: {
     "ai-production-systems-ar.md": `
-# Ø£Ù†Ø¸Ù…Ø© Ø§Ù„Ø°ÙƒØ§Ø¡ Ø§Ù„Ø§ØµØ·Ù†Ø§Ø¹ÙŠ Ù„Ù„Ø¥Ù†ØªØ§Ø¬
+# أنظمة الذكاء الاصطناعي للإنتاج
 
-Ø¨Ù†Ø§Ø¡ Ù…Ù†ØªØ¬Ø§Øª AI ÙŠØ­ØªØ§Ø¬ Ù‡Ù†Ø¯Ø³Ø© Ø¥Ù†ØªØ§Ø¬ÙŠØ©ØŒ ÙˆÙ„ÙŠØ³ Ù…Ø¬Ø±Ø¯ ØªØ¬Ø§Ø±Ø¨ Ø³Ø±ÙŠØ¹Ø©.
+بناء منتجات AI يحتاج هندسة إنتاجية، وليس مجرد تجارب سريعة.
 
-## Ù…Ø¨Ø§Ø¯Ø¦ Ø£Ø³Ø§Ø³ÙŠØ©
-- Ø§Ø¨Ø¯Ø£ Ø¨Ù‡Ø¯Ù Ø¹Ù…Ù„ Ù‚Ø§Ø¨Ù„ Ù„Ù„Ù‚ÙŠØ§Ø³.
-- Ø§Ø¹ØªÙ…Ø¯ ØªÙ‚ÙŠÙŠÙ…Ù‹Ø§ Ø¯ÙˆØ±ÙŠÙ‹Ø§ Ù„Ù„Ø¬ÙˆØ¯Ø©.
-- Ø£Ø¶Ù Ù…Ø±Ø§Ù‚Ø¨Ø© Ù„Ù„Ø£Ø®Ø·Ø§Ø¡ ÙˆØ§Ù„Ø§Ù†Ø­Ø±Ø§Ù.
-- Ø§Ø¬Ø¹Ù„ Ø§Ù„Ø¥Ù†Ø³Ø§Ù† Ø¶Ù…Ù† Ø§Ù„Ø­Ù„Ù‚Ø© ÙÙŠ Ø§Ù„Ø­Ø§Ù„Ø§Øª Ø§Ù„Ø­Ø³Ø§Ø³Ø©.
+## مبادئ أساسية
+- ابدأ بهدف عمل قابل للقياس.
+- اعتمد تقييمًا دوريًا للجودة.
+- أضف مراقبة للأخطاء والانحراف.
+- اجعل الإنسان ضمن الحلقة في الحالات الحساسة.
 
-## Ø¨Ù†ÙŠØ© Ø¹Ù…Ù„ÙŠØ©
-- Ø§Ø³ØªØ±Ø¬Ø§Ø¹ Ù…Ø¹Ø±ÙÙŠ (RAG) Ù„Ù„Ø¥Ø¬Ø§Ø¨Ø§Øª Ø§Ù„Ù…ÙˆØ«Ù‚Ø©.
-- Ø£ÙˆØ±ÙƒØ³ØªØ±Ø§ÙŠØ´ÙŠÙ† Ù„Ù„Ù…Ù‡Ø§Ù… Ù…ØªØ¹Ø¯Ø¯Ø© Ø§Ù„Ø®Ø·ÙˆØ§Øª.
-- Ù„ÙˆØ­Ø§Øª Ù‚ÙŠØ§Ø³ Ù„Ù„ØªÙƒÙ„ÙØ© ÙˆØ§Ù„Ø²Ù…Ù† ÙˆØ§Ù„Ø¯Ù‚Ø©.
+## بنية عملية
+- استرجاع معرفي (RAG) للإجابات الموثقة.
+- أوركسترايشين للمهام متعددة الخطوات.
+- لوحات قياس للتكلفة والزمن والدقة.
 
-## Ø§Ù„Ø®Ù„Ø§ØµØ©
-Ø§Ù„Ù†Ø¬Ø§Ø­ ÙŠØ£ØªÙŠ Ù…Ù† Ù†Ø¸Ø§Ù… Ù‚Ø§Ø¨Ù„ Ù„Ù„ØªÙƒØ±Ø§Ø± ÙˆØ§Ù„ØªØ­Ø³ÙŠÙ† Ø§Ù„Ù…Ø³ØªÙ…Ø±.
+## الخلاصة
+النجاح يأتي من نظام قابل للتكرار والتحسين المستمر.
 `,
     "agentic-automation-2026-ar.md": `
-# Ø§Ù„Ø£ØªÙ…ØªØ© Ø§Ù„ÙˆÙƒÙŠÙ„Ø© ÙÙŠ 2026
+# الأتمتة الوكيلة في 2026
 
-ÙˆÙƒÙ„Ø§Ø¡ AI ÙŠÙ†ØªÙ‚Ù„ÙˆÙ† Ù…Ù† Ø§Ù„Ø¶Ø¬ÙŠØ¬ Ø¥Ù„Ù‰ Ù‚ÙŠÙ…Ø© ØªØ´ØºÙŠÙ„ÙŠØ© Ø­Ù‚ÙŠÙ‚ÙŠØ©.
+وكلاء AI ينتقلون من الضجيج إلى قيمة تشغيلية حقيقية.
 
-## Ø£ÙŠÙ† ÙŠØ¸Ù‡Ø± Ø§Ù„Ø£Ø«Ø±ØŸ
-- Ø£ØªÙ…ØªØ© Ø§Ù„Ø¨Ø­Ø« ÙˆØ¥Ø¹Ø¯Ø§Ø¯ Ø§Ù„ØªÙ‚Ø§Ø±ÙŠØ±.
-- ÙØ±Ø² Ø·Ù„Ø¨Ø§Øª Ø§Ù„Ø¯Ø¹Ù… ÙˆØ§Ù„ØªØ´ØºÙŠÙ„ ØªÙ„Ù‚Ø§Ø¦ÙŠÙ‹Ø§.
-- ØªØ³Ø±ÙŠØ¹ Ø¯ÙˆØ±Ø§Øª ØªØ·ÙˆÙŠØ± Ø§Ù„Ø¨Ø±Ù…Ø¬ÙŠØ§Øª ÙˆØ§Ù„Ø¬ÙˆØ¯Ø©.
+## أين يظهر الأثر؟
+- أتمتة البحث وإعداد التقارير.
+- فرز طلبات الدعم والتشغيل تلقائيًا.
+- تسريع دورات تطوير البرمجيات والجودة.
 
-## Ø·Ø±ÙŠÙ‚Ø© ØªÙ†ÙÙŠØ° ØµØ­ÙŠØ­Ø©
-- Ø§Ø¨Ø¯Ø£ Ø¨ØªØ¯ÙÙ‚ ÙˆØ§Ø­Ø¯ ÙˆØ§Ø¶Ø­ ÙˆØ¹Ø§Ù„ÙŠ Ø§Ù„Ø£Ø«Ø±.
-- ØµÙ…Ù… Ø§Ù„ÙˆÙƒÙŠÙ„ Ø¨Ù…Ø±Ø§Ø­Ù„ Ù…Ø­Ø¯Ø¯Ø©:
-  - Ø¬Ù…Ø¹ Ø§Ù„Ø³ÙŠØ§Ù‚
-  - ØªØ®Ø·ÙŠØ· Ø§Ù„Ø¥Ø¬Ø±Ø§Ø¡Ø§Øª
-  - Ø§Ù„ØªÙ†ÙÙŠØ° Ø¨ØµÙ„Ø§Ø­ÙŠØ§Øª Ù…Ø¶Ø¨ÙˆØ·Ø©
-  - ØªÙ‚Ø±ÙŠØ± Ø§Ù„Ù†ØªØ§Ø¦Ø¬ Ø¨Ø³Ø¬Ù„ ØªØªØ¨Ø¹
+## طريقة تنفيذ صحيحة
+- ابدأ بتدفق واحد واضح وعالي الأثر.
+- صمم الوكيل بمراحل محددة:
+  - جمع السياق
+  - تخطيط الإجراءات
+  - التنفيذ بصلاحيات مضبوطة
+  - تقرير النتائج بسجل تتبع
 
-## Ø§Ù„Ù†ØªÙŠØ¬Ø©
-Ø£ÙØ¶Ù„ Ø§Ù„ÙØ±Ù‚ ØªÙ…Ø²Ø¬ Ø­ÙƒÙ… Ø§Ù„Ø¥Ù†Ø³Ø§Ù† Ù…Ø¹ Ø§Ù„ØªÙ†ÙÙŠØ° Ø§Ù„Ø°Ø§ØªÙŠ Ø§Ù„Ø°ÙƒÙŠ.
+## النتيجة
+أفضل الفرق تمزج حكم الإنسان مع التنفيذ الذاتي الذكي.
 `,
     "ai-production-systems.md": `
-# Ø£Ù†Ø¸Ù…Ø© Ø§Ù„Ø°ÙƒØ§Ø¡ Ø§Ù„Ø§ØµØ·Ù†Ø§Ø¹ÙŠ Ù„Ù„Ø¥Ù†ØªØ§Ø¬
+# أنظمة الذكاء الاصطناعي للإنتاج
 
-Ø¨Ù†Ø§Ø¡ Ù…Ù†ØªØ¬Ø§Øª AI ÙŠØ­ØªØ§Ø¬ Ù‡Ù†Ø¯Ø³Ø© Ø¥Ù†ØªØ§Ø¬ÙŠØ©ØŒ ÙˆÙ„ÙŠØ³ Ù…Ø¬Ø±Ø¯ ØªØ¬Ø§Ø±Ø¨ Ø³Ø±ÙŠØ¹Ø©.
+بناء منتجات AI يحتاج هندسة إنتاجية، وليس مجرد تجارب سريعة.
 `,
     "agentic-automation-2026.md": `
-# Ø§Ù„Ø£ØªÙ…ØªØ© Ø§Ù„ÙˆÙƒÙŠÙ„Ø© ÙÙŠ 2026
+# الأتمتة الوكيلة في 2026
 
-ÙˆÙƒÙ„Ø§Ø¡ AI ÙŠÙ†ØªÙ‚Ù„ÙˆÙ† Ù…Ù† Ø§Ù„Ø¶Ø¬ÙŠØ¬ Ø¥Ù„Ù‰ Ù‚ÙŠÙ…Ø© ØªØ´ØºÙŠÙ„ÙŠØ© Ø­Ù‚ÙŠÙ‚ÙŠØ©.
+وكلاء AI ينتقلون من الضجيج إلى قيمة تشغيلية حقيقية.
 `
   }
 };
@@ -603,67 +603,109 @@ const state = {
 
 const fallbackProjects = [
   {
-    name: { en: "Iraqi National English Exam Prep", ar: "Ù…Ù†ØµØ© Ø§Ù„ØªØ­Ø¶ÙŠØ± Ù„Ù„Ø§Ù…ØªØ­Ø§Ù† Ø§Ù„ÙˆØ·Ù†ÙŠ Ø§Ù„Ø¥Ù†Ø¬Ù„ÙŠØ²ÙŠ" },
-    description: {
-      en: "Static prep platform for the Iraqi national English exam with passages, keyed questions, and practice flow.",
-      ar: "Ù…Ù†ØµØ© ØªØ­Ø¶ÙŠØ± Ù„Ù„Ø§Ù…ØªØ­Ø§Ù† Ø§Ù„ÙˆØ·Ù†ÙŠ Ø§Ù„Ø¥Ù†Ø¬Ù„ÙŠØ²ÙŠ Ù…Ø¹ Ù†ØµÙˆØµ ÙˆØ£Ø³Ø¦Ù„Ø© Ù…ÙØªØ§Ø­ÙŠØ© ÙˆÙ…Ø³Ø§Ø± ØªØ¯Ø±ÙŠØ¨ Ø¹Ù…Ù„ÙŠ."
+    "name": {
+      "en": "Iraqi National English Exam Prep",
+      "ar": "منصة التحضير للامتحان الوطني الإنجليزي"
     },
-    tech: ["HTML", "JavaScript", "EdTech"],
-    image: "./assets/project-exam.svg",
-    demo: "https://warithh.github.io/warith-exam-iq/",
-    github: "https://github.com/Warithh/warith-exam-iq"
+    "description": {
+      "en": "Static prep platform for the Iraqi national English exam with passages, keyed questions, and practice flow.",
+      "ar": "منصة تحضير للامتحان الوطني الإنجليزي مع نصوص وأسئلة مفتاحية ومسار تدريب عملي."
+    },
+    "tech": [
+      "HTML",
+      "JavaScript",
+      "EdTech"
+    ],
+    "image": "./assets/project-exam.svg",
+    "demo": "https://warithh.github.io/warith-exam-iq/",
+    "github": "https://github.com/Warithh/warith-exam-iq"
   },
   {
-    name: { en: "Arabic Exam Practice", ar: "Ù…Ù†ØµØ© ØªØ¯Ø±ÙŠØ¨ Ø§Ù„Ø§Ù…ØªØ­Ø§Ù† Ø§Ù„Ø¹Ø±Ø¨ÙŠ" },
-    description: {
-      en: "Focused Arabic exam practice site for students preparing with structured drills.",
-      ar: "Ù…ÙˆÙ‚Ø¹ ØªØ¯Ø±ÙŠØ¨ Ù…Ø±ÙƒÙ‘Ø² Ù„Ù„Ø§Ù…ØªØ­Ø§Ù† Ø§Ù„Ø¹Ø±Ø¨ÙŠ Ø¨ØªÙ…Ø§Ø±ÙŠÙ† Ù…Ù†Ø¸Ù…Ø© Ù„Ù„Ø·Ù„Ø¨Ø©."
+    "name": {
+      "en": "Arabic Exam Practice",
+      "ar": "منصة تدريب الامتحان العربي"
     },
-    tech: ["Web", "Education", "Assessment"],
-    image: "./assets/project-exam.svg",
-    github: "https://github.com/Warithh/WARITHARABICEXAM"
+    "description": {
+      "en": "Focused Arabic exam practice site for students preparing with structured drills.",
+      "ar": "موقع تدريب مركّز للامتحان العربي بتمارين منظمة للطلبة."
+    },
+    "tech": [
+      "Web",
+      "Education",
+      "Assessment"
+    ],
+    "image": "./assets/project-exam.svg",
+    "github": "https://github.com/Warithh/WARITHARABICEXAM"
   },
   {
-    name: { en: "Engineering Exam Hub", ar: "Ù…Ø±ÙƒØ² Ø§Ù…ØªØ­Ø§Ù†Ø§Øª Ù‡Ù†Ø¯Ø³ÙŠØ©" },
-    description: {
-      en: "Exam-oriented learning hub for engineering students with practical assessment paths.",
-      ar: "Ù…Ø±ÙƒØ² ØªØ¹Ù„Ù‘Ù… Ù…ÙˆØ¬Ù‘Ù‡ Ù„Ù„Ø§Ù…ØªØ­Ø§Ù†Ø§Øª Ù„Ø·Ù„Ø¨Ø© Ø§Ù„Ù‡Ù†Ø¯Ø³Ø© Ø¨Ù…Ø³Ø§Ø±Ø§Øª ØªÙ‚ÙŠÙŠÙ… Ø¹Ù…Ù„ÙŠØ©."
+    "name": {
+      "en": "Engineering Exam Hub",
+      "ar": "مركز امتحانات هندسية"
     },
-    tech: ["Web", "Engineering", "Assessment"],
-    image: "./assets/project-edtech.svg",
-    github: "https://github.com/Warithh/engeaxam"
+    "description": {
+      "en": "Exam-oriented learning hub for engineering students with practical assessment paths.",
+      "ar": "مركز تعلّم موجّه للامتحانات لطلبة الهندسة بمسارات تقييم عملية."
+    },
+    "tech": [
+      "Web",
+      "Engineering",
+      "Assessment"
+    ],
+    "image": "./assets/project-edtech.svg",
+    "github": "https://github.com/Warithh/engeaxam"
   },
   {
-    name: { en: "AI Tools & Automation Hub", ar: "Ù…Ø±ÙƒØ² Ø£Ø¯ÙˆØ§Øª Ø§Ù„Ø°ÙƒØ§Ø¡ Ø§Ù„Ø§ØµØ·Ù†Ø§Ø¹ÙŠ ÙˆØ§Ù„Ø£ØªÙ…ØªØ©" },
-    description: {
-      en: "Curated bilingual hub for AI updates, tools, and practical automation workflows.",
-      ar: "Ù…Ø±ÙƒØ² Ø«Ù†Ø§Ø¦ÙŠ Ø§Ù„Ù„ØºØ© Ù„ØªØ­Ø¯ÙŠØ«Ø§Øª ÙˆØ£Ø¯ÙˆØ§Øª Ø§Ù„Ø°ÙƒØ§Ø¡ Ø§Ù„Ø§ØµØ·Ù†Ø§Ø¹ÙŠ ÙˆØªØ¯ÙÙ‚Ø§Øª Ø§Ù„Ø£ØªÙ…ØªØ© Ø§Ù„Ø¹Ù…Ù„ÙŠØ©."
+    "name": {
+      "en": "AI Tools & Automation Hub",
+      "ar": "مركز أدوات الذكاء الاصطناعي والأتمتة"
     },
-    tech: ["Curated Content", "AI", "Automation"],
-    image: "./assets/project-ai.svg",
-    demo: "https://warithh.github.io/lof9x/",
-    github: "https://github.com/Warithh/lof9x"
+    "description": {
+      "en": "Curated bilingual hub for AI updates, tools, and practical automation workflows.",
+      "ar": "مركز ثنائي اللغة لتحديثات وأدوات الذكاء الاصطناعي وتدفقات الأتمتة العملية."
+    },
+    "tech": [
+      "Curated Content",
+      "AI",
+      "Automation"
+    ],
+    "image": "./assets/project-ai.svg",
+    "demo": "https://warithh.github.io/lof9x/",
+    "github": "https://github.com/Warithh/lof9x"
   },
   {
-    name: { en: "AI Telegram Bot", ar: "Ø¨ÙˆØª Ø°ÙƒØ§Ø¡ Ø§ØµØ·Ù†Ø§Ø¹ÙŠ Ø¹Ù„Ù‰ ØªÙŠÙ„ÙŠØ¬Ø±Ø§Ù…" },
-    description: {
-      en: "Telegram-facing AI assistant for quick answers, content help, and automation entry points.",
-      ar: "Ù…Ø³Ø§Ø¹Ø¯ Ø°ÙƒØ§Ø¡ Ø§ØµØ·Ù†Ø§Ø¹ÙŠ Ø¹Ø¨Ø± ØªÙŠÙ„ÙŠØ¬Ø±Ø§Ù… Ù„Ù„Ø¥Ø¬Ø§Ø¨Ø§Øª Ø§Ù„Ø³Ø±ÙŠØ¹Ø© ÙˆØ§Ù„Ù…Ø­ØªÙˆÙ‰ ÙˆÙ…Ø¯Ø§Ø®Ù„ Ø§Ù„Ø£ØªÙ…ØªØ©."
+    "name": {
+      "en": "AI Telegram Bot",
+      "ar": "بوت ذكاء اصطناعي على تيليجرام"
     },
-    tech: ["Telegram", "AI", "Bot"],
-    image: "./assets/project-ai.svg",
-    github: "https://github.com/Warithh/warith_ai_bot"
+    "description": {
+      "en": "Telegram-facing AI assistant for quick answers, content help, and automation entry points.",
+      "ar": "مساعد ذكاء اصطناعي عبر تيليجرام للإجابات السريعة والمحتوى ومداخل الأتمتة."
+    },
+    "tech": [
+      "Telegram",
+      "AI",
+      "Bot"
+    ],
+    "image": "./assets/project-ai.svg",
+    "github": "https://github.com/Warithh/warith_ai_bot"
   },
   {
-    name: { en: "Eid Greeting Experience", ar: "ØªØ¬Ø±Ø¨Ø© ØªÙ‡Ù†Ø¦Ø© Ø§Ù„Ø¹ÙŠØ¯" },
-    description: {
-      en: "Interactive Eid greeting page with QR sharing and photo layout for family events.",
-      ar: "ØµÙØ­Ø© ØªÙ‡Ù†Ø¦Ø© Ø¹ÙŠØ¯ ØªÙØ§Ø¹Ù„ÙŠØ© Ù…Ø¹ Ù…Ø´Ø§Ø±ÙƒØ© QR ÙˆØªØ®Ø·ÙŠØ· ØµÙˆØ± Ù„Ù„Ù…Ù†Ø§Ø³Ø¨Ø§Øª Ø§Ù„Ø¹Ø§Ø¦Ù„ÙŠØ©."
+    "name": {
+      "en": "Eid Greeting Experience",
+      "ar": "تجربة تهنئة العيد"
     },
-    tech: ["HTML", "CSS", "UX"],
-    image: "./assets/project-edtech.svg",
-    demo: "https://warithh.github.io/eid-greeting-alawiti/",
-    github: "https://github.com/Warithh/eid-greeting-alawiti"
+    "description": {
+      "en": "Interactive Eid greeting page with QR sharing and photo layout for family events.",
+      "ar": "صفحة تهنئة عيد تفاعلية مع مشاركة QR وتخطيط صور للمناسبات العائلية."
+    },
+    "tech": [
+      "HTML",
+      "CSS",
+      "UX"
+    ],
+    "image": "./assets/project-edtech.svg",
+    "demo": "https://warithh.github.io/eid-greeting-alawiti/",
+    "github": "https://github.com/Warithh/eid-greeting-alawiti"
   }
 ];
 
@@ -823,14 +865,13 @@ function renderUpdates() {
     card.style.setProperty("--stagger", `${index * 45}ms`);
     const title = escapeHtml(pickLangValue(item.title));
     const summary = escapeHtml(pickLangValue(item.summary));
-    const category = escapeHtml(item.category || item.type || "");
-    const org = escapeHtml(item.organization || item.org || "");
-    const date = escapeHtml(item.date || "");
-    const link = item.link || item.url || "#";
+    const category = escapeHtml(item.category);
+    const org = escapeHtml(item.organization);
+    const date = escapeHtml(item.date);
     card.innerHTML = `
       <div class="card-top">
         <h3>${title}</h3>
-        <a class="card-link" href="${escapeHtml(link)}" target="_blank" rel="noopener">${t("common.source")}</a>
+        <a class="card-link" href="${escapeHtml(item.link)}" target="_blank" rel="noopener">${t("common.source")}</a>
       </div>
       <p>${summary}</p>
       <div class="meta">
@@ -950,16 +991,16 @@ function categoryGuidance(category) {
       "Data AI": "Predictive analytics, dashboard intelligence, business insights, and data-driven decision support."
     },
     ar: {
-      "AI Chat": "Ù„Ù„Ø¨Ø­Ø« Ø§Ù„Ø°ÙƒÙŠØŒ ØªÙˆÙ„ÙŠØ¯ Ø§Ù„Ø£ÙÙƒØ§Ø±ØŒ ØµÙŠØ§ØºØ© Ø§Ù„Ù…Ø­ØªÙˆÙ‰ØŒ Ø§Ù„Ø§Ø³ØªØ¯Ù„Ø§Ù„ØŒ ÙˆÙ…Ù‡Ø§Ù… Ø§Ù„Ù…Ø³Ø§Ø¹Ø¯ Ø§Ù„ÙŠÙˆÙ…ÙŠ.",
-      "Coding AI": "Ù„ØªÙˆÙ„ÙŠØ¯ Ø§Ù„ÙƒÙˆØ¯ØŒ Ø¥Ø¹Ø§Ø¯Ø© Ø§Ù„Ù‡ÙŠÙƒÙ„Ø©ØŒ Ø§ÙƒØªØ´Ø§Ù Ø§Ù„Ø£Ø®Ø·Ø§Ø¡ØŒ Ø§Ù„Ø§Ø®ØªØ¨Ø§Ø±Ø§ØªØŒ Ø§Ù„ØªÙˆØ«ÙŠÙ‚ØŒ ÙˆØ¯Ø¹Ù… Ø§Ù„Ù…Ø¹Ù…Ø§Ø±ÙŠØ©.",
-      "Image Generation": "Ù„Ù„ØªØµÙ…ÙŠÙ… Ø§Ù„Ø¨ØµØ±ÙŠØŒ Ù…Ø­ØªÙˆÙ‰ Ø§Ù„Ø³ÙˆØ´Ø§Ù„ØŒ Ø§Ù„Ù‡ÙˆÙŠØ© Ø§Ù„Ø¨ØµØ±ÙŠØ©ØŒ Ø§Ù„ÙÙ† Ø§Ù„Ù…ÙØ§Ù‡ÙŠÙ…ÙŠØŒ ÙˆØ§Ù„Ø¥Ø¹Ù„Ø§Ù†Ø§Øª.",
-      "Video Generation": "Ù„Ø¥Ù†ØªØ§Ø¬ Ø§Ù„ÙÙŠØ¯ÙŠÙˆØŒ Ø§Ù„ØªÙˆØ·ÙŠÙ†ØŒ Ø§Ù„Ø´Ø±ÙˆØ­Ø§ØªØŒ ÙˆØ§Ù„Ù…Ø­ØªÙˆÙ‰ Ø§Ù„Ù…Ø±Ø¦ÙŠ Ø§Ù„Ù‚ØµÙŠØ±.",
-      "Research AI": "Ù„Ù„Ø¨Ø­Ø« Ø§Ù„Ø£ÙƒØ§Ø¯ÙŠÙ…ÙŠØŒ Ø§Ù„Ø¥Ø¬Ø§Ø¨Ø§Øª Ø§Ù„Ù…ÙˆØ«Ù‚Ø©ØŒ ØªØªØ¨Ø¹ Ø§Ù„Ø§ØªØ¬Ø§Ù‡Ø§ØªØŒ ÙˆÙ…Ø±Ø§Ø¬Ø¹Ø© Ø§Ù„Ø£Ø¯Ø¨ÙŠØ§Øª.",
-      "Productivity AI": "Ù„Ø£ØªÙ…ØªØ© Ø§Ù„Ù…Ù‡Ø§Ù…ØŒ Ø§Ù„ØªÙ„Ø®ÙŠØµØŒ Ù…Ù„Ø§Ø­Ø¸Ø§Øª Ø§Ù„Ø§Ø¬ØªÙ…Ø§Ø¹Ø§ØªØŒ Ø§Ù„ØªØ®Ø·ÙŠØ·ØŒ ÙˆØ±ÙØ¹ Ø¥Ù†ØªØ§Ø¬ÙŠØ© Ø§Ù„ÙØ±Ù‚.",
-      "Audio AI": "Ù„ØªÙˆÙ„ÙŠØ¯ Ø§Ù„ØµÙˆØªØŒ Ø§Ù„ØªØ¹Ù„ÙŠÙ‚ Ø§Ù„Ø§Ø­ØªØ±Ø§ÙÙŠØŒ Ø§Ù„Ø¯Ø¨Ù„Ø¬Ø©ØŒ Ø§Ù„Ø¨ÙˆØ¯ÙƒØ§Ø³ØªØŒ ÙˆØªØ¯ÙÙ‚Ø§Øª Ø§Ù„ØµÙˆØª Ù…ØªØ¹Ø¯Ø¯Ø© Ø§Ù„Ù„ØºØ§Øª.",
-      "Agents & Automation": "Ù„Ø¨Ù†Ø§Ø¡ ÙˆÙƒÙ„Ø§Ø¡ Ø°ÙƒÙŠÙŠÙ† ÙˆØªØ¯ÙÙ‚Ø§Øª Ø¹Ù…Ù„ Ù…Ø³ØªÙ‚Ù„Ø© ÙˆØªÙƒØ§Ù…Ù„Ø§Øª ÙˆØ£ØªÙ…ØªØ© Ø¹Ù…Ù„ÙŠØ§Øª Ø§Ù„Ø£Ø¹Ù…Ø§Ù„.",
-      "Presentation AI": "Ù„Ø¥Ù†Ø´Ø§Ø¡ Ø¹Ø±ÙˆØ¶ ØªÙ‚Ø¯ÙŠÙ…ÙŠØ© ÙˆØªÙ‚Ø§Ø±ÙŠØ± ÙˆØ³Ø±Ø¯ Ø¨ØµØ±ÙŠ Ø§Ø­ØªØ±Ø§ÙÙŠ Ø¬Ø§Ù‡Ø² Ù„Ù„Ø¥Ø¯Ø§Ø±Ø© ÙˆØ§Ù„Ø¹Ù…Ù„Ø§Ø¡.",
-      "Data AI": "Ù„Ù„ØªØ­Ù„ÙŠÙ„Ø§Øª Ø§Ù„ØªÙ†Ø¨Ø¤ÙŠØ©ØŒ Ø°ÙƒØ§Ø¡ Ù„ÙˆØ­Ø§Øª Ø§Ù„Ù…Ø¹Ù„ÙˆÙ…Ø§ØªØŒ Ø§Ø³ØªØ®Ù„Ø§Øµ Ø§Ù„Ø±Ø¤Ù‰ØŒ ÙˆØ¯Ø¹Ù… Ø§Ù„Ù‚Ø±Ø§Ø±Ø§Øª Ø¨Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª."
+      "AI Chat": "للبحث الذكي، توليد الأفكار، صياغة المحتوى، الاستدلال، ومهام المساعد اليومي.",
+      "Coding AI": "لتوليد الكود، إعادة الهيكلة، اكتشاف الأخطاء، الاختبارات، التوثيق، ودعم المعمارية.",
+      "Image Generation": "للتصميم البصري، محتوى السوشال، الهوية البصرية، الفن المفاهيمي، والإعلانات.",
+      "Video Generation": "لإنتاج الفيديو، التوطين، الشروحات، والمحتوى المرئي القصير.",
+      "Research AI": "للبحث الأكاديمي، الإجابات الموثقة، تتبع الاتجاهات، ومراجعة الأدبيات.",
+      "Productivity AI": "لأتمتة المهام، التلخيص، ملاحظات الاجتماعات، التخطيط، ورفع إنتاجية الفرق.",
+      "Audio AI": "لتوليد الصوت، التعليق الاحترافي، الدبلجة، البودكاست، وتدفقات الصوت متعددة اللغات.",
+      "Agents & Automation": "لبناء وكلاء ذكيين وتدفقات عمل مستقلة وتكاملات وأتمتة عمليات الأعمال.",
+      "Presentation AI": "لإنشاء عروض تقديمية وتقارير وسرد بصري احترافي جاهز للإدارة والعملاء.",
+      "Data AI": "للتحليلات التنبؤية، ذكاء لوحات المعلومات، استخلاص الرؤى، ودعم القرارات بالبيانات."
     }
   };
   return data[state.lang]?.[category] || data.en[category] || "";
@@ -968,10 +1009,10 @@ function categoryGuidance(category) {
 function usageModel(tool) {
   const badges = tool.badges || [];
   if (state.lang === "ar") {
-    if (badges.includes("Free") && badges.includes("Paid")) return "Ù†Ø³Ø®Ø© Ù…Ø¬Ø§Ù†ÙŠØ© + Ø®Ø·Ø· Ù…Ø¯ÙÙˆØ¹Ø© Ù…ØªÙ‚Ø¯Ù…Ø©.";
-    if (badges.includes("Free")) return "Ù…Ø¬Ø§Ù†Ù‹Ø§ Ù…Ø¹ Ø®ÙŠØ§Ø±Ø§Øª ØªÙˆØ³Ø¹ Ù…Ø³ØªÙ‚Ø¨Ù„ÙŠØ©.";
-    if (badges.includes("Paid")) return "Ø®Ø¯Ù…Ø© Ù…Ø¯ÙÙˆØ¹Ø© Ø¨Ø§Ø´ØªØ±Ø§Ùƒ Ø§Ø­ØªØ±Ø§ÙÙŠ.";
-    return "Ù†Ù…ÙˆØ°Ø¬ Ø§Ø³ØªØ®Ø¯Ø§Ù… ÙŠØ¹ØªÙ…Ø¯ Ø¹Ù„Ù‰ Ø§Ù„Ø®Ø¯Ù…Ø© ÙˆØ§Ù„Ù…Ø²ÙˆØ¯.";
+    if (badges.includes("Free") && badges.includes("Paid")) return "نسخة مجانية + خطط مدفوعة متقدمة.";
+    if (badges.includes("Free")) return "مجانًا مع خيارات توسع مستقبلية.";
+    if (badges.includes("Paid")) return "خدمة مدفوعة باشتراك احترافي.";
+    return "نموذج استخدام يعتمد على الخدمة والمزود.";
   }
   if (badges.includes("Free") && badges.includes("Paid")) return "Free tier plus advanced paid plans.";
   if (badges.includes("Free")) return "Free access with optional expansion paths.";
@@ -982,10 +1023,10 @@ function usageModel(tool) {
 function usageSteps() {
   if (state.lang === "ar") {
     return [
-      "Ø­Ø¯Ø¯ Ø§Ù„Ù‡Ø¯Ù Ø¨ÙˆØ¶ÙˆØ­ (Ù…Ø­ØªÙˆÙ‰ØŒ ÙƒÙˆØ¯ØŒ Ø¨Ø­Ø«ØŒ Ø£Ùˆ Ø¥Ù†ØªØ§Ø¬ÙŠØ©).",
-      "Ø¬Ù‡Ø² Ù…Ø¯Ø®Ù„Ø§Øª Ø¯Ù‚ÙŠÙ‚Ø© (ÙˆØµÙØŒ Ø¨ÙŠØ§Ù†Ø§ØªØŒ Ù…Ù„ÙØ§ØªØŒ Ø£Ùˆ Ø£Ù…Ø«Ù„Ø©).",
-      "Ù†ÙÙ‘Ø° ØªØ¬Ø±Ø¨Ø© Ø£ÙˆÙ„ÙŠØ©ØŒ Ø«Ù… Ù‚ÙŠÙ‘Ù… Ø§Ù„Ù†ØªØ§Ø¦Ø¬ ÙˆØ­Ø³Ù‘Ù† Ø§Ù„Ø¨Ø±ÙˆÙ…Ø¨Øª/Ø§Ù„Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª.",
-      "ÙØ¹Ù‘Ù„ Ø§Ù„ØªÙƒØ§Ù…Ù„ Ø£Ùˆ Ø§Ù„Ø£ØªÙ…ØªØ© Ù„ØªØ­Ù‚ÙŠÙ‚ Ù‚ÙŠÙ…Ø© Ø¹Ù…Ù„ÙŠØ© Ù…Ø³ØªÙ…Ø±Ø©."
+      "حدد الهدف بوضوح (محتوى، كود، بحث، أو إنتاجية).",
+      "جهز مدخلات دقيقة (وصف، بيانات، ملفات، أو أمثلة).",
+      "نفّذ تجربة أولية، ثم قيّم النتائج وحسّن البرومبت/الإعدادات.",
+      "فعّل التكامل أو الأتمتة لتحقيق قيمة عملية مستمرة."
     ];
   }
   return [
@@ -1155,7 +1196,7 @@ function renderProjects() {
     if (project.learn) actions.push(`<a class="card-link" href="${escapeHtml(project.learn)}" target="_blank" rel="noopener">${t("common.learn")}</a>`);
     const actionHtml = actions.length
       ? `<div class="meta">${actions.join("")}</div>`
-      : `<div class="meta"><span class="tag">${isAr ? "ÙÙƒØ±Ø© Ù…Ø´Ø±ÙˆØ¹" : "Project Idea"}</span></div>`;
+      : `<div class="meta"><span class="tag">${isAr ? "فكرة مشروع" : "Project Idea"}</span></div>`;
     card.innerHTML = `
       <img src="${escapeHtml(project.image)}" class="project-thumb" alt="${escapeHtml(pickLangValue(project.name))}" loading="lazy">
       <div class="card-top">
@@ -1253,10 +1294,10 @@ async function openPost(post) {
   } catch (error) {
     const langFallback = fallbackPostContent[state.lang] || fallbackPostContent.en;
     const fallbackMd = langFallback[file] || fallbackPostContent.en[file] || `
-# ${state.lang === "ar" ? "Ù…Ù‚Ø§Ù„ ØªÙ‚Ù†ÙŠ" : "Technical Post"}
+# ${state.lang === "ar" ? "مقال تقني" : "Technical Post"}
 
 ${state.lang === "ar"
-  ? "ØªØ¹Ø°Ø± ØªØ­Ù…ÙŠÙ„ Ù‡Ø°Ø§ Ø§Ù„Ù…Ù„Ù Ù…Ù† Ø§Ù„Ù…ØµØ¯Ø±ØŒ Ù„Ø°Ù„Ùƒ ØªÙ… Ø¹Ø±Ø¶ Ù†Ø³Ø®Ø© Ø§Ø­ØªÙŠØ§Ø·ÙŠØ© Ù…Ù† Ø§Ù„Ù…Ø­ØªÙˆÙ‰."
+  ? "تعذر تحميل هذا الملف من المصدر، لذلك تم عرض نسخة احتياطية من المحتوى."
   : "This post could not be loaded from source, so a fallback article is shown."}
 `;
     elements.blogContent.innerHTML = markdownToHtml(fallbackMd);
