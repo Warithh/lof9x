@@ -3,38 +3,38 @@ const THEME_KEY = "lof9x_theme";
 
 const ui = {
   ar: {
-    back: "?????? ??????",
-    allCases: "?? ?????? ?????",
-    problem: "???????",
-    solution: "????",
-    methods: "????? ??????? ?????????",
-    impact: "?????",
-    outcomes: "???? ??????",
-    live: "??? ?????? ???????",
-    github: "GitHub",
-    readCase: "???? ????? ?????",
-    indexTitle: "?????? ?????",
-    indexSub: "?????? ??????: ?????? ??? ??? ?????? ?????? ?????.",
-    notFound: "????? ????? ??? ??????.",
-    themeDark: "????",
-    themeLight: "????"
+    "back": "العودة للموقع",
+    "allCases": "كل دراسات الأثر",
+    "problem": "المشكلة",
+    "solution": "الحل",
+    "methods": "الطرق الحديثة المستخدمة",
+    "impact": "الأثر",
+    "outcomes": "ماذا تغيّر؟",
+    "live": "فتح النظام المباشر",
+    "github": "GitHub",
+    "readCase": "اقرأ دراسة الأثر",
+    "indexTitle": "دراسات الأثر",
+    "indexSub": "مشاريع حقيقية: مشكلة، حل، طرق حديثة، ونتيجة واضحة.",
+    "notFound": "دراسة الأثر غير موجودة.",
+    "themeDark": "داكن",
+    "themeLight": "فاتح"
   },
   en: {
-    back: "Back to site",
-    allCases: "All impact cases",
-    problem: "Problem",
-    solution: "Solution",
-    methods: "Modern methods used",
-    impact: "Impact",
-    outcomes: "What changed",
-    live: "Open live system",
-    github: "GitHub",
-    readCase: "Read impact case",
-    indexTitle: "Impact Cases",
-    indexSub: "Real projects: problem, solution, modern methods, and clear outcome.",
-    notFound: "Impact case not found.",
-    themeDark: "Dark",
-    themeLight: "Light"
+    "back": "Back to site",
+    "allCases": "All impact cases",
+    "problem": "Problem",
+    "solution": "Solution",
+    "methods": "Modern methods used",
+    "impact": "Impact",
+    "outcomes": "What changed",
+    "live": "Open live system",
+    "github": "GitHub",
+    "readCase": "Read impact case",
+    "indexTitle": "Impact Cases",
+    "indexSub": "Real projects: problem, solution, modern methods, and clear outcome.",
+    "notFound": "Impact case not found.",
+    "themeDark": "Dark",
+    "themeLight": "Light"
   }
 };
 
@@ -76,22 +76,18 @@ async function loadCases() {
 function renderIndex() {
   const grid = document.getElementById("casesGrid");
   if (!grid) return;
-  document.title = `${t("indexTitle")} | lof9x`;
-  grid.innerHTML = state.cases
-    .map(
-      (item) => `
-      <a class="case-card" href="./view.html?id=${encodeURIComponent(item.id)}">
-        <img src="${item.cover}" alt="${pick(item.title)}" loading="lazy"
-          onerror="this.onerror=null;this.src='${item.coverFallback || item.cover}'">
-        <div class="body">
-          <p class="eyebrow">${pick(item.eyebrow)}</p>
-          <h3>${pick(item.title)}</h3>
-          <p>${pick(item.subtitle)}</p>
-          <span class="btn btn-primary" style="width:fit-content;margin-top:.35rem">${t("readCase")}</span>
-        </div>
-      </a>`
-    )
-    .join("");
+  document.title = t("indexTitle") + " | lof9x";
+  grid.innerHTML = state.cases.map((item) => {
+    const cover = item.coverFallback || item.cover;
+    return '<a class="case-card" href="./view.html?id=' + encodeURIComponent(item.id) + '">'
+      + '<img src="' + item.cover + '" alt="' + pick(item.title) + '" loading="lazy" onerror="this.onerror=null;this.src=\'' + cover + '\'">'
+      + '<div class="body">'
+      + '<p class="eyebrow">' + pick(item.eyebrow) + '</p>'
+      + '<h3>' + pick(item.title) + '</h3>'
+      + '<p>' + pick(item.subtitle) + '</p>'
+      + '<span class="btn btn-primary" style="width:fit-content;margin-top:.35rem">' + t("readCase") + '</span>'
+      + '</div></a>';
+  }).join("");
 }
 
 function renderView() {
@@ -100,67 +96,34 @@ function renderView() {
   const id = new URLSearchParams(location.search).get("id") || state.cases[0]?.id;
   const item = state.cases.find((c) => c.id === id) || state.cases[0];
   if (!item) {
-    root.innerHTML = `<div class="block"><p>${t("notFound")}</p></div>`;
+    root.innerHTML = '<div class="block"><p>' + t("notFound") + '</p></div>';
     return;
   }
-
-  document.title = `${pick(item.title)} | lof9x`;
+  document.title = pick(item.title) + " | lof9x";
   const outcomes = pick(item.outcomes);
   const outcomeList = Array.isArray(outcomes) ? outcomes : [];
   const ctas = [];
-  if (item.demo) ctas.push(`<a class="btn btn-primary" href="${item.demo}" target="_blank" rel="noopener">${t("live")}</a>`);
-  if (item.github) ctas.push(`<a class="btn" href="${item.github}" target="_blank" rel="noopener">${t("github")}</a>`);
-  ctas.push(`<a class="btn" href="./index.html">${t("allCases")}</a>`);
-
-  root.innerHTML = `
-    <article class="hero-card">
-      <img class="cover" src="${item.cover}" alt="${pick(item.title)}"
-        onerror="this.onerror=null;this.src='${item.coverFallback || item.cover}'">
-      <p class="eyebrow">${pick(item.eyebrow)}</p>
-      <h1>${pick(item.title)}</h1>
-      <p class="lead">${pick(item.subtitle)}</p>
-      <div class="cta-row">${ctas.join("")}</div>
-    </article>
-
-    <section class="block">
-      <h2>${t("problem")}</h2>
-      <p>${pick(item.problem)}</p>
-    </section>
-
-    <section class="block">
-      <h2>${t("solution")}</h2>
-      <p>${pick(item.solution)}</p>
-    </section>
-
-    <section class="block">
-      <h2>${t("methods")}</h2>
-      <div class="methods">${(item.methods || []).map((m) => `<span class="tag">${m}</span>`).join("")}</div>
-    </section>
-
-    <section class="block">
-      <h2>${t("impact")}</h2>
-      <div class="impact-grid">
-        ${(item.impact || [])
-          .map(
-            (row) => `
-          <div class="impact-item">
-            <strong>${pick(row.value)}</strong>
-            <span>${pick(row.label)}</span>
-          </div>`
-          )
-          .join("")}
-      </div>
-    </section>
-
-    <section class="block">
-      <h2>${t("outcomes")}</h2>
-      <ul class="outcomes">${outcomeList.map((line) => `<li>${line}</li>`).join("")}</ul>
-    </section>
-  `;
+  if (item.demo) ctas.push('<a class="btn btn-primary" href="' + item.demo + '" target="_blank" rel="noopener">' + t("live") + '</a>');
+  if (item.github) ctas.push('<a class="btn" href="' + item.github + '" target="_blank" rel="noopener">' + t("github") + '</a>');
+  ctas.push('<a class="btn" href="./index.html">' + t("allCases") + '</a>');
+  const cover = item.coverFallback || item.cover;
+  root.innerHTML = '
+    <article class="hero-card">'
+    + '<img class="cover" src="' + item.cover + '" alt="' + pick(item.title) + '" onerror="this.onerror=null;this.src=\'' + cover + '\'">'
+    + '<p class="eyebrow">' + pick(item.eyebrow) + '</p>'
+    + '<h1>' + pick(item.title) + '</h1>'
+    + '<p class="lead">' + pick(item.subtitle) + '</p>'
+    + '<div class="cta-row">' + ctas.join("") + '</div>'
+    + '</article>'
+    + '<section class="block"><h2>' + t("problem") + '</h2><p>' + pick(item.problem) + '</p></section>'
+    + '<section class="block"><h2>' + t("solution") + '</h2><p>' + pick(item.solution) + '</p></section>'
+    + '<section class="block"><h2>' + t("methods") + '</h2><div class="methods">' + (item.methods || []).map((m) => '<span class="tag">' + m + '</span>').join("") + '</div></section>'
+    + '<section class="block"><h2>' + t("impact") + '</h2><div class="impact-grid">' + (item.impact || []).map((row) => '<div class="impact-item"><strong>' + pick(row.value) + '</strong><span>' + pick(row.label) + '</span></div>').join("") + '</div></section>'
+    + '<section class="block"><h2>' + t("outcomes") + '</h2><ul class="outcomes">' + outcomeList.map((line) => '<li>' + line + '</li>').join("") + '</ul></section>';
 }
 
 function wireControls() {
-  document.getElementById("langBtn")?.addEventListener("click", async () => {
+  document.getElementById("langBtn")?.addEventListener("click", () => {
     state.lang = state.lang === "ar" ? "en" : "ar";
     localStorage.setItem(LANG_KEY, state.lang);
     applyChrome();
@@ -177,11 +140,7 @@ function wireControls() {
 async function boot() {
   applyChrome();
   wireControls();
-  try {
-    await loadCases();
-  } catch (error) {
-    console.error(error);
-  }
+  try { await loadCases(); } catch (error) { console.error(error); }
   if (document.getElementById("casesGrid")) renderIndex();
   if (document.getElementById("caseRoot")) renderView();
 }
