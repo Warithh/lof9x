@@ -1,0 +1,913 @@
+[
+  {
+    "name": { "en": "ChatGPT", "ar": "شات جي بي تي" },
+    "description": {
+      "en": "All-in-one AI assistant for writing, coding, analysis, voice interaction, and agentic workflows.",
+      "ar": "مساعد شامل للكتابة والبرمجة والتحليل والتفاعل الصوتي وبناء تدفقات عمل ذكية."
+    },
+    "link": "https://chatgpt.com",
+    "category": "AI Chat"
+  },
+  {
+    "name": { "en": "Claude", "ar": "كلود" },
+    "description": {
+      "en": "Strong long-context assistant for deep reasoning, document analysis, and professional writing.",
+      "ar": "مساعد قوي في فهم السياق الطويل والاستدلال وتحليل الوثائق والكتابة الاحترافية."
+    },
+    "link": "https://claude.ai",
+    "category": "AI Chat"
+  },
+  {
+    "name": { "en": "Gemini", "ar": "جيمناي" },
+    "description": {
+      "en": "Google's multimodal AI platform for chat, reasoning, coding, and workspace productivity.",
+      "ar": "منصة جوجل متعددة الوسائط للمحادثة والاستدلال والبرمجة والإنتاجية."
+    },
+    "link": "https://gemini.google.com",
+    "category": "AI Chat"
+  },
+  {
+    "name": { "en": "DeepSeek Chat", "ar": "ديب سيك شات" },
+    "description": {
+      "en": "Reasoning-focused AI chat known for strong performance in technical and coding conversations.",
+      "ar": "محادثة ذكاء اصطناعي تركّز على الاستدلال وأداء قوي في المهام التقنية والبرمجية."
+    },
+    "link": "https://chat.deepseek.com",
+    "category": "AI Chat"
+  },
+  {
+    "name": { "en": "Meta AI", "ar": "ميتا AI" },
+    "description": {
+      "en": "Conversational AI integrated into Meta apps for quick answers, recommendations, and media generation.",
+      "ar": "مساعد محادثة مدمج في تطبيقات ميتا للإجابات السريعة والتوصيات وتوليد الوسائط."
+    },
+    "link": "https://www.meta.ai",
+    "category": "AI Chat"
+  },
+  {
+    "name": { "en": "Mistral Le Chat", "ar": "ميسترال لو شات" },
+    "description": {
+      "en": "Fast European AI assistant focused on multilingual conversations and enterprise use.",
+      "ar": "مساعد ذكاء اصطناعي سريع متعدد اللغات ومناسب للاستخدام المهني والمؤسسي."
+    },
+    "link": "https://chat.mistral.ai",
+    "category": "AI Chat"
+  },
+  {
+    "name": { "en": "Perplexity Assistant", "ar": "بيربلكسيتي أسيستنت" },
+    "description": {
+      "en": "AI assistant with web-backed answers and references for accurate knowledge retrieval.",
+      "ar": "مساعد ذكي يقدم إجابات مدعومة بالويب مع مراجع للحصول على معرفة أدق."
+    },
+    "link": "https://www.perplexity.ai",
+    "category": "AI Chat"
+  },
+  {
+    "name": { "en": "Cursor", "ar": "كيرسر" },
+    "description": {
+      "en": "AI-native code editor for pair programming, refactoring, debugging, and large codebase navigation.",
+      "ar": "محرر برمجي مدعوم بالذكاء الاصطناعي للبرمجة الثنائية وإعادة الهيكلة وتتبع المشاريع الكبيرة."
+    },
+    "link": "https://cursor.com",
+    "category": "Coding AI"
+  },
+  {
+    "name": { "en": "GitHub Copilot", "ar": "جيت هب كوبايلوت" },
+    "description": {
+      "en": "AI coding companion inside IDEs for suggestions, test generation, and pull request assistance.",
+      "ar": "مرافق برمجي داخل بيئات التطوير لتوليد الاقتراحات والاختبارات والمساعدة في طلبات الدمج."
+    },
+    "link": "https://github.com/features/copilot",
+    "category": "Coding AI"
+  },
+  {
+    "name": { "en": "Windsurf Editor", "ar": "ويندسيرف" },
+    "description": {
+      "en": "AI-first development environment focused on autonomous coding flows and rapid iteration.",
+      "ar": "بيئة تطوير تركز على الأتمتة الذكية في البرمجة وتسريع دورات البناء والتحسين."
+    },
+    "link": "https://codeium.com/windsurf",
+    "category": "Coding AI"
+  },
+  {
+    "name": { "en": "v0 by Vercel", "ar": "في صفر من فيرسل" },
+    "description": {
+      "en": "Generates modern UI components and front-end code from prompts with developer-ready output.",
+      "ar": "ينشئ مكونات واجهات حديثة وكود واجهات أمامية من النصوص مع مخرجات جاهزة للمطور."
+    },
+    "link": "https://v0.dev",
+    "category": "Coding AI"
+  },
+  {
+    "name": { "en": "Codeium", "ar": "كوديوم" },
+    "description": {
+      "en": "AI coding assistant with autocomplete, chat, and context-aware coding support.",
+      "ar": "مساعد برمجي ذكي يقدم إكمال تلقائي ومحادثة ودعما واعيا بسياق المشروع."
+    },
+    "link": "https://codeium.com",
+    "category": "Coding AI"
+  },
+  {
+    "name": { "en": "Replit Agent", "ar": "ريبلت إيجنت" },
+    "description": {
+      "en": "Build and ship apps using natural language with integrated cloud development environments.",
+      "ar": "أنشئ تطبيقات واطلقها باستخدام اللغة الطبيعية داخل بيئة تطوير سحابية متكاملة."
+    },
+    "link": "https://replit.com/ai",
+    "category": "Coding AI"
+  },
+  {
+    "name": { "en": "Amazon Q Developer", "ar": "أمازون كيو ديفلوبر" },
+    "description": {
+      "en": "Developer-focused AI assistant for coding, cloud tasks, and AWS-centric workflows.",
+      "ar": "مساعد AI للمطورين للبرمجة ومهام السحابة وتدفقات العمل داخل AWS."
+    },
+    "link": "https://aws.amazon.com/q/developer/",
+    "category": "Coding AI"
+  },
+  {
+    "name": { "en": "Midjourney", "ar": "ميدجورني" },
+    "description": {
+      "en": "Premium image generator for concept art, branding visuals, and high-fidelity creative assets.",
+      "ar": "مولد صور احترافي للتصميم المفاهيمي والهوية البصرية وإنتاج أصول إبداعية عالية الجودة."
+    },
+    "link": "https://www.midjourney.com",
+    "category": "Image Generation"
+  },
+  {
+    "name": { "en": "DALL-E", "ar": "دال إي" },
+    "description": {
+      "en": "Image generation and editing for product mockups, illustrations, and visual storytelling.",
+      "ar": "توليد وتحرير الصور للنماذج الأولية للمنتجات والرسوم التوضيحية والسرد البصري."
+    },
+    "link": "https://openai.com/dall-e",
+    "category": "Image Generation"
+  },
+  {
+    "name": { "en": "Adobe Firefly", "ar": "أدوبي فايرفلاي" },
+    "description": {
+      "en": "Creative image AI for design workflows with strong integration into Adobe tools.",
+      "ar": "ذكاء اصطناعي إبداعي للصور مدمج بقوة مع أدوات أدوبي لتسريع سير عمل التصميم."
+    },
+    "link": "https://firefly.adobe.com",
+    "category": "Image Generation"
+  },
+  {
+    "name": { "en": "Ideogram", "ar": "إيديوغرام" },
+    "description": {
+      "en": "Image model known for high-quality typography and text rendering inside generated visuals.",
+      "ar": "نموذج صور معروف بجودة كتابة النصوص داخل التصاميم والصور المولدة."
+    },
+    "link": "https://ideogram.ai",
+    "category": "Image Generation"
+  },
+  {
+    "name": { "en": "Stable Diffusion", "ar": "ستايبل ديفيوجن" },
+    "description": {
+      "en": "Open image generation ecosystem for custom styles, local deployment, and advanced control.",
+      "ar": "منظومة مفتوحة لتوليد الصور مع تخصيص الأنماط والتشغيل المحلي والتحكم المتقدم."
+    },
+    "link": "https://stability.ai",
+    "category": "Image Generation"
+  },
+  {
+    "name": { "en": "Leonardo AI", "ar": "ليوناردو AI" },
+    "description": {
+      "en": "Creative image platform for game assets, design concepts, and visual production workflows.",
+      "ar": "منصة إبداعية للصور لإنشاء أصول الألعاب والمفاهيم التصميمية وسير العمل البصري."
+    },
+    "link": "https://leonardo.ai",
+    "category": "Image Generation"
+  },
+  {
+    "name": { "en": "Canva Magic Studio", "ar": "كانفا ماجيك ستوديو" },
+    "description": {
+      "en": "AI-enhanced design suite for social media, branding visuals, and marketing content creation.",
+      "ar": "منصة تصميم مدعومة بالذكاء الاصطناعي لإنشاء محتوى السوشال والهوية والتسويق."
+    },
+    "link": "https://www.canva.com/magic-studio/",
+    "category": "Image Generation"
+  },
+  {
+    "name": { "en": "Runway", "ar": "رانواي" },
+    "description": {
+      "en": "AI video suite for text-to-video, image-to-video, and cinematic creative production.",
+      "ar": "منصة فيديو ذكية لتحويل النص أو الصورة إلى فيديو وإنتاج مشاهد احترافية."
+    },
+    "link": "https://runwayml.com",
+    "category": "Video Generation"
+  },
+  {
+    "name": { "en": "Pika", "ar": "بيكا" },
+    "description": {
+      "en": "Fast AI video generation for social content, storyboards, and rapid visual experimentation.",
+      "ar": "أداة سريعة لتوليد الفيديو بالذكاء الاصطناعي للمحتوى الرقمي والنمذجة البصرية السريعة."
+    },
+    "link": "https://pika.art",
+    "category": "Video Generation"
+  },
+  {
+    "name": { "en": "Luma Dream Machine", "ar": "لوما دريم ماشين" },
+    "description": {
+      "en": "Generative video model focused on high-quality motion, scenes, and visual consistency.",
+      "ar": "نموذج توليد فيديو يركز على جودة الحركة والمشاهد والتناسق البصري."
+    },
+    "link": "https://lumalabs.ai/dream-machine",
+    "category": "Video Generation"
+  },
+  {
+    "name": { "en": "Synthesia", "ar": "سينثيسيا" },
+    "description": {
+      "en": "Create professional talking-avatar videos for training, business communication, and education.",
+      "ar": "إنشاء فيديوهات احترافية بشخصيات افتراضية للتدريب والتواصل المؤسسي والتعليم."
+    },
+    "link": "https://www.synthesia.io",
+    "category": "Video Generation"
+  },
+  {
+    "name": { "en": "HeyGen", "ar": "هاي جين" },
+    "description": {
+      "en": "AI avatar and dubbing platform for multilingual video production and localization.",
+      "ar": "منصة أفاتار ودبلجة ذكية لإنتاج الفيديو متعدد اللغات وتوطينه."
+    },
+    "link": "https://www.heygen.com",
+    "category": "Video Generation"
+  },
+  {
+    "name": { "en": "Descript", "ar": "ديسكريبت" },
+    "description": {
+      "en": "Edit audio and video by editing text, with AI voice cleanup and content repurposing tools.",
+      "ar": "تحرير الصوت والفيديو عبر تحرير النص، مع أدوات ذكية لتنقية الصوت وإعادة استخدام المحتوى."
+    },
+    "link": "https://www.descript.com",
+    "category": "Video Generation"
+  },
+  {
+    "name": { "en": "Perplexity", "ar": "بيربلكسيتي" },
+    "description": {
+      "en": "Research answer engine with citations, ideal for technical discovery and trend monitoring.",
+      "ar": "محرك بحث وإجابات مع مصادر موثقة مناسب للبحث التقني ومتابعة المستجدات."
+    },
+    "link": "https://www.perplexity.ai",
+    "category": "Research AI"
+  },
+  {
+    "name": { "en": "Elicit", "ar": "إيليست" },
+    "description": {
+      "en": "Research assistant for scientific papers, literature review, and evidence synthesis.",
+      "ar": "مساعد بحثي للأوراق العلمية ومراجعة الأدبيات وتجميع الأدلة بشكل منظم."
+    },
+    "link": "https://elicit.com",
+    "category": "Research AI"
+  },
+  {
+    "name": { "en": "Consensus", "ar": "كونسنسس" },
+    "description": {
+      "en": "Academic search engine that summarizes findings from peer-reviewed research papers.",
+      "ar": "محرك بحث أكاديمي يلخص نتائج الدراسات المنشورة والمحكمة."
+    },
+    "link": "https://consensus.app",
+    "category": "Research AI"
+  },
+  {
+    "name": { "en": "Scite", "ar": "سايت" },
+    "description": {
+      "en": "Citation intelligence platform showing whether papers support or contrast each other.",
+      "ar": "منصة ذكاء استشهادات توضح ما إذا كانت الأبحاث تدعم بعضها أو تعارضها."
+    },
+    "link": "https://scite.ai",
+    "category": "Research AI"
+  },
+  {
+    "name": { "en": "Semantic Scholar", "ar": "سيمانتيك سكولار" },
+    "description": {
+      "en": "Large-scale academic search and discovery engine for finding relevant scientific literature.",
+      "ar": "محرك بحث أكاديمي واسع لاكتشاف الأبحاث العلمية المرتبطة بموضوعك."
+    },
+    "link": "https://www.semanticscholar.org",
+    "category": "Research AI"
+  },
+  {
+    "name": { "en": "Connected Papers", "ar": "كونيكتد بيبرز" },
+    "description": {
+      "en": "Visual graph-based tool for exploring relationships and evolution of academic papers.",
+      "ar": "أداة بصرية تعتمد الرسوم البيانية لاستكشاف ترابط وتطور الأوراق العلمية."
+    },
+    "link": "https://www.connectedpapers.com",
+    "category": "Research AI"
+  },
+  {
+    "name": { "en": "Notion AI", "ar": "نوشن AI" },
+    "description": {
+      "en": "Productivity assistant for notes, documentation, summaries, and collaborative knowledge management.",
+      "ar": "مساعد إنتاجية للملاحظات والوثائق والتلخيص وإدارة المعرفة التعاونية."
+    },
+    "link": "https://www.notion.so/product/ai",
+    "category": "Productivity AI"
+  },
+  {
+    "name": { "en": "Zapier AI", "ar": "زابير AI" },
+    "description": {
+      "en": "Automates business workflows with AI actions, app integrations, and trigger-based execution.",
+      "ar": "أتمتة عمليات الأعمال عبر تكامل التطبيقات وتنفيذ إجراءات ذكية بحسب المحفزات."
+    },
+    "link": "https://zapier.com/ai",
+    "category": "Productivity AI"
+  },
+  {
+    "name": { "en": "Microsoft Copilot", "ar": "مايكروسوفت كوبايلوت" },
+    "description": {
+      "en": "AI productivity assistant integrated with Microsoft 365 for documents, meetings, and workflows.",
+      "ar": "مساعد إنتاجية ذكي مدمج مع Microsoft 365 لإدارة المستندات والاجتماعات وسير العمل."
+    },
+    "link": "https://copilot.microsoft.com",
+    "category": "Productivity AI"
+  },
+  {
+    "name": { "en": "ClickUp AI", "ar": "كليك أب AI" },
+    "description": {
+      "en": "AI productivity layer for tasks, docs, summaries, and project execution tracking.",
+      "ar": "طبقة ذكاء اصطناعي للإنتاجية داخل المهام والوثائق والتلخيص ومتابعة تنفيذ المشاريع."
+    },
+    "link": "https://clickup.com/ai",
+    "category": "Productivity AI"
+  },
+  {
+    "name": { "en": "Slack AI", "ar": "سلاك AI" },
+    "description": {
+      "en": "AI for workplace communication with thread summaries, search, and actionable insights.",
+      "ar": "ذكاء اصطناعي للتواصل المؤسسي مع تلخيص المحادثات والبحث واستخراج الإجراءات."
+    },
+    "link": "https://slack.com/ai",
+    "category": "Productivity AI"
+  },
+  {
+    "name": { "en": "Grammarly AI", "ar": "غرامرلي AI" },
+    "description": {
+      "en": "Writing and communication assistant for clarity, tone control, and professional editing.",
+      "ar": "مساعد كتابة وتواصل لتحسين الوضوح وضبط النبرة والتحرير الاحترافي."
+    },
+    "link": "https://www.grammarly.com",
+    "category": "Productivity AI"
+  },
+  {
+    "name": { "en": "NotebookLM", "ar": "نوتبوك إل إم" },
+    "description": {
+      "en": "Research and study assistant that turns your sources into grounded summaries, Q&A, and audio overviews.",
+      "ar": "مساعد بحث ودراسة يحول مصادرك إلى تلخيصات موثقة وأسئلة وأجوبة وملخصات صوتية."
+    },
+    "link": "https://notebooklm.google.com",
+    "category": "Research AI",
+    "badges": ["New", "Popular", "Free"]
+  },
+  {
+    "name": { "en": "Grok", "ar": "غروك" },
+    "description": {
+      "en": "Real-time conversational assistant connected to live information and multimodal reasoning workflows.",
+      "ar": "مساعد محادثة بزمن حقيقي متصل بالمعلومات الحية ويدعم الاستدلال متعدد الوسائط."
+    },
+    "link": "https://grok.com",
+    "category": "AI Chat",
+    "badges": ["New", "Popular", "Paid"]
+  },
+  {
+    "name": { "en": "Suno", "ar": "سونو" },
+    "description": {
+      "en": "Music generation platform for creating full songs, demos, and branded audio content from prompts.",
+      "ar": "منصة لتوليد الموسيقى وإنشاء أغانٍ كاملة ونماذج صوتية ومحتوى صوتي للعلامات التجارية."
+    },
+    "link": "https://suno.com",
+    "category": "Audio AI",
+    "badges": ["Popular", "Paid"]
+  },
+  {
+    "name": { "en": "Udio", "ar": "أوديو" },
+    "description": {
+      "en": "AI music creation tool for high-quality tracks, lyrics-driven generation, and rapid style exploration.",
+      "ar": "أداة إنشاء موسيقى بالذكاء الاصطناعي لإنتاج مقاطع عالية الجودة واستكشاف الأنماط بسرعة."
+    },
+    "link": "https://www.udio.com",
+    "category": "Audio AI",
+    "badges": ["New", "Paid"]
+  },
+  {
+    "name": { "en": "ElevenLabs", "ar": "إليفن لابس" },
+    "description": {
+      "en": "State-of-the-art text-to-speech and voice cloning for dubbing, narration, and multilingual audio pipelines.",
+      "ar": "منصة متقدمة لتحويل النص إلى صوت واستنساخ الأصوات للدبلجة والتعليق الصوتي متعدد اللغات."
+    },
+    "link": "https://elevenlabs.io",
+    "category": "Audio AI",
+    "badges": ["Popular", "Paid", "API"]
+  },
+  {
+    "name": { "en": "Murf AI", "ar": "مورف AI" },
+    "description": {
+      "en": "Professional voice-over studio for marketing videos, training modules, and business presentations.",
+      "ar": "استوديو تعليق صوتي احترافي لفيديوهات التسويق والتدريب والعروض التقديمية للأعمال."
+    },
+    "link": "https://murf.ai",
+    "category": "Audio AI",
+    "badges": ["Paid"]
+  },
+  {
+    "name": { "en": "Otter.ai", "ar": "أوتر AI" },
+    "description": {
+      "en": "Meeting intelligence assistant for live transcription, summaries, action items, and collaboration notes.",
+      "ar": "مساعد اجتماعات ذكي للتفريغ النصي المباشر والتلخيص واستخراج المهام وملاحظات التعاون."
+    },
+    "link": "https://otter.ai",
+    "category": "Productivity AI",
+    "badges": ["Popular", "Paid"]
+  },
+  {
+    "name": { "en": "Fireflies.ai", "ar": "فايرفلايز AI" },
+    "description": {
+      "en": "AI notetaker for sales and operations teams with call summaries, searchable transcripts, and CRM sync.",
+      "ar": "مساعد تدوين اجتماعات لفرق المبيعات والعمليات مع تلخيص المكالمات والنصوص القابلة للبحث وتكامل CRM."
+    },
+    "link": "https://fireflies.ai",
+    "category": "Productivity AI",
+    "badges": ["Paid", "API"]
+  },
+  {
+    "name": { "en": "n8n", "ar": "إن8إن" },
+    "description": {
+      "en": "Open-source workflow automation platform to build AI agents and integrate tools across your stack.",
+      "ar": "منصة أتمتة تدفقات عمل مفتوحة المصدر لبناء وكلاء AI وربط الأدوات عبر منظومتك التقنية."
+    },
+    "link": "https://n8n.io",
+    "category": "Agents & Automation",
+    "badges": ["OpenSource", "Popular", "Free"]
+  },
+  {
+    "name": { "en": "Make", "ar": "ميك" },
+    "description": {
+      "en": "Visual automation builder for complex business workflows, AI orchestration, and SaaS integrations.",
+      "ar": "منصة أتمتة مرئية لبناء تدفقات أعمال معقدة وتنسيق أدوات AI والتكامل مع خدمات SaaS."
+    },
+    "link": "https://www.make.com",
+    "category": "Agents & Automation",
+    "badges": ["Popular", "Paid"]
+  },
+  {
+    "name": { "en": "Gamma", "ar": "غاما" },
+    "description": {
+      "en": "AI presentation creator for pitch decks, reports, and visual storytelling in minutes.",
+      "ar": "أداة عروض تقديمية ذكية لبناء عروض المستثمرين والتقارير والسرد البصري خلال دقائق."
+    },
+    "link": "https://gamma.app",
+    "category": "Presentation AI",
+    "badges": ["Popular", "Free", "Paid"]
+  },
+  {
+    "name": { "en": "Tome", "ar": "توم" },
+    "description": {
+      "en": "Narrative-first AI presentation platform for founders, educators, and product storytelling.",
+      "ar": "منصة عروض ذكاء اصطناعي تركز على السرد مناسبة لرواد الأعمال والتعليم وشرح المنتجات."
+    },
+    "link": "https://tome.app",
+    "category": "Presentation AI",
+    "badges": ["Paid"]
+  },
+  {
+    "name": { "en": "Power BI Copilot", "ar": "باور بي آي كوبايلوت" },
+    "description": {
+      "en": "Natural-language analytics assistant to build dashboards, insights, and executive reports faster.",
+      "ar": "مساعد تحليلات باللغة الطبيعية لبناء لوحات معلومات واستخراج رؤى وتقارير تنفيذية بسرعة."
+    },
+    "link": "https://www.microsoft.com/en-us/power-platform/products/power-bi",
+    "category": "Data AI",
+    "badges": ["Paid", "Popular"]
+  },
+  {
+    "name": { "en": "Akkio", "ar": "أكيو" },
+    "description": {
+      "en": "No-code predictive analytics platform for forecasting, lead scoring, and marketing optimization.",
+      "ar": "منصة تحليلات تنبؤية بدون كود للتوقعات وتقييم العملاء المحتملين وتحسين التسويق."
+    },
+    "link": "https://www.akkio.com",
+    "category": "Data AI",
+    "badges": ["Paid"]
+  },
+  {
+    "name": { "en": "DataRobot", "ar": "داتا روبوت" },
+    "description": {
+      "en": "Enterprise AI platform for model development, MLOps governance, and production deployment at scale.",
+      "ar": "منصة ذكاء اصطناعي مؤسسية لتطوير النماذج وحوكمة MLOps ونشر الحلول الإنتاجية على نطاق واسع."
+    },
+    "link": "https://www.datarobot.com",
+    "category": "Data AI",
+    "badges": ["Paid", "API"]
+  },
+  {
+    "name": { "en": "Jasper", "ar": "جاسبر" },
+    "description": {
+      "en": "Enterprise-ready AI content platform for marketing teams to create campaigns, ad copy, and brand-safe assets.",
+      "ar": "منصة محتوى ذكاء اصطناعي لفرق التسويق لإنتاج الحملات والإعلانات ومحتوى متوافق مع هوية العلامة."
+    },
+    "link": "https://www.jasper.ai",
+    "category": "Productivity AI",
+    "badges": ["Paid", "Popular"]
+  },
+  {
+    "name": { "en": "Framer AI", "ar": "فريمر AI" },
+    "description": {
+      "en": "AI website builder for fast landing pages, startup websites, and modern responsive prototypes.",
+      "ar": "منصة إنشاء مواقع بالذكاء الاصطناعي لبناء صفحات هبوط ومواقع شركات ناشئة بسرعة واحترافية."
+    },
+    "link": "https://www.framer.com/ai",
+    "category": "Coding AI",
+    "badges": ["New", "Paid"]
+  },
+  {
+    "name": { "en": "Bolt.new", "ar": "بولت نيو" },
+    "description": {
+      "en": "Prompt-to-app tool that generates and runs full-stack web apps quickly from natural language.",
+      "ar": "أداة تحول الوصف النصي إلى تطبيق ويب متكامل وتشغيله بسرعة ضمن بيئة جاهزة."
+    },
+    "link": "https://bolt.new",
+    "category": "Coding AI",
+    "badges": ["New", "Popular", "Paid"]
+  },
+  {
+    "name": { "en": "Phind", "ar": "فِند" },
+    "description": {
+      "en": "Developer-centric AI search and assistant for technical answers, debugging, and implementation guidance.",
+      "ar": "محرك بحث ومساعد ذكي للمطورين للإجابات التقنية، تصحيح الأخطاء، وإرشاد التنفيذ."
+    },
+    "link": "https://www.phind.com",
+    "category": "Research AI",
+    "badges": ["Popular", "Free"]
+  },
+  {
+    "name": { "en": "Kling AI", "ar": "كلينغ AI" },
+    "description": {
+      "en": "Advanced text-to-video and image-to-video platform for cinematic motion and stylized short videos.",
+      "ar": "منصة متقدمة لتحويل النص أو الصورة إلى فيديو بحركة سينمائية وجودة بصرية عالية."
+    },
+    "link": "https://klingai.com",
+    "category": "Video Generation",
+    "badges": ["New", "Paid"]
+  },
+  {
+    "name": { "en": "CapCut AI", "ar": "كاب كت AI" },
+    "description": {
+      "en": "AI video editing suite with automatic captions, script assistance, effects, and social-ready exports.",
+      "ar": "مجموعة تحرير فيديو ذكية مع ترجمة تلقائية ومساعدة نصية وتأثيرات وتصدير جاهز لمنصات التواصل."
+    },
+    "link": "https://www.capcut.com",
+    "category": "Video Generation",
+    "badges": ["Popular", "Free", "Paid"]
+  },
+  {
+    "name": { "en": "Beautiful.ai", "ar": "بيوتيفول AI" },
+    "description": {
+      "en": "AI presentation designer that automates layouts and helps teams create polished decks faster.",
+      "ar": "أداة عروض تقديمية ذكية تؤتمت تصميم الشرائح وتساعد الفرق على إنتاج عروض احترافية بسرعة."
+    },
+    "link": "https://www.beautiful.ai",
+    "category": "Presentation AI",
+    "badges": ["Paid", "Popular"]
+  },
+  {
+    "name": { "en": "Mubert", "ar": "ميوبرت" },
+    "description": {
+      "en": "AI music generator for creators, streaming backgrounds, and royalty-friendly production tracks.",
+      "ar": "مولد موسيقى بالذكاء الاصطناعي لصناع المحتوى وخلفيات البث ومقاطع إنتاج قابلة للاستخدام."
+    },
+    "link": "https://mubert.com",
+    "category": "Audio AI",
+    "badges": ["Paid", "API"]
+  },
+  {
+    "name": { "en": "Poe", "ar": "بو" },
+    "description": {
+      "en": "Unified AI chat hub to access multiple leading models in one interface for comparisons and workflows.",
+      "ar": "منصة محادثة موحدة تتيح الوصول لعدة نماذج متقدمة في واجهة واحدة للمقارنة وسير العمل."
+    },
+    "link": "https://poe.com",
+    "category": "AI Chat",
+    "badges": ["Popular", "Free", "Paid"]
+  },
+  {
+    "name": { "en": "Character.AI", "ar": "كاركتر AI" },
+    "description": {
+      "en": "Role-based conversational platform for interactive dialogue, simulations, and persona-driven AI chats.",
+      "ar": "منصة محادثات تعتمد الشخصيات للأدوار التفاعلية والمحاكاة وحوارات AI الموجهة بالشخصية."
+    },
+    "link": "https://character.ai",
+    "category": "AI Chat",
+    "badges": ["Popular", "Free", "Students"]
+  },
+  {
+    "name": { "en": "Pi by Inflection", "ar": "باي من إنفلكشن" },
+    "description": {
+      "en": "Personal conversational AI assistant focused on supportive dialogue and everyday productivity conversations.",
+      "ar": "مساعد محادثة شخصي يركز على الحوار الداعم ومحادثات الإنتاجية اليومية."
+    },
+    "link": "https://pi.ai",
+    "category": "AI Chat",
+    "badges": ["Popular", "Free", "Students"]
+  },
+  {
+    "name": { "en": "You.com", "ar": "يو.كوم" },
+    "description": {
+      "en": "Search-first AI workspace combining web retrieval, productivity apps, and conversational answer workflows.",
+      "ar": "منصة ذكاء اصطناعي قائمة على البحث تجمع بين استرجاع الويب وتطبيقات الإنتاجية وتدفقات الإجابة."
+    },
+    "link": "https://you.com",
+    "category": "AI Chat",
+    "badges": ["Free", "Paid", "Researchers"]
+  },
+  {
+    "name": { "en": "Tabnine", "ar": "تاب ناين" },
+    "description": {
+      "en": "AI coding assistant for secure code completion and team-level deployment in enterprise development environments.",
+      "ar": "مساعد برمجي ذكي للإكمال الآمن للكود ونشره على مستوى الفرق داخل بيئات التطوير المؤسسية."
+    },
+    "link": "https://www.tabnine.com",
+    "category": "Coding AI",
+    "badges": ["Popular", "Paid", "Developers", "Enterprise"]
+  },
+  {
+    "name": { "en": "Sourcegraph Cody", "ar": "كودي من سورس غراف" },
+    "description": {
+      "en": "Codebase-aware AI assistant for large repositories, cross-file understanding, and enterprise engineering teams.",
+      "ar": "مساعد برمجي واعٍ بالمشروع للمستودعات الكبيرة وفهم الملفات المتعددة ومناسب للفرق الهندسية."
+    },
+    "link": "https://sourcegraph.com/cody",
+    "category": "Coding AI",
+    "badges": ["Paid", "Developers", "Enterprise"]
+  },
+  {
+    "name": { "en": "Qodo", "ar": "كودو" },
+    "description": {
+      "en": "AI coding and test-focused assistant for generating robust unit tests and improving code reliability.",
+      "ar": "مساعد برمجي يركز على الاختبارات الذكية وتوليد اختبارات وحدات قوية وتحسين الاعتمادية."
+    },
+    "link": "https://www.qodo.ai",
+    "category": "Coding AI",
+    "badges": ["Popular", "Paid", "Developers"]
+  },
+  {
+    "name": { "en": "Aider", "ar": "أيدر" },
+    "description": {
+      "en": "Terminal-first AI pair programmer that edits real project files through conversational coding commands.",
+      "ar": "مرافق برمجي عبر الطرفية يعدّل ملفات المشروع الحقيقية باستخدام أوامر محادثة ذكية."
+    },
+    "link": "https://aider.chat",
+    "category": "Coding AI",
+    "badges": ["OpenSource", "Developers", "Popular"]
+  },
+  {
+    "name": { "en": "Continue", "ar": "كونتينيو" },
+    "description": {
+      "en": "Open-source IDE extension for AI-assisted coding with flexible model backends and team customization.",
+      "ar": "إضافة مفتوحة المصدر لبيئات التطوير تدعم البرمجة بالذكاء الاصطناعي مع مرونة عالية للنماذج."
+    },
+    "link": "https://www.continue.dev",
+    "category": "Coding AI",
+    "badges": ["OpenSource", "Free", "Developers"]
+  },
+  {
+    "name": { "en": "Playground AI", "ar": "بلايغراوند AI" },
+    "description": {
+      "en": "Image generation and editing platform for creators, ads, social content, and design experimentation.",
+      "ar": "منصة لتوليد وتحرير الصور للمصممين وصناع المحتوى والإعلانات وتجارب التصميم."
+    },
+    "link": "https://playground.com",
+    "category": "Image Generation",
+    "badges": ["Popular", "Free", "Designers", "Marketers"]
+  },
+  {
+    "name": { "en": "Recraft", "ar": "ريكرافت" },
+    "description": {
+      "en": "AI design tool for brand-ready vectors, icons, and visual assets with strong style consistency.",
+      "ar": "أداة تصميم ذكية لإنشاء فيكتورات وأيقونات وأصول بصرية متسقة مع هوية العلامة."
+    },
+    "link": "https://www.recraft.ai",
+    "category": "Image Generation",
+    "badges": ["New", "Paid", "Designers", "Marketers"]
+  },
+  {
+    "name": { "en": "FLUX", "ar": "فلكس" },
+    "description": {
+      "en": "State-of-the-art image model family used for high-quality generation workflows across creative applications.",
+      "ar": "عائلة نماذج صور متقدمة تستخدم لتوليد بصري عالي الجودة في تطبيقات إبداعية متنوعة."
+    },
+    "link": "https://blackforestlabs.ai",
+    "category": "Image Generation",
+    "badges": ["Popular", "API", "Designers"]
+  },
+  {
+    "name": { "en": "Veed AI", "ar": "فيد AI" },
+    "description": {
+      "en": "Browser-based AI video editor for subtitles, social exports, brand templates, and team collaboration.",
+      "ar": "محرر فيديو ذكاء اصطناعي عبر المتصفح للترجمة التلقائية وقوالب العلامة وتصدير السوشال."
+    },
+    "link": "https://www.veed.io",
+    "category": "Video Generation",
+    "badges": ["Popular", "Paid", "Marketers", "Creators"]
+  },
+  {
+    "name": { "en": "InVideo AI", "ar": "إن فيديو AI" },
+    "description": {
+      "en": "Text-to-video creation suite for rapid marketing videos, explainers, and campaign content production.",
+      "ar": "منصة تحويل النص إلى فيديو لإنتاج فيديوهات تسويقية وشروحات ومحتوى حملات بسرعة."
+    },
+    "link": "https://invideo.io/ai",
+    "category": "Video Generation",
+    "badges": ["Popular", "Paid", "Marketers", "Creators"]
+  },
+  {
+    "name": { "en": "D-ID", "ar": "دي-آي-دي" },
+    "description": {
+      "en": "AI avatar video generation platform for customer communication, training, and multilingual presentations.",
+      "ar": "منصة توليد فيديو أفاتار ذكي للتواصل مع العملاء والتدريب والعروض متعددة اللغات."
+    },
+    "link": "https://www.d-id.com",
+    "category": "Video Generation",
+    "badges": ["Paid", "Businesses", "Educators"]
+  },
+  {
+    "name": { "en": "Colossyan", "ar": "كولوسيان" },
+    "description": {
+      "en": "Enterprise AI video platform for learning and development teams to create training videos at scale.",
+      "ar": "منصة فيديو ذكاء اصطناعي مؤسسية لفرق التعلم والتطوير لإنشاء فيديوهات تدريب على نطاق واسع."
+    },
+    "link": "https://www.colossyan.com",
+    "category": "Video Generation",
+    "badges": ["Paid", "Enterprise", "Educators"]
+  },
+  {
+    "name": { "en": "Wolfram|Alpha", "ar": "وولفرام ألفا" },
+    "description": {
+      "en": "Computational knowledge engine for mathematics, engineering, and science-heavy technical problem solving.",
+      "ar": "محرك معرفة حسابي للرياضيات والهندسة والعلوم وحل المسائل التقنية المعقدة."
+    },
+    "link": "https://www.wolframalpha.com",
+    "category": "Research AI",
+    "badges": ["Popular", "Free", "Students", "Researchers"]
+  },
+  {
+    "name": { "en": "ResearchRabbit", "ar": "ريسيرش رابيت" },
+    "description": {
+      "en": "Visual literature discovery tool to map connected papers and build research collections efficiently.",
+      "ar": "أداة بصرية لاكتشاف الأبحاث وربط الأوراق العلمية وبناء مكتبات بحثية بكفاءة."
+    },
+    "link": "https://www.researchrabbit.ai",
+    "category": "Research AI",
+    "badges": ["Free", "Researchers", "Students"]
+  },
+  {
+    "name": { "en": "Scopus AI", "ar": "سكوبس AI" },
+    "description": {
+      "en": "AI-enhanced scientific research exploration built for advanced academic and institutional literature workflows.",
+      "ar": "استكشاف بحث علمي مدعوم بالذكاء الاصطناعي وموجه لسير العمل الأكاديمي والمؤسسي المتقدم."
+    },
+    "link": "https://www.scopus.com",
+    "category": "Research AI",
+    "badges": ["Paid", "Researchers", "Enterprise"]
+  },
+  {
+    "name": { "en": "ChatPDF", "ar": "شات بي دي إف" },
+    "description": {
+      "en": "Document Q&A assistant for PDFs, reports, and lecture materials with quick source-focused answers.",
+      "ar": "مساعد أسئلة وأجوبة للملفات PDF والتقارير والمحاضرات بإجابات سريعة مع التركيز على المصدر."
+    },
+    "link": "https://www.chatpdf.com",
+    "category": "Productivity AI",
+    "badges": ["Popular", "Free", "Students", "Educators"]
+  },
+  {
+    "name": { "en": "Taskade AI", "ar": "تاسكيد AI" },
+    "description": {
+      "en": "Collaborative productivity workspace with AI agents, task planning, and team project execution tools.",
+      "ar": "مساحة إنتاجية تعاونية مع وكلاء AI وتخطيط المهام وأدوات تنفيذ المشاريع للفرق."
+    },
+    "link": "https://www.taskade.com",
+    "category": "Productivity AI",
+    "badges": ["Paid", "Businesses", "Teams"]
+  },
+  {
+    "name": { "en": "Mem", "ar": "ميم" },
+    "description": {
+      "en": "AI-powered personal knowledge manager for organizing notes, retrieval, and context-aware writing.",
+      "ar": "منصة إدارة معرفة شخصية مدعومة بالذكاء الاصطناعي لتنظيم الملاحظات والاسترجاع والكتابة السياقية."
+    },
+    "link": "https://mem.ai",
+    "category": "Productivity AI",
+    "badges": ["Paid", "Professionals", "Researchers"]
+  },
+  {
+    "name": { "en": "Pipedream", "ar": "بايب دريم" },
+    "description": {
+      "en": "Developer-friendly automation and integration platform for APIs, events, and AI-powered backend workflows.",
+      "ar": "منصة أتمتة وتكامل موجهة للمطورين لربط APIs والأحداث وتدفقات الخلفية المدعومة بالذكاء الاصطناعي."
+    },
+    "link": "https://pipedream.com",
+    "category": "Agents & Automation",
+    "badges": ["API", "Developers", "Paid"]
+  },
+  {
+    "name": { "en": "Lindy", "ar": "ليندي" },
+    "description": {
+      "en": "AI automation platform for building task-specific agents across email, meetings, and operations workflows.",
+      "ar": "منصة أتمتة بالذكاء الاصطناعي لبناء وكلاء مهام للبريد والاجتماعات وتدفقات العمليات."
+    },
+    "link": "https://www.lindy.ai",
+    "category": "Agents & Automation",
+    "badges": ["New", "Paid", "Businesses"]
+  },
+  {
+    "name": { "en": "Gumloop", "ar": "غوملوب" },
+    "description": {
+      "en": "No-code AI workflow builder for operations teams to orchestrate repetitive tasks and data flows.",
+      "ar": "منصة بدون كود لبناء تدفقات AI لفرق العمليات لأتمتة المهام المتكررة وتدفقات البيانات."
+    },
+    "link": "https://www.gumloop.com",
+    "category": "Agents & Automation",
+    "badges": ["New", "Paid", "Businesses", "Teams"]
+  },
+  {
+    "name": { "en": "SlidesAI", "ar": "سلايدز AI" },
+    "description": {
+      "en": "AI slide generation assistant for turning long text into structured presentations quickly.",
+      "ar": "مساعد ذكاء اصطناعي لإنشاء الشرائح وتحويل النصوص الطويلة إلى عروض منظمة بسرعة."
+    },
+    "link": "https://www.slidesai.io",
+    "category": "Presentation AI",
+    "badges": ["Popular", "Paid", "Students", "Educators"]
+  },
+  {
+    "name": { "en": "Pitch", "ar": "بيتش" },
+    "description": {
+      "en": "Team presentation platform with AI features for startup decks, reporting, and collaborative storytelling.",
+      "ar": "منصة عروض تقديمية للفرق مع ميزات AI لعروض الشركات الناشئة والتقارير والسرد التعاوني."
+    },
+    "link": "https://pitch.com",
+    "category": "Presentation AI",
+    "badges": ["Paid", "Teams", "Businesses"]
+  },
+  {
+    "name": { "en": "ThoughtSpot Sage", "ar": "ثوت سبوت سيج" },
+    "description": {
+      "en": "Natural language analytics assistant for enterprise BI exploration and dashboard-based decision intelligence.",
+      "ar": "مساعد تحليلات بلغة طبيعية لاستكشاف ذكاء الأعمال المؤسسي واتخاذ القرار عبر لوحات البيانات."
+    },
+    "link": "https://www.thoughtspot.com",
+    "category": "Data AI",
+    "badges": ["Paid", "Enterprise", "Businesses"]
+  },
+  {
+    "name": { "en": "Hex", "ar": "هيكس" },
+    "description": {
+      "en": "Collaborative data workspace combining SQL, notebooks, dashboards, and AI-driven analytics workflows.",
+      "ar": "مساحة بيانات تعاونية تجمع SQL ودفاتر التحليل ولوحات المعلومات مع تحليلات مدعومة بالذكاء الاصطناعي."
+    },
+    "link": "https://hex.tech",
+    "category": "Data AI",
+    "badges": ["Paid", "DataTeams", "Developers"]
+  },
+  {
+    "name": { "en": "Dataiku", "ar": "داتايكو" },
+    "description": {
+      "en": "Enterprise AI and analytics platform for model lifecycle management, governance, and production operations.",
+      "ar": "منصة AI وتحليلات مؤسسية لإدارة دورة حياة النماذج والحوكمة وعمليات الإنتاج."
+    },
+    "link": "https://www.dataiku.com",
+    "category": "Data AI",
+    "badges": ["Paid", "Enterprise", "DataTeams"]
+  },
+  {
+    "name": { "en": "Deepgram", "ar": "ديب غرام" },
+    "description": {
+      "en": "Speech-to-text and voice AI API platform for real-time transcription and voice agent applications.",
+      "ar": "منصة API للصوت والنسخ الكلامي في الوقت الحقيقي لتطبيقات التفريغ ووكلاء الصوت."
+    },
+    "link": "https://deepgram.com",
+    "category": "Audio AI",
+    "badges": ["API", "Developers", "Paid"]
+  },
+  {
+    "name": { "en": "AssemblyAI", "ar": "أسيمبلي AI" },
+    "description": {
+      "en": "Advanced speech AI APIs for transcription, summarization, speaker detection, and audio intelligence.",
+      "ar": "واجهات صوت متقدمة للتفريغ والتلخيص واكتشاف المتحدثين وتحليلات الصوت الذكية."
+    },
+    "link": "https://www.assemblyai.com",
+    "category": "Audio AI",
+    "badges": ["API", "Paid", "Developers"]
+  },
+  {
+    "name": { "en": "PlayHT", "ar": "بلاي إتش تي" },
+    "description": {
+      "en": "Text-to-speech and voice generation platform for creators, narrations, and multilingual voice products.",
+      "ar": "منصة تحويل النص إلى صوت وتوليد أصوات للمحتوى الإبداعي والتعليق الصوتي ومنتجات متعددة اللغات."
+    },
+    "link": "https://play.ht",
+    "category": "Audio AI",
+    "badges": ["Paid", "API", "Creators"]
+  }
+]

@@ -1,0 +1,130 @@
+{
+  "nav": {
+    "updates": "AI Updates",
+    "tools": "AI Tools",
+    "projects": "Projects",
+    "services": "Services",
+    "blog": "Insights",
+    "contact": "Contact",
+    "commandPalette": "Command",
+    "theme": "Theme"
+  },
+  "hero": {
+    "eyebrow": "Lecturer · AI Engineer · EdTech Builder",
+    "title": "Practical AI for classrooms, exams, and real workflows",
+    "subtitle": "Independent hub by Warith Al-Awadi: IT Division platform, graduate studies system, curated AI tools, and automation you can use.",
+    "ctaUpdates": "Contact me",
+    "ctaProjects": "View projects",
+    "sideTitle": "Focus",
+    "features": {
+      "one": "Bilingual AR / EN",
+      "two": "Live AI updates",
+      "three": "Exam & graduate studies platforms",
+      "four": "Flutter + Firebase + automation"
+    }
+  },
+  "about": {
+    "title": "About Warith Al-Awadi",
+    "subtitle": "University lecturer · AI solutions · Educational software",
+    "bio": "Graduate of Computer Network Technologies Engineering and a lecturer at Al-Najaf Engineering Technical College. I build production college systems (IT Division and Graduate Studies) plus AI-assisted learning and exam tools.",
+    "cvButton": "Professional CV",
+    "tags": {
+      "aiEngineering": "Applied AI",
+      "automation": "Automation",
+      "software": "EdTech Platforms",
+      "energy": "Exam Systems"
+    },
+    "stats": {
+      "focusValue": "Applied AI",
+      "focusLabel": "Classroom and production use",
+      "audienceValue": "Students + Staff",
+      "audienceLabel": "Colleges, teachers, and learners",
+      "missionValue": "Ship useful tools",
+      "missionLabel": "Clear, fast, and maintainable"
+    }
+  },
+  "updates": {
+    "title": "Latest AI Updates",
+    "subtitle": "Curated releases and reports worth watching."
+  },
+  "tools": {
+    "title": "AI Tools Directory",
+    "subtitle": "Hand-picked tools for teaching, coding, and automation.",
+    "searchPlaceholder": "Search tools...",
+    "allCategories": "All Categories",
+    "allBadges": "All Badges",
+    "sortLabel": "Sort:",
+    "sortRelevance": "Relevance",
+    "sortPopular": "Most Popular",
+    "sortNewest": "Newest",
+    "sortName": "Name (A-Z)",
+    "viewDetails": "Details",
+    "openPage": "Open Page",
+    "closeDetails": "Close",
+    "detailWhat": "What this tool does",
+    "detailBestFor": "Best for",
+    "detailHowToUse": "Suggested workflow",
+    "detailModel": "Usage model",
+    "noResults": "No matching tools found."
+  },
+  "projects": {
+    "title": "Real Projects",
+    "subtitle": "Latest production work: IT Division platform, graduate studies, and exam systems."
+  },
+  "services": {
+    "title": "How I can help",
+    "subtitle": "Consulting and build work with measurable classroom or ops outcomes.",
+    "items": {
+      "aiAutomation": {
+        "title": "AI Automation",
+        "description": "Turn repetitive teaching and ops tasks into reliable workflows."
+      },
+      "aiConsulting": {
+        "title": "AI Consulting",
+        "description": "Practical roadmaps for adopting AI in education and small teams."
+      },
+      "smartEnergy": {
+        "title": "College ops & exam platforms",
+        "description": "Attendance, exams, and graduate studies with clear role security."
+      },
+      "softwareDevelopment": {
+        "title": "Flutter + Firebase platforms",
+        "description": "Modern bilingual systems ready for real users."
+      },
+      "educationContent": {
+        "title": "EdTech Content",
+        "description": "Training material and toolkits for students and instructors."
+      }
+    }
+  },
+  "blog": {
+    "title": "Insights",
+    "subtitle": "Short notes on applied AI and teaching with technology.",
+    "read": "Read",
+    "close": "Close",
+    "loadError": "Unable to load post."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "For teaching tech, AI tools, or collaboration.",
+    "emailTitle": "Email",
+    "copyEmail": "Copy email",
+    "copySuccess": "Email copied.",
+    "copyError": "Copy failed — please copy manually.",
+    "connectTitle": "Social"
+  },
+  "footer": { "lastUpdated": "Last update:" },
+  "common": { "source": "Source", "visit": "Visit", "demo": "Live", "learn": "Learn" },
+  "commandPalette": {
+    "placeholder": "Type a command...",
+    "commands": {
+      "updates": "Go to AI Updates",
+      "tools": "Go to AI Tools",
+      "projects": "Go to Projects",
+      "switchLanguage": "Switch language",
+      "copyEmail": "Copy email",
+      "switchTheme": "Switch theme"
+    }
+  },
+  "theme": { "dark": "Dark", "light": "Light" }
+}

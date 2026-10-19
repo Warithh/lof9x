@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Tools Explorer | Warith Al-Awadi</title>
+  <meta name="description" content="Browse modern AI tools by category, badges, and use-cases with bilingual support.">
+  <link rel="canonical" href="https://warithh.github.io/lof9x/tools/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="./tools.css">
+</head>
+<body data-page="tools-list">
+  <main class="container tools-page">
+    <header class="site-header glass">
+      <a href="../index.html" class="brand"><span class="brand-dot"></span><span>Warith AI Platform</span></a>
+      <div class="nav-actions">
+        <a class="btn btn-ghost" href="../index.html">Home</a>
+        <button id="toolsThemeToggle" class="btn btn-ghost">Theme</button>
+        <button id="toolsLangToggle" class="btn btn-glass">AR</button>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="section-head">
+        <h1 id="toolsPageTitle">AI Tools Explorer</h1>
+        <p id="toolsPageSubtitle">Browse the latest practical tools.</p>
+      </div>
+      <div class="toolbar glass">
+        <input id="toolsPageSearch" type="search" placeholder="Search tools...">
+        <div id="toolsPageCategories" class="category-chips"></div>
+      </div>
+      <div id="toolsPageGrid" class="grid grid-3"></div>
+    </section>
+  </main>
+
+  <script src="../tool-guides.js" defer></script>
+  <script src="./tools-pages.js" defer></script>
+</body>
+</html>

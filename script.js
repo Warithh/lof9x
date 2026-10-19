@@ -604,17 +604,56 @@ const state = {
 const fallbackProjects = [
   {
     "name": {
+      "en": "IT Division Platform — Al-Najaf Engineering Technical College",
+      "ar": "منصة شعبة تكنولوجيا المعلومات — الكلية التقنية الهندسية النجف"
+    },
+    "description": {
+      "en": "Production Flutter + Firebase system for labs, attendance, exams, bookings, tickets, and staff workflows. Live for college operations.",
+      "ar": "نظام إنتاجي بـ Flutter وFirebase لإدارة المختبرات والحضور والامتحانات والحجوزات والتذاكر وسير عمل الكادر — يعمل فعليًا في الكلية."
+    },
+    "tech": [
+      "Flutter",
+      "Firebase",
+      "Firestore",
+      "Cloud Functions",
+      "Realtime",
+      "RBAC"
+    ],
+    "image": "./assets/project-edtech.svg",
+    "demo": "https://edu-platform-najaf-prod-2026.web.app"
+  },
+  {
+    "name": {
+      "en": "Graduate Studies Management System",
+      "ar": "نظام إدارة الدراسات العليا"
+    },
+    "description": {
+      "en": "End-to-end graduate studies workflows: student records, research stages, staff roles, Arabic-first ops, and delivery-ready college processes.",
+      "ar": "إدارة كاملة لسير عمل الدراسات العليا: سجلات الطلبة، المراحل البحثية، أدوار الكادر، واجهة عربية، وعمليات جاهزة للتسليم داخل الكلية."
+    },
+    "tech": [
+      "Flutter",
+      "Firebase",
+      "Role-based Access",
+      "Arabic UX",
+      "Workflow Automation"
+    ],
+    "image": "./assets/project-workflow.svg"
+  },
+  {
+    "name": {
       "en": "Iraqi National English Exam Prep",
       "ar": "منصة التحضير للامتحان الوطني الإنجليزي"
     },
     "description": {
-      "en": "Static prep platform for the Iraqi national English exam with passages, keyed questions, and practice flow.",
-      "ar": "منصة تحضير للامتحان الوطني الإنجليزي مع نصوص وأسئلة مفتاحية ومسار تدريب عملي."
+      "en": "Static exam-prep experience with passages, keyed questions, and practice flow for national English assessment.",
+      "ar": "تجربة تحضير للامتحان الوطني الإنجليزي مع نصوص وأسئلة مفتاحية ومسار تدريب عملي."
     },
     "tech": [
       "HTML",
       "JavaScript",
-      "EdTech"
+      "Assessment UX",
+      "GitHub Pages"
     ],
     "image": "./assets/project-exam.svg",
     "demo": "https://warithh.github.io/warith-exam-iq/",
@@ -622,12 +661,12 @@ const fallbackProjects = [
   },
   {
     "name": {
-      "en": "Arabic Exam Practice",
+      "en": "Arabic Exam Practice Platform",
       "ar": "منصة تدريب الامتحان العربي"
     },
     "description": {
-      "en": "Focused Arabic exam practice site for students preparing with structured drills.",
-      "ar": "موقع تدريب مركّز للامتحان العربي بتمارين منظمة للطلبة."
+      "en": "Focused Arabic exam drills with structured practice paths for students.",
+      "ar": "تمارين مركّزة للامتحان العربي بمسارات تدريب منظمة للطلبة."
     },
     "tech": [
       "Web",
@@ -643,7 +682,7 @@ const fallbackProjects = [
       "ar": "مركز امتحانات هندسية"
     },
     "description": {
-      "en": "Exam-oriented learning hub for engineering students with practical assessment paths.",
+      "en": "Exam-oriented learning hub for engineering students with practical assessment routes.",
       "ar": "مركز تعلّم موجّه للامتحانات لطلبة الهندسة بمسارات تقييم عملية."
     },
     "tech": [
@@ -656,17 +695,18 @@ const fallbackProjects = [
   },
   {
     "name": {
-      "en": "AI Tools & Automation Hub",
-      "ar": "مركز أدوات الذكاء الاصطناعي والأتمتة"
+      "en": "AI Agent & Automation Hub (lof9x)",
+      "ar": "مركز وكلاء الذكاء الاصطناعي والأتمتة (lof9x)"
     },
     "description": {
-      "en": "Curated bilingual hub for AI updates, tools, and practical automation workflows.",
-      "ar": "مركز ثنائي اللغة لتحديثات وأدوات الذكاء الاصطناعي وتدفقات الأتمتة العملية."
+      "en": "Bilingual curated hub for AI updates, tool directory, agent workflows, and applied teaching methods.",
+      "ar": "مركز ثنائي اللغة لتحديثات AI ودليل الأدوات وتدفقات الوكلاء وطرق التدريس التطبيقية."
     },
     "tech": [
-      "Curated Content",
-      "AI",
-      "Automation"
+      "Static Web",
+      "i18n",
+      "Curated AI Tools",
+      "Agentic Workflows"
     ],
     "image": "./assets/project-ai.svg",
     "demo": "https://warithh.github.io/lof9x/",
@@ -674,38 +714,39 @@ const fallbackProjects = [
   },
   {
     "name": {
-      "en": "AI Telegram Bot",
-      "ar": "بوت ذكاء اصطناعي على تيليجرام"
+      "en": "AI Telegram Assistant",
+      "ar": "مساعد ذكاء اصطناعي على تيليجرام"
     },
     "description": {
-      "en": "Telegram-facing AI assistant for quick answers, content help, and automation entry points.",
-      "ar": "مساعد ذكاء اصطناعي عبر تيليجرام للإجابات السريعة والمحتوى ومداخل الأتمتة."
+      "en": "Telegram-facing AI entry point for quick answers, content help, and automation handoff.",
+      "ar": "مدخل ذكاء اصطناعي عبر تيليجرام للإجابات السريعة والمحتوى وربط الأتمتة."
     },
     "tech": [
-      "Telegram",
-      "AI",
-      "Bot"
+      "Telegram Bot",
+      "AI API",
+      "Automation"
     ],
     "image": "./assets/project-ai.svg",
     "github": "https://github.com/Warithh/warith_ai_bot"
   },
   {
     "name": {
-      "en": "Eid Greeting Experience",
-      "ar": "تجربة تهنئة العيد"
+      "en": "Modern Methods Stack (Teaching + Delivery)",
+      "ar": "حزمة الطرق الحديثة (تدريس + تسليم)"
     },
     "description": {
-      "en": "Interactive Eid greeting page with QR sharing and photo layout for family events.",
-      "ar": "صفحة تهنئة عيد تفاعلية مع مشاركة QR وتخطيط صور للمناسبات العائلية."
+      "en": "Practical stack used in real college projects: Flutter/Firebase, role security, realtime sessions, AI pair-programming (Cursor), and bilingual product UX.",
+      "ar": "حزمة عملية مستخدمة في مشاريع الكلية: Flutter/Firebase، صلاحيات الأدوار، جلسات لحظية، برمجة بمساعدة AI (Cursor)، وتجربة منتج عربية/إنجليزية."
     },
     "tech": [
-      "HTML",
-      "CSS",
-      "UX"
+      "Flutter",
+      "Firebase Auth",
+      "Realtime",
+      "Cursor AI",
+      "CI/CD",
+      "Bilingual UX"
     ],
-    "image": "./assets/project-edtech.svg",
-    "demo": "https://warithh.github.io/eid-greeting-alawiti/",
-    "github": "https://github.com/Warithh/eid-greeting-alawiti"
+    "image": "./assets/project-toolkit.svg"
   }
 ];
 

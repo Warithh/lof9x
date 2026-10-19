@@ -1,0 +1,28 @@
+[
+  {
+    "title": {
+      "en": "Designing AI Systems for Production, Not Demos",
+      "ar": "تصميم أنظمة AI للإنتاج وليس للعروض فقط"
+    },
+    "excerpt": {
+      "en": "A practical framework for moving from prototype prompts to reliable AI products.",
+      "ar": "إطار عملي للانتقال من النماذج الأولية إلى منتجات ذكاء اصطناعي موثوقة."
+    },
+    "date": "2026-03-01",
+    "file": "ai-production-systems.md",
+    "fileAr": "ai-production-systems-ar.md"
+  },
+  {
+    "title": {
+      "en": "Agentic Automation: Where Teams Win in 2026",
+      "ar": "الأتمتة الوكيلة: أين تربح الفرق في 2026"
+    },
+    "excerpt": {
+      "en": "How AI agents create leverage across research, coding, operations, and growth.",
+      "ar": "كيف تصنع وكلاء AI أثرا كبيرا في البحث والبرمجة والعمليات والنمو."
+    },
+    "date": "2026-02-20",
+    "file": "agentic-automation-2026.md",
+    "fileAr": "agentic-automation-2026-ar.md"
+  }
+]
