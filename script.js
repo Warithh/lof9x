@@ -6,6 +6,7 @@ document.documentElement.classList.add("js");
 
 const fallbackI18nByLang = {
   en: {
+  brand: { personalTag: "Personal account" },
   nav: { impact: "Impact", updates: "AI Updates", tools: "AI Tools", projects: "Projects", services: "Services", blog: "Insights", contact: "Contact", commandPalette: "Command", theme: "Theme" },
   hero: {
     eyebrow: "Lecturer · AI Engineer · EdTech Builder",
@@ -73,14 +74,18 @@ const fallbackI18nByLang = {
   blog: { title: "Insights", subtitle: "Short notes on applied AI and teaching with technology.", read: "Read", close: "Close", loadError: "Unable to load post." },
   contact: {
     title: "Contact",
-    subtitle: "For teaching tech, AI tools, or collaboration.",
+    subtitle: "lof9x is personal � shlon.tech is educational.",
+    personalLabel: "Personal account",
+    personalNote: "Personal content, projects, and AI tools via lof9x.",
+    eduLabel: "Education account",
+    eduNote: "Teaching content and college platforms via shlon.tech.",
     emailTitle: "Email",
     copyEmail: "Copy email",
     copySuccess: "Email copied.",
     copyError: "Copy failed — please copy manually.",
-    connectTitle: "Social"
+    connectTitle: "Accounts"
   },
-  footer: { lastUpdated: "Last update:" },
+  footer: { lastUpdated: "Last update:", accounts: "lof9x � shlon.tech" },
   common: { source: "Source", visit: "Visit", demo: "Live", learn: "Learn" },
   commandPalette: {
     placeholder: "Type a command...",
@@ -89,6 +94,7 @@ const fallbackI18nByLang = {
   theme: { dark: "Dark", light: "Light" }
   },
   ar: {
+    brand: { personalTag: "حساب شخصي" },
     nav: { updates: "تحديثات AI", tools: "أدوات AI", projects: "المشاريع", services: "الخدمات", blog: "رؤى", contact: "تواصل", commandPalette: "أوامر", theme: "مظهر" },
     hero: {
       eyebrow: "أستاذ جامعي · مهندس ذكاء اصطناعي · بناء منصات تعليمية",
@@ -155,14 +161,18 @@ const fallbackI18nByLang = {
     blog: { title: "رؤى", subtitle: "ملاحظات قصيرة عن AI التطبيقي والتعليم بالتقنية.", read: "قراءة", close: "إغلاق", loadError: "تعذر تحميل المقال." },
     contact: {
       title: "تواصل",
-      subtitle: "للتعليم التقني أو أدوات AI أو التعاون.",
+      subtitle: "lof9x للحساب الشخصي \u00b7 shlon.tech للحساب التعليمي.",
+      personalLabel: "الحساب الشخصي",
+      personalNote: "محتوى شخصي، مشاريع، وأدوات AI عبر lof9x.",
+      eduLabel: "الحساب التعليمي",
+      eduNote: "محتوى تعليمي ومنصات الكلية عبر shlon.tech.",
       emailTitle: "البريد",
       copyEmail: "نسخ البريد",
       copySuccess: "تم نسخ البريد.",
       copyError: "تعذر النسخ — انسخه يدويًا.",
-      connectTitle: "التواصل الاجتماعي"
+      connectTitle: "الحسابات"
     },
-    footer: { lastUpdated: "آخر تحديث:" },
+    footer: { lastUpdated: "آخر تحديث:", accounts: "lof9x � shlon.tech" },
     common: { source: "المصدر", visit: "زيارة", demo: "مباشر", learn: "تعلّم" },
     commandPalette: {
       placeholder: "اكتب أمرًا...",

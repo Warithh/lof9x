@@ -16,7 +16,6 @@
     "subtitle": "مركز مستقل لوارث العوادي: منصة شعبة تكنولوجيا المعلومات، نظام الدراسات العليا، أدوات AI، وأتمتة قابلة للاستخدام فورًا.",
     "ctaUpdates": "تواصل معي",
     "ctaProjects": "شاهد الأثر",
-
     "sideTitle": "التركيز",
     "features": {
       "one": "عربي / إنجليزي",
@@ -80,7 +79,6 @@
     "title": "مشاريع حقيقية",
     "subtitle": "أحدث المشاريع المستخدمة فعليًا: شعبة تكنولوجيا المعلومات، الدراسات العليا، ومنصات الامتحانات."
   },
-
   "services": {
     "title": "كيف أساعدك",
     "subtitle": "استشارة وتنفيذ بنتائج ملموسة في التعليم أو التشغيل.",
@@ -116,15 +114,27 @@
   },
   "contact": {
     "title": "تواصل",
-    "subtitle": "للتعليم التقني أو أدوات AI أو التعاون.",
+    "subtitle": "lof9x للحساب الشخصي · shlon.tech للحساب التعليمي.",
     "emailTitle": "البريد",
     "copyEmail": "نسخ البريد",
     "copySuccess": "تم نسخ البريد.",
     "copyError": "تعذر النسخ — انسخه يدويًا.",
-    "connectTitle": "التواصل الاجتماعي"
+    "connectTitle": "الحسابات",
+    "personalLabel": "الحساب الشخصي",
+    "personalNote": "محتوى شخصي، مشاريع، وأدوات AI عبر lof9x.",
+    "eduLabel": "الحساب التعليمي",
+    "eduNote": "محتوى تعليمي ومنصات الكلية عبر shlon.tech."
   },
-  "footer": { "lastUpdated": "آخر تحديث:" },
-  "common": { "source": "المصدر", "visit": "زيارة", "demo": "مباشر", "learn": "تعلّم" },
+  "footer": {
+    "lastUpdated": "آخر تحديث:",
+    "accounts": "lof9x · shlon.tech"
+  },
+  "common": {
+    "source": "المصدر",
+    "visit": "زيارة",
+    "demo": "مباشر",
+    "learn": "تعلّم"
+  },
   "commandPalette": {
     "placeholder": "اكتب أمرًا...",
     "commands": {
@@ -136,5 +146,11 @@
       "switchTheme": "تبديل المظهر"
     }
   },
-  "theme": { "dark": "داكن", "light": "فاتح" }
+  "theme": {
+    "dark": "داكن",
+    "light": "فاتح"
+  },
+  "brand": {
+    "personalTag": "حساب شخصي"
+  }
 }

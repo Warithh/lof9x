@@ -603,6 +603,10 @@ button.card-link {
   gap: 0.85rem;
 }
 
+.contact-grid-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .contact-card {
   padding: 1.15rem;
 }
@@ -610,6 +614,21 @@ button.card-link {
 .contact-card h3 {
   margin: 0;
   font-family: var(--font-display);
+}
+
+.account-kicker {
+  margin: 0 0 0.35rem;
+  color: var(--accent);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.account-note {
+  margin: 0.45rem 0 0;
+  color: var(--muted);
+  line-height: 1.7;
+  font-size: 0.95rem;
 }
 
 .contact-email {
@@ -758,6 +777,10 @@ html[data-theme="light"] .toast {
   .grid-3 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .contact-grid-3 {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 760px) {
@@ -766,6 +789,7 @@ html[data-theme="light"] .toast {
   .grid-3,
   .grid-2,
   .contact-grid,
+  .contact-grid-3,
   .about-stats {
     grid-template-columns: 1fr;
   }

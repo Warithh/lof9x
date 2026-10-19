@@ -16,7 +16,6 @@
     "subtitle": "Independent hub by Warith Al-Awadi: IT Division platform, graduate studies system, curated AI tools, and automation you can use.",
     "ctaUpdates": "Contact me",
     "ctaProjects": "See impact",
-
     "sideTitle": "Focus",
     "features": {
       "one": "Bilingual AR / EN",
@@ -80,7 +79,6 @@
     "title": "Real Projects",
     "subtitle": "Latest production work: IT Division platform, graduate studies, and exam systems."
   },
-
   "services": {
     "title": "How I can help",
     "subtitle": "Consulting and build work with measurable classroom or ops outcomes.",
@@ -116,15 +114,27 @@
   },
   "contact": {
     "title": "Contact",
-    "subtitle": "For teaching tech, AI tools, or collaboration.",
+    "subtitle": "lof9x is personal � shlon.tech is educational.",
     "emailTitle": "Email",
     "copyEmail": "Copy email",
     "copySuccess": "Email copied.",
     "copyError": "Copy failed — please copy manually.",
-    "connectTitle": "Social"
+    "connectTitle": "Accounts",
+    "personalLabel": "Personal account",
+    "personalNote": "Personal content, projects, and AI tools via lof9x.",
+    "eduLabel": "Education account",
+    "eduNote": "Teaching content and college platforms via shlon.tech."
   },
-  "footer": { "lastUpdated": "Last update:" },
-  "common": { "source": "Source", "visit": "Visit", "demo": "Live", "learn": "Learn" },
+  "footer": {
+    "lastUpdated": "Last update:",
+    "accounts": "lof9x � shlon.tech"
+  },
+  "common": {
+    "source": "Source",
+    "visit": "Visit",
+    "demo": "Live",
+    "learn": "Learn"
+  },
   "commandPalette": {
     "placeholder": "Type a command...",
     "commands": {
@@ -136,5 +146,11 @@
       "switchTheme": "Switch theme"
     }
   },
-  "theme": { "dark": "Dark", "light": "Light" }
+  "theme": {
+    "dark": "Dark",
+    "light": "Light"
+  },
+  "brand": {
+    "personalTag": "Personal account"
+  }
 }
