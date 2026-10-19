@@ -1,0 +1,65 @@
+[
+  {
+    "name": { "en": "Iraqi National English Exam Prep", "ar": "منصة التحضير للامتحان الوطني الإنجليزي" },
+    "description": {
+      "en": "Static prep platform for the Iraqi national English exam with passages, keyed questions, and practice flow.",
+      "ar": "منصة تحضير للامتحان الوطني الإنجليزي مع نصوص وأسئلة مفتاحية ومسار تدريب عملي."
+    },
+    "tech": ["HTML", "JavaScript", "EdTech"],
+    "image": "./assets/project-exam.svg",
+    "demo": "https://warithh.github.io/warith-exam-iq/",
+    "github": "https://github.com/Warithh/warith-exam-iq"
+  },
+  {
+    "name": { "en": "Arabic Exam Practice", "ar": "منصة تدريب الامتحان العربي" },
+    "description": {
+      "en": "Focused Arabic exam practice site for students preparing with structured drills.",
+      "ar": "موقع تدريب مركّز للامتحان العربي بتمارين منظمة للطلبة."
+    },
+    "tech": ["Web", "Education", "Assessment"],
+    "image": "./assets/project-exam.svg",
+    "github": "https://github.com/Warithh/WARITHARABICEXAM"
+  },
+  {
+    "name": { "en": "Engineering Exam Hub", "ar": "مركز امتحانات هندسية" },
+    "description": {
+      "en": "Exam-oriented learning hub for engineering students with practical assessment paths.",
+      "ar": "مركز تعلّم موجّه للامتحانات لطلبة الهندسة بمسارات تقييم عملية."
+    },
+    "tech": ["Web", "Engineering", "Assessment"],
+    "image": "./assets/project-edtech.svg",
+    "github": "https://github.com/Warithh/engeaxam"
+  },
+  {
+    "name": { "en": "AI Tools & Automation Hub", "ar": "مركز أدوات الذكاء الاصطناعي والأتمتة" },
+    "description": {
+      "en": "Curated bilingual hub for AI updates, tools, and practical automation workflows.",
+      "ar": "مركز ثنائي اللغة لتحديثات وأدوات الذكاء الاصطناعي وتدفقات الأتمتة العملية."
+    },
+    "tech": ["Curated Content", "AI", "Automation"],
+    "image": "./assets/project-ai.svg",
+    "demo": "https://warithh.github.io/lof9x/",
+    "github": "https://github.com/Warithh/lof9x"
+  },
+  {
+    "name": { "en": "AI Telegram Bot", "ar": "بوت ذكاء اصطناعي على تيليجرام" },
+    "description": {
+      "en": "Telegram-facing AI assistant for quick answers, content help, and automation entry points.",
+      "ar": "مساعد ذكاء اصطناعي عبر تيليجرام للإجابات السريعة والمحتوى ومداخل الأتمتة."
+    },
+    "tech": ["Telegram", "AI", "Bot"],
+    "image": "./assets/project-ai.svg",
+    "github": "https://github.com/Warithh/warith_ai_bot"
+  },
+  {
+    "name": { "en": "Eid Greeting Experience", "ar": "تجربة تهنئة العيد" },
+    "description": {
+      "en": "Interactive Eid greeting page with QR sharing and photo layout for family events.",
+      "ar": "صفحة تهنئة عيد تفاعلية مع مشاركة QR وتخطيط صور للمناسبات العائلية."
+    },
+    "tech": ["HTML", "CSS", "UX"],
+    "image": "./assets/project-edtech.svg",
+    "demo": "https://warithh.github.io/eid-greeting-alawiti/",
+    "github": "https://github.com/Warithh/eid-greeting-alawiti"
+  }
+]

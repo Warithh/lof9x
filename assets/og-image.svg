@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07111a"/>
+      <stop offset="100%" stop-color="#0d2433"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="980" cy="120" r="180" fill="#3ddc97" opacity="0.18"/>
+  <circle cx="180" cy="520" r="160" fill="#3898d2" opacity="0.16"/>
+  <text x="80" y="250" fill="#eef6fb" font-family="Sora, Arial, sans-serif" font-size="96" font-weight="800">lof9x</text>
+  <text x="80" y="340" fill="#3ddc97" font-family="Cairo, Arial, sans-serif" font-size="40" font-weight="700">Warith Al-Awadi</text>
+  <text x="80" y="410" fill="#9db4c5" font-family="Cairo, Arial, sans-serif" font-size="30">EdTech · AI · Automation</text>
+</svg>

@@ -1,32 +1,34 @@
 :root {
-  --bg: #13100d;
-  --panel: rgba(255, 245, 229, 0.06);
-  --line: rgba(231, 203, 160, 0.24);
-  --line-strong: rgba(240, 217, 180, 0.5);
-  --text: #f8efe1;
-  --muted: #d3c3aa;
-  --accent: #d8b483;
-  --accent2: #f6debb;
+  --bg: #07111a;
+  --panel: rgba(255, 255, 255, 0.05);
+  --line: rgba(148, 197, 220, 0.18);
+  --line-strong: rgba(61, 220, 151, 0.5);
+  --text: #eef6fb;
+  --muted: #9db4c5;
+  --accent: #3ddc97;
+  --accent2: #6ee7b7;
+  --ink: #041018;
 }
 
 html[data-theme="light"] {
-  --bg: #f4ecdf;
-  --panel: rgba(255, 255, 255, 0.86);
-  --line: rgba(121, 90, 53, 0.2);
-  --line-strong: rgba(121, 90, 53, 0.42);
-  --text: #362718;
-  --muted: #72593c;
-  --accent: #b88954;
-  --accent2: #e8cfa6;
+  --bg: #f3f7fa;
+  --panel: rgba(255, 255, 255, 0.9);
+  --line: rgba(20, 55, 78, 0.12);
+  --line-strong: rgba(20, 154, 104, 0.45);
+  --text: #0d2230;
+  --muted: #4d6474;
+  --accent: #149a68;
+  --accent2: #3ddc97;
+  --ink: #062033;
 }
 
 * { box-sizing: border-box; }
 html, body { margin: 0; }
 body {
-  font-family: "Plus Jakarta Sans", Inter, Cairo, system-ui, Arial, sans-serif;
+  font-family: "Cairo", "Sora", system-ui, sans-serif;
   background:
-    radial-gradient(circle at 14% -5%, rgba(216, 180, 131, 0.16), transparent 35%),
-    radial-gradient(circle at 90% 6%, rgba(246, 222, 187, 0.12), transparent 36%),
+    radial-gradient(circle at 12% -8%, rgba(61, 220, 151, 0.14), transparent 40%),
+    radial-gradient(circle at 90% 8%, rgba(56, 152, 210, 0.12), transparent 38%),
     var(--bg);
   color: var(--text);
 }
@@ -45,7 +47,12 @@ body {
   margin-bottom: 1rem;
 }
 
-h1 { margin: 0; font-size: clamp(1.6rem, 3.5vw, 2.2rem); }
+h1 {
+  margin: 0;
+  font-family: "Sora", "Cairo", sans-serif;
+  font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+  letter-spacing: -0.02em;
+}
 .role { margin: 0.4rem 0 0; color: var(--muted); }
 
 .actions { display: flex; gap: 0.5rem; flex-wrap: wrap; }
@@ -54,20 +61,21 @@ h1 { margin: 0; font-size: clamp(1.6rem, 3.5vw, 2.2rem); }
   border-radius: 12px;
   padding: 0.55rem 0.75rem;
   color: var(--text);
-  background: rgba(255, 245, 229, 0.08);
+  background: var(--panel);
   text-decoration: none;
   cursor: pointer;
   font-weight: 700;
-  transition: 220ms ease;
+  font-family: inherit;
+  transition: 160ms ease;
 }
 .btn:hover {
-  transform: translateY(-2px);
+  transform: translateY(-1px);
   border-color: var(--line-strong);
 }
 
 .btn-primary {
   background: linear-gradient(135deg, var(--accent), var(--accent2));
-  color: #2b1f11;
+  color: var(--ink);
   border: 0;
 }
 
@@ -77,16 +85,18 @@ h1 { margin: 0; font-size: clamp(1.6rem, 3.5vw, 2.2rem); }
   border-radius: 16px;
   padding: 1.05rem;
   margin-bottom: 0.95rem;
-  box-shadow: 0 16px 38px rgba(8, 6, 4, 0.3);
-  transition: 230ms ease;
+  transition: 160ms ease;
 }
 
 .card:hover {
   border-color: var(--line-strong);
-  transform: translateY(-2px);
 }
 
-h2 { margin: 0 0 0.7rem; font-size: 1.1rem; }
+h2 {
+  margin: 0 0 0.7rem;
+  font-family: "Sora", "Cairo", sans-serif;
+  font-size: 1.1rem;
+}
 h3 { margin: 0; font-size: 1rem; }
 p, li { color: var(--muted); line-height: 1.8; }
 ul { margin: 0; padding-inline-start: 1.2rem; }
@@ -113,11 +123,11 @@ ul { margin: 0; padding-inline-start: 1.2rem; }
 
 .tag {
   border: 1px solid var(--line);
-  border-radius: 999px;
+  border-radius: 8px;
   padding: 0.32rem 0.62rem;
   font-size: 0.82rem;
   color: var(--muted);
-  background: rgba(255, 245, 229, 0.08);
+  background: rgba(61, 220, 151, 0.08);
 }
 
 @media (max-width: 760px) {

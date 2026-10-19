@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="800" viewBox="0 0 640 800" role="img" aria-label="Warith Al-Awadi">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0c1a27"/>
+      <stop offset="100%" stop-color="#123248"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="800" fill="url(#g)"/>
+  <circle cx="320" cy="300" r="110" fill="#1fa971" opacity="0.9"/>
+  <circle cx="320" cy="280" r="48" fill="#eef6fb"/>
+  <path d="M210 420c30-70 190-70 220 0v40H210z" fill="#eef6fb"/>
+  <text x="320" y="560" text-anchor="middle" fill="#3ddc97" font-family="Sora, Arial, sans-serif" font-size="42" font-weight="700">lof9x</text>
+  <text x="320" y="610" text-anchor="middle" fill="#9db4c5" font-family="Cairo, Arial, sans-serif" font-size="28">Warith Al-Awadi</text>
+</svg>
