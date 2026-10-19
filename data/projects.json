@@ -9,8 +9,9 @@
       "ar": "نظام إنتاجي بـ Flutter وFirebase لإدارة المختبرات والحضور والامتحانات والحجوزات والتذاكر وسير عمل الكادر — يعمل فعليًا في الكلية."
     },
     "tech": ["Flutter", "Firebase", "Firestore", "Cloud Functions", "Realtime", "RBAC"],
-    "image": "./assets/project-edtech.svg",
-    "demo": "https://edu-platform-najaf-prod-2026.web.app"
+    "image": "./assets/cases/it-division-live.jpg",
+    "demo": "https://edu-platform-najaf-prod-2026.web.app",
+    "learn": "./cases/view.html?id=it-division"
   },
   {
     "name": {
@@ -22,7 +23,8 @@
       "ar": "إدارة كاملة لسير عمل الدراسات العليا: سجلات الطلبة، المراحل البحثية، أدوار الكادر، واجهة عربية، وعمليات جاهزة للتسليم داخل الكلية."
     },
     "tech": ["Flutter", "Firebase", "Role-based Access", "Arabic UX", "Workflow Automation"],
-    "image": "./assets/project-workflow.svg"
+    "image": "./assets/cases/graduate-studies.svg",
+    "learn": "./cases/view.html?id=graduate-studies"
   },
   {
     "name": {
@@ -34,9 +36,10 @@
       "ar": "تجربة تحضير للامتحان الوطني الإنجليزي مع نصوص وأسئلة مفتاحية ومسار تدريب عملي."
     },
     "tech": ["HTML", "JavaScript", "Assessment UX", "GitHub Pages"],
-    "image": "./assets/project-exam.svg",
+    "image": "./assets/cases/exam-platforms.svg",
     "demo": "https://warithh.github.io/warith-exam-iq/",
-    "github": "https://github.com/Warithh/warith-exam-iq"
+    "github": "https://github.com/Warithh/warith-exam-iq",
+    "learn": "./cases/view.html?id=exam-platforms"
   },
   {
     "name": {

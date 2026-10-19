@@ -1,0 +1,171 @@
+[
+  {
+    "id": "it-division",
+    "eyebrow": { "en": "Production college system", "ar": "نظام كليّة في الإنتاج" },
+    "title": {
+      "en": "IT Division Platform",
+      "ar": "منصة شعبة تكنولوجيا المعلومات"
+    },
+    "subtitle": {
+      "en": "Al-Najaf Engineering Technical College — labs, attendance, exams, bookings, and staff workflows in one live system.",
+      "ar": "الكلية التقنية الهندسية النجف — مختبرات وحضور وامتحانات وحجوزات وسير عمل الكادر في نظام واحد يعمل فعليًا."
+    },
+    "cover": "../assets/cases/it-division-live.jpg",
+    "coverFallback": "../assets/cases/it-division.svg",
+    "demo": "https://edu-platform-najaf-prod-2026.web.app",
+    "problem": {
+      "en": "Lab operations, attendance, exams, and support tickets were scattered across manual steps and disconnected tools — slow for staff and unclear for students.",
+      "ar": "تشغيل المختبرات والحضور والامتحانات وتذاكر الدعم كان موزعًا على خطوات يدوية وأدوات منفصلة — بطيء للكادر وغير واضح للطلبة."
+    },
+    "solution": {
+      "en": "A bilingual Flutter + Firebase platform with role-based access, realtime sessions, exam flows, lab bookings, and operational dashboards used daily by the college IT division.",
+      "ar": "منصة Flutter + Firebase ثنائية اللغة بصلاحيات أدوار، جلسات لحظية، مسارات امتحانات، حجوزات مختبرات، ولوحات تشغيل تستخدمها شعبة تكنولوجيا المعلومات يوميًا."
+    },
+    "methods": [
+      "Flutter Web",
+      "Firebase Auth",
+      "Firestore",
+      "Cloud Functions",
+      "Realtime sessions",
+      "RBAC"
+    ],
+    "impact": [
+      {
+        "label": { "en": "Status", "ar": "الحالة" },
+        "value": { "en": "Live in production", "ar": "يعمل في الإنتاج" }
+      },
+      {
+        "label": { "en": "Scope", "ar": "النطاق" },
+        "value": { "en": "Labs · Attendance · Exams · Tickets", "ar": "مختبرات · حضور · امتحانات · تذاكر" }
+      },
+      {
+        "label": { "en": "Users", "ar": "المستخدمون" },
+        "value": { "en": "Staff + students", "ar": "كادر + طلبة" }
+      }
+    ],
+    "outcomes": {
+      "en": [
+        "One entry point for lab and academic operations instead of fragmented tools.",
+        "Role security so each staff action matches college responsibility.",
+        "Realtime attendance and exam flows that stay correct when devices sleep or clocks drift."
+      ],
+      "ar": [
+        "مدخل واحد لتشغيل المختبرات والعمل الأكاديمي بدل أدوات متفرقة.",
+        "صلاحيات أدوار تجعل كل إجراء للكادر مطابقًا لمسؤوليته داخل الكلية.",
+        "حضور وامتحانات لحظية تبقى صحيحة حتى مع نوم الجهاز أو اختلاف الساعة."
+      ]
+    }
+  },
+  {
+    "id": "graduate-studies",
+    "eyebrow": { "en": "Graduate workflows", "ar": "سير عمل الدراسات العليا" },
+    "title": {
+      "en": "Graduate Studies Management System",
+      "ar": "نظام إدارة الدراسات العليا"
+    },
+    "subtitle": {
+      "en": "Arabic-first system for student records, research stages, staff roles, and delivery-ready college processes.",
+      "ar": "نظام عربي أولًا لسجلات الطلبة والمراحل البحثية وأدوار الكادر وعمليات جاهزة للتسليم داخل الكلية."
+    },
+    "cover": "../assets/cases/graduate-studies.svg",
+    "problem": {
+      "en": "Graduate processes need clear stages, ownership, and follow-up. Paper-heavy or spreadsheet tracking makes research progress and staff handoffs easy to lose.",
+      "ar": "الدراسات العليا تحتاج مراحل واضحة ومسؤولية ومتابعة. التتبع الورقي أو عبر جداول يجعل تقدّم البحث وتسليم المهام بين الكادر سهل الضياع."
+    },
+    "solution": {
+      "en": "A dedicated graduate-studies product with student profiles, research-stage tracking, director/staff roles, and Arabic operational UX designed for college delivery — not a generic CRM.",
+      "ar": "منتج مخصص للدراسات العليا: ملفات طلبة، تتبع المراحل البحثية، أدوار المدير والكادر، وتجربة تشغيل عربية مصممة لتسليم الكلية — وليس CRM عامًا."
+    },
+    "methods": [
+      "Flutter",
+      "Firebase",
+      "Role-based Access",
+      "Workflow stages",
+      "Arabic UX",
+      "Audit-friendly records"
+    ],
+    "impact": [
+      {
+        "label": { "en": "Focus", "ar": "التركيز" },
+        "value": { "en": "Research stages", "ar": "المراحل البحثية" }
+      },
+      {
+        "label": { "en": "Roles", "ar": "الأدوار" },
+        "value": { "en": "Director · Staff · Students", "ar": "مدير · كادر · طلبة" }
+      },
+      {
+        "label": { "en": "Design", "ar": "التصميم" },
+        "value": { "en": "Arabic-first ops", "ar": "تشغيل عربي أولًا" }
+      }
+    ],
+    "outcomes": {
+      "en": [
+        "Clear ownership of each graduate student stage.",
+        "Staff can follow progress without chasing files across folders.",
+        "Built for college delivery standards, signatures, and accountability."
+      ],
+      "ar": [
+        "ملكية واضحة لكل مرحلة من مراحل طالب الدراسات العليا.",
+        "الكادر يتابع التقدّم دون ملاحقة الملفات عبر المجلدات.",
+        "مبني لمعايير تسليم الكلية والتوقيع والمساءلة."
+      ]
+    }
+  },
+  {
+    "id": "exam-platforms",
+    "eyebrow": { "en": "Assessment products", "ar": "منتجات تقييم" },
+    "title": {
+      "en": "Exam & Practice Platforms",
+      "ar": "منصات الامتحانات والتدريب"
+    },
+    "subtitle": {
+      "en": "National English prep, Arabic practice, and engineering exam hubs — lightweight, public, and student-ready.",
+      "ar": "تحضير الامتحان الوطني الإنجليزي، تدريب عربي، ومراكز امتحانات هندسية — خفيفة وعامة وجاهزة للطالب."
+    },
+    "cover": "../assets/cases/exam-platforms.svg",
+    "demo": "https://warithh.github.io/warith-exam-iq/",
+    "github": "https://github.com/Warithh/warith-exam-iq",
+    "problem": {
+      "en": "Students need focused practice paths for national and college exams without heavy installs or confusing navigation.",
+      "ar": "الطلبة يحتاجون مسارات تدريب مركّزة للامتحانات الوطنية والكلية بدون تثبيت ثقيل أو تنقّل مربك."
+    },
+    "solution": {
+      "en": "Fast static and web exam experiences with passages, keyed questions, and structured drills — shippable on GitHub Pages and easy to share.",
+      "ar": "تجارب امتحان ويب سريعة مع نصوص وأسئلة مفتاحية وتمارين منظمة — قابلة للنشر على GitHub Pages وسهلة المشاركة."
+    },
+    "methods": [
+      "Static Web",
+      "Assessment UX",
+      "Keyed questions",
+      "GitHub Pages",
+      "Shareable links",
+      "Bilingual content"
+    ],
+    "impact": [
+      {
+        "label": { "en": "Tracks", "ar": "المسارات" },
+        "value": { "en": "English · Arabic · Engineering", "ar": "إنجليزي · عربي · هندسي" }
+      },
+      {
+        "label": { "en": "Delivery", "ar": "التسليم" },
+        "value": { "en": "Public URLs", "ar": "روابط عامة" }
+      },
+      {
+        "label": { "en": "Goal", "ar": "الهدف" },
+        "value": { "en": "Practice → confidence", "ar": "تدريب → ثقة" }
+      }
+    ],
+    "outcomes": {
+      "en": [
+        "Students can practice immediately from a link.",
+        "Content structure matches real exam shapes (passages, keys, drills).",
+        "Independent products that complement — not replace — the college ops platform."
+      ],
+      "ar": [
+        "الطالب يبدأ التدريب فورًا من رابط.",
+        "هيكل المحتوى يطابق شكل الامتحان الحقيقي (نصوص، مفاتيح، تمارين).",
+        "منتجات مستقلة تكمل منصة تشغيل الكلية ولا تستبدلها."
+      ]
+    }
+  }
+]

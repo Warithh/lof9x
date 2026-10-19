@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#0a1620"/>
+  <rect x="320" y="70" width="560" height="520" rx="24" fill="#0f2233" stroke="#3ddc97" stroke-opacity=".4"/>
+  <circle cx="390" cy="170" r="16" fill="#3ddc97"/>
+  <rect x="430" y="160" width="320" height="18" rx="6" fill="#eef6fb" opacity=".85"/>
+  <circle cx="390" cy="250" r="16" fill="none" stroke="#9db4c5"/>
+  <rect x="430" y="240" width="280" height="18" rx="6" fill="#9db4c5" opacity=".4"/>
+  <circle cx="390" cy="330" r="16" fill="none" stroke="#9db4c5"/>
+  <rect x="430" y="320" width="340" height="18" rx="6" fill="#9db4c5" opacity=".3"/>
+  <rect x="430" y="420" width="220" height="48" rx="12" fill="#3ddc97"/>
+  <text x="600" y="620" text-anchor="middle" fill="#9db4c5" font-family="Sora, Arial" font-size="22">English · Arabic · Engineering</text>
+</svg>

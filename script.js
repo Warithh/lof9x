@@ -6,13 +6,13 @@ document.documentElement.classList.add("js");
 
 const fallbackI18nByLang = {
   en: {
-  nav: { updates: "AI Updates", tools: "AI Tools", projects: "Projects", services: "Services", blog: "Insights", contact: "Contact", commandPalette: "Command", theme: "Theme" },
+  nav: { impact: "Impact", updates: "AI Updates", tools: "AI Tools", projects: "Projects", services: "Services", blog: "Insights", contact: "Contact", commandPalette: "Command", theme: "Theme" },
   hero: {
     eyebrow: "Lecturer · AI Engineer · EdTech Builder",
     title: "Practical AI for classrooms, exams, and real workflows",
     subtitle: "Independent hub by Warith Al-Awadi: curated AI tools, education platforms, and automation you can actually use.",
     ctaUpdates: "Contact me",
-    ctaProjects: "View projects",
+    ctaProjects: "See impact",
     sideTitle: "Focus",
     features: { one: "Bilingual AR / EN", two: "Live AI updates", three: "Exam & learning platforms", four: "Applied automation" }
   },
@@ -57,6 +57,7 @@ const fallbackI18nByLang = {
     detailModel: "Usage model",
     noResults: "No matching tools found."
   },
+  impact: { title: "Impact Cases", subtitle: "Problem ? solution ? modern methods ? outcome.", allCases: "All impact cases", readCase: "Read impact case", loadError: "Unable to load impact cases." },
   projects: { title: "Selected Projects", subtitle: "Independent public work — exam prep, AI hubs, and learning tools." },
   services: {
     title: "How I can help",
@@ -619,8 +620,9 @@ const fallbackProjects = [
       "Realtime",
       "RBAC"
     ],
-    "image": "./assets/project-edtech.svg",
-    "demo": "https://edu-platform-najaf-prod-2026.web.app"
+    "image": "./assets/cases/it-division-live.jpg",
+    "demo": "https://edu-platform-najaf-prod-2026.web.app",
+    "learn": "./cases/view.html?id=it-division"
   },
   {
     "name": {
@@ -638,7 +640,8 @@ const fallbackProjects = [
       "Arabic UX",
       "Workflow Automation"
     ],
-    "image": "./assets/project-workflow.svg"
+    "image": "./assets/cases/graduate-studies.svg",
+    "learn": "./cases/view.html?id=graduate-studies"
   },
   {
     "name": {
@@ -655,9 +658,10 @@ const fallbackProjects = [
       "Assessment UX",
       "GitHub Pages"
     ],
-    "image": "./assets/project-exam.svg",
+    "image": "./assets/cases/exam-platforms.svg",
     "demo": "https://warithh.github.io/warith-exam-iq/",
-    "github": "https://github.com/Warithh/warith-exam-iq"
+    "github": "https://github.com/Warithh/warith-exam-iq",
+    "learn": "./cases/view.html?id=exam-platforms"
   },
   {
     "name": {
@@ -765,6 +769,7 @@ const elements = {
   toast: document.getElementById("toast"),
   langToggle: document.getElementById("langToggle"),
   themeToggle: document.getElementById("themeToggle"),
+  impactGrid: document.getElementById("impactGrid"),
   updatesGrid: document.getElementById("updatesGrid"),
   toolsGrid: document.getElementById("toolsGrid"),
   projectsGrid: document.getElementById("projectsGrid"),
@@ -885,6 +890,45 @@ async function loadI18n(lang) {
   } catch (error) {
     state.i18n = fallbackI18nByLang[lang] || fallbackI18nByLang.en;
   }
+}
+
+
+async function loadImpact() {
+  const grid = elements.impactGrid;
+  if (!grid) return;
+  try {
+    const response = await fetch("./data/cases.json", { cache: "no-store" });
+    if (!response.ok) throw new Error("cases fetch failed");
+    renderImpact(await response.json());
+  } catch (error) {
+    grid.innerHTML = `<article class="card"><p>${escapeHtml(t("impact.loadError"))}</p></article>`;
+  }
+}
+
+function renderImpact(cases) {
+  const grid = elements.impactGrid;
+  if (!grid) return;
+  grid.innerHTML = "";
+  (cases || []).slice(0, 3).forEach((item, index) => {
+    const card = document.createElement("article");
+    card.className = "card reveal";
+    card.style.setProperty("--stagger", `${index * 45}ms`);
+    const title = escapeHtml(pickLangValue(item.title));
+    const subtitle = escapeHtml(pickLangValue(item.subtitle));
+    const cover = escapeHtml(item.cover || item.coverFallback || "./assets/project-edtech.svg");
+    const href = `./cases/view.html?id=${encodeURIComponent(item.id)}`;
+    card.innerHTML = `
+      <img class="project-thumb" src="${cover}" alt="${title}" loading="lazy"
+        onerror="this.onerror=null;this.src='${escapeHtml(item.coverFallback || "./assets/project-edtech.svg")}';">
+      <div class="card-top">
+        <h3>${title}</h3>
+        <a class="card-link" href="${href}">${escapeHtml(t("impact.readCase"))}</a>
+      </div>
+      <p>${subtitle}</p>
+    `;
+    grid.appendChild(card);
+  });
+  revealObserver();
 }
 
 async function loadUpdates() {
@@ -1535,7 +1579,7 @@ async function init() {
     applyTheme();
     await loadI18n(state.lang);
     applyTranslations();
-    await Promise.allSettled([loadUpdates(), loadTools(), loadProjects(), loadBlog()]);
+    await Promise.allSettled([loadImpact(), loadUpdates(), loadTools(), loadProjects(), loadBlog()]);
     renderServices();
     setupGradientBackground();
     setupHeroParallax();
