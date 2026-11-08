@@ -14,7 +14,7 @@
     "eyebrow": "Lecturer · AI Engineer · EdTech Builder",
     "title": "Practical AI for classrooms, exams, and real workflows",
     "subtitle": "Independent hub by Warith Al-Awadi: IT Division platform, graduate studies system, curated AI tools, and automation you can use.",
-    "ctaUpdates": "Contact me",
+    "ctaUpdates": "Latest updates",
     "ctaProjects": "See impact",
     "sideTitle": "Focus",
     "features": {
@@ -46,7 +46,7 @@
   },
   "updates": {
     "title": "Latest AI Updates",
-    "subtitle": "Curated releases and reports worth watching."
+    "subtitle": "Latest tool and model releases — Cursor, ChatGPT, Claude, and Gemini."
   },
   "tools": {
     "title": "AI Tools Directory",

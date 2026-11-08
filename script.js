@@ -12,7 +12,7 @@ const fallbackI18nByLang = {
     eyebrow: "Lecturer · AI Engineer · EdTech Builder",
     title: "Practical AI for classrooms, exams, and real workflows",
     subtitle: "Independent hub by Warith Al-Awadi: curated AI tools, education platforms, and automation you can actually use.",
-    ctaUpdates: "Contact me",
+    ctaUpdates: "Latest updates",
     ctaProjects: "See impact",
     sideTitle: "Focus",
     features: { one: "Bilingual AR / EN", two: "Live AI updates", three: "Exam & learning platforms", four: "Applied automation" }
@@ -37,7 +37,7 @@ const fallbackI18nByLang = {
       missionLabel: "Clear, fast, and maintainable"
     }
   },
-  updates: { title: "Latest AI Updates", subtitle: "Curated releases and reports worth watching." },
+  updates: { title: "Latest AI Updates", subtitle: "Latest tool and model releases — Cursor, ChatGPT, Claude, and Gemini." },
   tools: {
     title: "AI Tools Directory",
     subtitle: "Hand-picked tools for teaching, coding, and automation.",
@@ -100,8 +100,8 @@ const fallbackI18nByLang = {
       eyebrow: "أستاذ جامعي · مهندس ذكاء اصطناعي · بناء منصات تعليمية",
       title: "ذكاء اصطناعي عملي للقاعات والامتحانات وسير العمل",
       subtitle: "مركز مستقل لوارث العوادي: أدوات AI مختارة، منصات امتحانات، وأتمتة قابلة للاستخدام فورًا.",
-      ctaUpdates: "تواصل معي",
-      ctaProjects: "عرض المشاريع",
+      ctaUpdates: "آخر التحديثات",
+      ctaProjects: "شاهد الأثر",
       sideTitle: "التركيز",
       features: { one: "عربي / إنجليزي", two: "تحديثات AI حية", three: "منصات امتحانات وتعلّم", four: "أتمتة تطبيقية" }
     },
@@ -125,7 +125,7 @@ const fallbackI18nByLang = {
         missionLabel: "واضحة وسريعة وقابلة للصيانة"
       }
     },
-    updates: { title: "آخر تحديثات الذكاء الاصطناعي", subtitle: "إصدارات وتقارير مختارة تستحق المتابعة." },
+    updates: { title: "آخر تحديثات الذكاء الاصطناعي", subtitle: "أحدث إصدارات الأدوات والنماذج — Cursor وChatGPT وClaude وGemini." },
     tools: {
       title: "دليل أدوات الذكاء الاصطناعي",
       subtitle: "أدوات مختارة للتدريس والبرمجة والأتمتة.",
@@ -184,12 +184,28 @@ const fallbackI18nByLang = {
 
 const fallbackUpdates = [
   {
-    title: { en: "OpenAI platform update", ar: "تحديث منصة OpenAI" },
-    summary: { en: "Major improvements in model workflows and tooling.", ar: "تحسينات كبيرة في تدفقات عمل النماذج والأدوات." },
+    title: { en: "Cursor — Voice Chat with Agents", ar: "Cursor — محادثة صوتية مع الوكلاء" },
+    summary: { en: "Realtime voice calls with coding agents in the IDE, web, and iOS.", ar: "مكالمات صوتية لحظية مع وكلاء البرمجة داخل IDE والويب وiOS." },
+    organization: "Cursor",
+    date: "Nov 6, 2026",
+    category: "Tool Update",
+    link: "https://cursor.com/changelog"
+  },
+  {
+    title: { en: "ChatGPT Images 2.6 — faster edits + GIFs", ar: "ChatGPT Images 2.6 — تحرير أسرع وصور متحركة" },
+    summary: { en: "New image model with GIF creation and saved reference images.", ar: "نموذج صور جديد مع إنشاء GIF وصور مرجعية محفوظة." },
     organization: "OpenAI",
-    date: "2026",
-    category: "Platform",
-    link: "https://openai.com"
+    date: "Nov 4, 2026",
+    category: "Tool Update",
+    link: "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+  },
+  {
+    title: { en: "Cursor — Live Apps", ar: "Cursor — Live Apps" },
+    summary: { en: "Cloud agents build, deploy, and share web apps from a prompt.", ar: "وكلاء سحابيون يبنون وينشرون ويشاركون تطبيقات ويب من وصف نصي." },
+    organization: "Cursor",
+    date: "Nov 5, 2026",
+    category: "Tool Launch",
+    link: "https://cursor.com/changelog"
   }
 ];
 

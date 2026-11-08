@@ -1,45 +1,115 @@
 [
   {
     "title": {
-      "en": "Gemini 3.1 Flash-Lite — built for large-scale intelligence",
-      "ar": "Gemini 3.1 Flash-Lite — نموذج مبني للذكاء على نطاق واسع"
+      "en": "Cursor — Voice Chat with Agents",
+      "ar": "Cursor — محادثة صوتية مع الوكلاء"
     },
     "summary": {
-      "en": "DeepMind model page updates with Flash-Lite in the March 2026 lineup.",
-      "ar": "تحديثات نماذج DeepMind ضمن صفحة النماذج، مع طرح Flash-Lite ضمن مارس 2026."
+      "en": "Realtime voice calls with coding agents in the IDE, Agents Window, web, and iOS — powered by Grok Voice, with progress spoken while the agent works.",
+      "ar": "مكالمات صوتية لحظية مع وكلاء البرمجة داخل IDE وAgents Window والويب وiOS — عبر Grok Voice، مع تحديثات صوتية أثناء عمل الوكيل."
+    },
+    "date": "Nov 6, 2026",
+    "category": "Tool Update",
+    "organization": "Cursor",
+    "link": "https://cursor.com/changelog"
+  },
+  {
+    "title": {
+      "en": "Cursor — Live Apps (build, deploy, share)",
+      "ar": "Cursor — Live Apps (بناء ونشر ومشاركة)"
+    },
+    "summary": {
+      "en": "Cloud agents scaffold a web app, optional Postgres, auth, and hosting — then publish a shareable link from new or existing repos.",
+      "ar": "وكلاء سحابيون يبنون تطبيق ويب مع قاعدة بيانات وتوثيق واستضافة عند الحاجة، ثم ينشرونه برابط قابل للمشاركة من مستودع جديد أو قائم."
+    },
+    "date": "Nov 5, 2026",
+    "category": "Tool Launch",
+    "organization": "Cursor",
+    "link": "https://cursor.com/changelog"
+  },
+  {
+    "title": {
+      "en": "ChatGPT Images 2.6 — faster edits + GIFs",
+      "ar": "ChatGPT Images 2.6 — تحرير أسرع وصور متحركة"
+    },
+    "summary": {
+      "en": "New image model with stronger detail preservation, GIF creation, and saved reference images you can reuse across chats.",
+      "ar": "نموذج صور جديد يحافظ على التفاصيل بشكل أفضل، مع إنشاء GIF وصور مرجعية محفوظة يمكن إعادة استخدامها عبر المحادثات."
+    },
+    "date": "Nov 4, 2026",
+    "category": "Tool Update",
+    "organization": "OpenAI",
+    "link": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+  },
+  {
+    "title": {
+      "en": "Claude — Personal Finance beta + Enterprise controls",
+      "ar": "Claude — Personal Finance وضوابط Enterprise"
+    },
+    "summary": {
+      "en": "Personal Finance beta (US) links bank and investment accounts; Enterprise adds security center, inference hooks, and stronger admin controls.",
+      "ar": "إصدار تجريبي لـ Personal Finance في أمريكا لربط الحسابات البنكية والاستثمارية، مع مركز أمان وinference hooks وضوابط إدارة أقوى لـ Enterprise."
+    },
+    "date": "Nov 5, 2026",
+    "category": "Tool Update",
+    "organization": "Anthropic",
+    "link": "https://support.claude.com/en/articles/12138966-release-notes"
+  },
+  {
+    "title": {
+      "en": "Gemini Omni 1.2 Flash — 15s video, lower price",
+      "ar": "Gemini Omni 1.2 Flash — فيديو 15 ثانية بسعر أقل"
+    },
+    "summary": {
+      "en": "Native video generation up to 15 seconds with conversational editing and about 30% lower pricing versus Omni 1.1.",
+      "ar": "توليد فيديو أصلي حتى 15 ثانية مع تحرير عبر المحادثة، وتخفيض سعري بنحو 30٪ مقارنة بـ Omni 1.1."
+    },
+    "date": "Nov 5, 2026",
+    "category": "Model Update",
+    "organization": "Google",
+    "link": "https://ai.google.dev/"
+  },
+  {
+    "title": {
+      "en": "Claude Code 2.1 — MCP task backgrounding",
+      "ar": "Claude Code 2.1 — تشغيل مهام MCP في الخلفية"
+    },
+    "summary": {
+      "en": "Long MCP tool calls can run as background tasks; denyInsteadOfPrompting keeps unattended agent runs moving without permission stalls.",
+      "ar": "استدعاءات MCP الطويلة تعمل كمهام خلفية، وخيار denyInsteadOfPrompting يمنع توقف الوكيل غير المراقب عند طلبات الإذن."
+    },
+    "date": "Nov 6, 2026",
+    "category": "Tool Update",
+    "organization": "Anthropic",
+    "link": "https://support.claude.com/en/articles/12138966-release-notes"
+  },
+  {
+    "title": {
+      "en": "ChatGPT Dots — persistent background tasks",
+      "ar": "ChatGPT Dots — مهام خلفية مستمرة"
+    },
+    "summary": {
+      "en": "Dots for Enterprise, Edu, and Healthcare keep working between conversations, with admin controls for access, pause, and audit.",
+      "ar": "Dots لـ Enterprise وEdu وHealthcare تواصل العمل بين المحادثات، مع ضوابط إدارية للوصول والإيقاف والمراجعة."
+    },
+    "date": "Nov 4, 2026",
+    "category": "Platform Update",
+    "organization": "OpenAI",
+    "link": "https://openai.com/products/release-notes/"
+  },
+  {
+    "title": {
+      "en": "Gemini 3.1 Flash-Lite — large-scale intelligence",
+      "ar": "Gemini 3.1 Flash-Lite — ذكاء على نطاق واسع"
+    },
+    "summary": {
+      "en": "DeepMind model lineup update featuring Flash-Lite for high-volume, cost-efficient workloads.",
+      "ar": "تحديث تشكيلة نماذج DeepMind مع Flash-Lite لأحمال عالية الحجم وبتكلفة أكثر كفاءة."
     },
     "date": "March 2026",
     "category": "Model Release",
     "organization": "Google DeepMind",
     "link": "https://deepmind.google/models/"
-  },
-  {
-    "title": {
-      "en": "Gemini 3.1 Pro — stronger complex reasoning",
-      "ar": "Gemini 3.1 Pro — مهام معقدة واستدلال أقوى"
-    },
-    "summary": {
-      "en": "Gemini 3.1 Pro (Feb 2026) positioned for harder, multi-step work.",
-      "ar": "طرح Gemini 3.1 Pro (فبراير 2026) كنموذج أقوى للمهام المعقدة."
-    },
-    "date": "February 2026",
-    "category": "Model Release",
-    "organization": "Google DeepMind",
-    "link": "https://deepmind.google/models/"
-  },
-  {
-    "title": {
-      "en": "Gemini 3 Deep Think — science and engineering focus",
-      "ar": "Gemini 3 Deep Think — ترقية للعلوم والهندسة"
-    },
-    "summary": {
-      "en": "Deep Think upgrade aimed at scientific and engineering research workflows.",
-      "ar": "تحديث Deep Think موجه للبحث العلمي والهندسي، مع إتاحة ضمن تطبيق Gemini وخيارات وصول عبر API."
-    },
-    "date": "Feb 12, 2026",
-    "category": "Model Update",
-    "organization": "Google",
-    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/"
   },
   {
     "title": {
@@ -54,33 +124,5 @@
     "category": "Platform Update",
     "organization": "OpenAI",
     "link": "https://openai.com/index/retiring-gpt-4o-and-older-models/"
-  },
-  {
-    "title": {
-      "en": "OpenAI Open Models — open-weight customization",
-      "ar": "OpenAI Open Models — نماذج open-weight للتخصيص"
-    },
-    "summary": {
-      "en": "Official OpenAI page for open-weight models you can customize and run in your stack.",
-      "ar": "صفحة OpenAI الرسمية للنماذج المفتوحة/الأوزان المفتوحة للتخصيص وتشغيلها ببيئات مختلفة."
-    },
-    "date": "2026",
-    "category": "Open Models",
-    "organization": "OpenAI",
-    "link": "https://openai.com/open-models/"
-  },
-  {
-    "title": {
-      "en": "AI Agent Trends 2026",
-      "ar": "AI Agent Trends 2026 — توجهات الوكلاء"
-    },
-    "summary": {
-      "en": "Google Cloud report on agentic AI trends and business impact through 2026.",
-      "ar": "تقرير من Google Cloud عن توجهات agentic AI وتأثيرها على الأعمال في 2026 وما بعدها."
-    },
-    "date": "2026",
-    "category": "Report",
-    "organization": "Google Cloud",
-    "link": "https://cloud.google.com/resources/content/ai-agent-trends-2026"
   }
 ]
