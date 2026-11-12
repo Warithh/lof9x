@@ -17,7 +17,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css?v=7">
+  <link rel="stylesheet" href="./style.css?v=8">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -58,10 +58,10 @@
     </a>
 
     <nav class="nav-links">
+      <a href="#projects" data-i18n="nav.projects"></a>
+      <a href="#impact" data-i18n="nav.impact"></a>
       <a href="#updates" data-i18n="nav.updates"></a>
       <a href="#tools" data-i18n="nav.tools"></a>
-      <a href="#impact" data-i18n="nav.impact"></a>
-      <a href="#projects" data-i18n="nav.projects"></a>
       <a href="#blog" data-i18n="nav.blog"></a>
       <a href="#contact" data-i18n="nav.contact"></a>
     </nav>
@@ -82,40 +82,18 @@
         <h1 data-i18n="hero.title"></h1>
         <p class="hero-sub" data-i18n="hero.subtitle"></p>
         <div class="hero-actions">
-          <a href="#updates" class="btn btn-primary" data-i18n="hero.ctaUpdates"></a>
-          <a href="#impact" class="btn btn-ghost" data-i18n="hero.ctaProjects"></a>
+          <a href="#projects" class="btn btn-primary" data-i18n="hero.ctaProjects"></a>
+          <a href="#updates" class="btn btn-ghost" data-i18n="hero.ctaUpdates"></a>
         </div>
       </div>
     </section>
 
-    <section id="updates" class="section reveal">
+    <section id="projects" class="section reveal">
       <div class="section-head">
-        <h2 data-i18n="updates.title"></h2>
-        <p data-i18n="updates.subtitle"></p>
+        <h2 data-i18n="projects.title"></h2>
+        <p data-i18n="projects.subtitle"></p>
       </div>
-      <div id="updatesGrid" class="grid grid-3"></div>
-    </section>
-
-    <section id="tools" class="section">
-      <div class="section-head">
-        <h2 data-i18n="tools.title"></h2>
-        <p data-i18n="tools.subtitle"></p>
-      </div>
-      <div class="toolbar glass">
-        <input id="toolSearch" type="search" data-i18n-placeholder="tools.searchPlaceholder" autocomplete="off">
-        <div class="tools-controls">
-          <label for="toolSort" data-i18n="tools.sortLabel"></label>
-          <select id="toolSort" aria-label="Tool sort">
-            <option value="relevance" data-i18n="tools.sortRelevance"></option>
-            <option value="popular" data-i18n="tools.sortPopular"></option>
-            <option value="newest" data-i18n="tools.sortNewest"></option>
-            <option value="name" data-i18n="tools.sortName"></option>
-          </select>
-        </div>
-        <div id="toolCategories" class="category-chips"></div>
-        <div id="toolBadges" class="category-chips"></div>
-      </div>
-      <div id="toolsGrid" class="grid grid-3"></div>
+      <div id="projectsGrid" class="projects-board"></div>
     </section>
 
     <section id="impact" class="section reveal">
@@ -176,12 +154,37 @@
       </div>
     </section>
 
-    <section id="projects" class="section reveal">
+    <section id="updates" class="section reveal">
       <div class="section-head">
-        <h2 data-i18n="projects.title"></h2>
-        <p data-i18n="projects.subtitle"></p>
+        <h2 data-i18n="updates.title"></h2>
+        <p data-i18n="updates.subtitle"></p>
       </div>
-      <div id="projectsGrid" class="grid grid-3"></div>
+      <div id="updatesGrid" class="grid grid-3"></div>
+    </section>
+
+    <section id="tools" class="section">
+      <div class="section-head">
+        <h2 data-i18n="tools.title"></h2>
+        <p data-i18n="tools.subtitle"></p>
+      </div>
+      <div class="toolbar glass">
+        <input id="toolSearch" type="search" data-i18n-placeholder="tools.searchPlaceholder" autocomplete="off">
+        <div class="tools-controls">
+          <label for="toolSort" data-i18n="tools.sortLabel"></label>
+          <select id="toolSort" aria-label="Tool sort">
+            <option value="relevance" data-i18n="tools.sortRelevance"></option>
+            <option value="popular" data-i18n="tools.sortPopular"></option>
+            <option value="newest" data-i18n="tools.sortNewest"></option>
+            <option value="name" data-i18n="tools.sortName"></option>
+          </select>
+        </div>
+        <div id="toolCategories" class="category-chips"></div>
+        <div id="toolBadges" class="category-chips"></div>
+      </div>
+      <div id="toolsGrid" class="grid grid-3"></div>
+      <div class="hero-actions" style="margin-top:1rem;justify-content:center">
+        <button id="toolsShowMore" class="btn btn-ghost" type="button" hidden></button>
+      </div>
     </section>
 
     <section id="services" class="section reveal">
@@ -268,6 +271,6 @@
   </section>
 
   <script src="./tool-guides.js" defer></script>
-  <script src="./script.js?v=7" defer></script>
+  <script src="./script.js?v=8" defer></script>
 </body>
 </html>

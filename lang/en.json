@@ -15,7 +15,7 @@
     "title": "Practical AI for classrooms, exams, and real workflows",
     "subtitle": "Independent hub by Warith Al-Awadi: IT Division platform, graduate studies system, curated AI tools, and automation you can use.",
     "ctaUpdates": "Latest updates",
-    "ctaProjects": "See impact",
+    "ctaProjects": "Real projects",
     "sideTitle": "Focus",
     "features": {
       "one": "Bilingual AR / EN",
@@ -66,7 +66,9 @@
     "detailBestFor": "Best for",
     "detailHowToUse": "Suggested workflow",
     "detailModel": "Usage model",
-    "noResults": "No matching tools found."
+    "noResults": "No matching tools found.",
+    "showMore": "Show more tools",
+    "showLess": "Show less"
   },
   "impact": {
     "title": "Impact Cases",
@@ -77,7 +79,7 @@
   },
   "projects": {
     "title": "Real Projects",
-    "subtitle": "Latest production work: IT Division platform, graduate studies, and exam systems."
+    "subtitle": "Real product UIs from college systems and exam platforms — production screenshots, not mockups."
   },
   "services": {
     "title": "How I can help",

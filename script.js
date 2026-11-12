@@ -13,7 +13,7 @@ const fallbackI18nByLang = {
     title: "Practical AI for classrooms, exams, and real workflows",
     subtitle: "Independent hub by Warith Al-Awadi: curated AI tools, education platforms, and automation you can actually use.",
     ctaUpdates: "Latest updates",
-    ctaProjects: "See impact",
+    ctaProjects: "Real projects",
     sideTitle: "Focus",
     features: { one: "Bilingual AR / EN", two: "Live AI updates", three: "Exam & learning platforms", four: "Applied automation" }
   },
@@ -56,10 +56,12 @@ const fallbackI18nByLang = {
     detailBestFor: "Best for",
     detailHowToUse: "Suggested workflow",
     detailModel: "Usage model",
-    noResults: "No matching tools found."
+    noResults: "No matching tools found.",
+    showMore: "Show more tools",
+    showLess: "Show less"
   },
-  impact: { title: "Impact Cases", subtitle: "Problem ? solution ? modern methods ? outcome.", allCases: "All impact cases", readCase: "Read impact case", loadError: "Unable to load impact cases." },
-  projects: { title: "Selected Projects", subtitle: "Independent public work — exam prep, AI hubs, and learning tools." },
+  impact: { title: "Impact Cases", subtitle: "Problem → solution → modern methods → outcome.", allCases: "All impact cases", readCase: "Read impact case", loadError: "Unable to load impact cases." },
+  projects: { title: "Real Projects", subtitle: "Real product UIs from college systems and exam platforms — production screenshots, not mockups." },
   services: {
     title: "How I can help",
     subtitle: "Consulting and build work with measurable classroom or ops outcomes.",
@@ -101,7 +103,7 @@ const fallbackI18nByLang = {
       title: "ذكاء اصطناعي عملي للقاعات والامتحانات وسير العمل",
       subtitle: "مركز مستقل لوارث العوادي: أدوات AI مختارة، منصات امتحانات، وأتمتة قابلة للاستخدام فورًا.",
       ctaUpdates: "آخر التحديثات",
-      ctaProjects: "شاهد الأثر",
+      ctaProjects: "المشاريع الحقيقية",
       sideTitle: "التركيز",
       features: { one: "عربي / إنجليزي", two: "تحديثات AI حية", three: "منصات امتحانات وتعلّم", four: "أتمتة تطبيقية" }
     },
@@ -144,9 +146,11 @@ const fallbackI18nByLang = {
       detailBestFor: "أفضل استخدام",
       detailHowToUse: "طريقة الاستخدام المقترحة",
       detailModel: "نموذج الاستخدام",
-      noResults: "لا توجد نتائج مطابقة."
+      noResults: "لا توجد نتائج مطابقة.",
+      showMore: "عرض المزيد من الأدوات",
+      showLess: "عرض أقل"
     },
-    projects: { title: "مشاريع مختارة", subtitle: "أعمال عامة مستقلة — تحضير امتحانات، مراكز AI، وأدوات تعلّم." },
+    projects: { title: "مشاريع حقيقية", subtitle: "واجهات حقيقية من أنظمة الكلية ومنصات الامتحانات — لقطات من الإنتاج وليس مجرّد تصاميم." },
     services: {
       title: "كيف أساعدك",
       subtitle: "استشارة وتنفيذ بنتائج ملموسة في التعليم أو التشغيل.",
@@ -625,7 +629,8 @@ const state = {
   activeCategory: "all",
   activeBadge: "all",
   toolSearch: "",
-  toolSort: "relevance"
+  toolSort: "relevance",
+  toolsExpanded: false
 };
 
 const fallbackProjects = [
@@ -646,7 +651,7 @@ const fallbackProjects = [
       "Realtime",
       "RBAC"
     ],
-    "image": "./assets/projects/proj-it-division.jpg",
+    "image": "./assets/projects/real/it-dashboard.png",
     "demo": "https://edu-platform-najaf-prod-2026.web.app",
     "learn": "./cases/view.html?id=it-division"
   },
@@ -666,7 +671,7 @@ const fallbackProjects = [
       "Arabic UX",
       "Workflow Automation"
     ],
-    "image": "./assets/projects/proj-graduate.jpg",
+    "image": "./assets/projects/real/grad-dashboard.png",
     "learn": "./cases/view.html?id=graduate-studies"
   },
   {
@@ -684,7 +689,7 @@ const fallbackProjects = [
       "Assessment UX",
       "GitHub Pages"
     ],
-    "image": "./assets/projects/proj-exam-en.jpg",
+    "image": "./assets/projects/real/exam-en.png",
     "demo": "https://warithh.github.io/warith-exam-iq/",
     "github": "https://github.com/Warithh/warith-exam-iq",
     "learn": "./cases/view.html?id=exam-platforms"
@@ -703,7 +708,7 @@ const fallbackProjects = [
       "Education",
       "Assessment"
     ],
-    "image": "./assets/projects/proj-exam-ar.jpg",
+    "image": "./assets/projects/real/exam-ar.png",
     "github": "https://github.com/Warithh/WARITHARABICEXAM"
   },
   {
@@ -720,7 +725,7 @@ const fallbackProjects = [
       "Engineering",
       "Assessment"
     ],
-    "image": "./assets/projects/proj-exam-eng.jpg",
+    "image": "./assets/projects/real/exam-eng.png",
     "github": "https://github.com/Warithh/engeaxam"
   },
   {
@@ -738,7 +743,7 @@ const fallbackProjects = [
       "Curated AI Tools",
       "Agentic Workflows"
     ],
-    "image": "./assets/projects/proj-lof9x-ai.jpg",
+    "image": "./assets/projects/real/lof9x-home.png",
     "demo": "https://warithh.github.io/lof9x/",
     "github": "https://github.com/Warithh/lof9x"
   },
@@ -758,25 +763,6 @@ const fallbackProjects = [
     ],
     "image": "./assets/projects/proj-telegram-bot.jpg",
     "github": "https://github.com/Warithh/warith_ai_bot"
-  },
-  {
-    "name": {
-      "en": "Modern Methods Stack (Teaching + Delivery)",
-      "ar": "حزمة الطرق الحديثة (تدريس + تسليم)"
-    },
-    "description": {
-      "en": "Practical stack used in real college projects: Flutter/Firebase, role security, realtime sessions, AI pair-programming (Cursor), and bilingual product UX.",
-      "ar": "حزمة عملية مستخدمة في مشاريع الكلية: Flutter/Firebase، صلاحيات الأدوار، جلسات لحظية، برمجة بمساعدة AI (Cursor)، وتجربة منتج عربية/إنجليزية."
-    },
-    "tech": [
-      "Flutter",
-      "Firebase Auth",
-      "Realtime",
-      "Cursor AI",
-      "CI/CD",
-      "Bilingual UX"
-    ],
-    "image": "./assets/projects/proj-stack.jpg"
   }
 ];
 
@@ -810,6 +796,7 @@ const elements = {
   toolSort: document.getElementById("toolSort"),
   toolCategories: document.getElementById("toolCategories"),
   toolBadges: document.getElementById("toolBadges"),
+  toolsShowMore: document.getElementById("toolsShowMore"),
   toolDetailsModal: document.getElementById("toolDetailsModal"),
   toolDetailsTitle: document.getElementById("toolDetailsTitle"),
   toolDetailsDescription: document.getElementById("toolDetailsDescription"),
@@ -1270,10 +1257,16 @@ function renderTools() {
   elements.toolsGrid.innerHTML = "";
   if (!filtered.length) {
     elements.toolsGrid.innerHTML = `<article class="card">${escapeHtml(t("tools.noResults"))}</article>`;
+    if (elements.toolsShowMore) elements.toolsShowMore.hidden = true;
     return;
   }
 
-  filtered.forEach((tool, index) => {
+  const previewLimit = 9;
+  const visible = state.toolsExpanded || filtered.length <= previewLimit
+    ? filtered
+    : filtered.slice(0, previewLimit);
+
+  visible.forEach((tool, index) => {
     const card = document.createElement("article");
     card.className = "card reveal";
     card.style.setProperty("--stagger", `${index * 35}ms`);
@@ -1300,6 +1293,19 @@ function renderTools() {
       if (target) openToolDetails(target);
     });
   });
+
+  if (elements.toolsShowMore) {
+    const remaining = filtered.length - previewLimit;
+    if (!state.toolsExpanded && remaining > 0) {
+      elements.toolsShowMore.hidden = false;
+      elements.toolsShowMore.textContent = `${t("tools.showMore")} (${remaining})`;
+    } else if (state.toolsExpanded && filtered.length > previewLimit) {
+      elements.toolsShowMore.hidden = false;
+      elements.toolsShowMore.textContent = t("tools.showLess");
+    } else {
+      elements.toolsShowMore.hidden = true;
+    }
+  }
   revealObserver();
 }
 
@@ -1308,7 +1314,8 @@ function renderProjects() {
   const projectList = state.projects?.length ? state.projects : fallbackProjects;
   projectList.forEach((project, index) => {
     const card = document.createElement("article");
-    card.className = "card reveal";
+    const featured = Boolean(project.featured);
+    card.className = featured ? "card project-card project-card-featured reveal" : "card project-card reveal";
     card.style.setProperty("--stagger", `${index * 45}ms`);
     const isAr = state.lang === "ar";
     const actions = [];
@@ -1318,16 +1325,22 @@ function renderProjects() {
     const actionHtml = actions.length
       ? `<div class="meta">${actions.join("")}</div>`
       : `<div class="meta"><span class="tag">${isAr ? "فكرة مشروع" : "Project Idea"}</span></div>`;
+    const status = project.status ? `<span class="project-status">${escapeHtml(pickLangValue(project.status))}</span>` : "";
     card.innerHTML = `
-      <img src="${escapeHtml(resolveAsset(project.image))}" class="project-thumb" alt="${escapeHtml(pickLangValue(project.name))}" loading="lazy" decoding="async">
-      <div class="card-top">
-        <h3>${escapeHtml(pickLangValue(project.name))}</h3>
+      <div class="project-media">
+        <img src="${escapeHtml(resolveAsset(project.image))}" class="project-thumb" alt="${escapeHtml(pickLangValue(project.name))}" loading="${index < 2 ? "eager" : "lazy"}" decoding="async">
+        ${status}
       </div>
-      <p>${escapeHtml(pickLangValue(project.description))}</p>
-      <div class="meta">
-        ${project.tech.map((item) => `<span class="tag">${escapeHtml(item)}</span>`).join("")}
+      <div class="project-body">
+        <div class="card-top">
+          <h3>${escapeHtml(pickLangValue(project.name))}</h3>
+        </div>
+        <p>${escapeHtml(pickLangValue(project.description))}</p>
+        <div class="meta">
+          ${(project.tech || []).map((item) => `<span class="tag">${escapeHtml(item)}</span>`).join("")}
+        </div>
+        ${actionHtml}
       </div>
-      ${actionHtml}
     `;
     elements.projectsGrid.appendChild(card);
   });
@@ -1601,6 +1614,13 @@ function bindEvents() {
   elements.toolSort.addEventListener("change", (event) => {
     state.toolSort = event.target.value;
     renderTools();
+  });
+  elements.toolsShowMore?.addEventListener("click", () => {
+    state.toolsExpanded = !state.toolsExpanded;
+    renderTools();
+    if (!state.toolsExpanded) {
+      document.getElementById("tools")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
   });
   elements.cmdButton.addEventListener("click", openPalette);
   elements.toolDetailsModal.addEventListener("click", (event) => {

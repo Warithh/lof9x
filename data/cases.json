@@ -10,8 +10,8 @@
       "en": "Al-Najaf Engineering Technical College — labs, attendance, exams, bookings, and staff workflows in one live system.",
       "ar": "الكلية التقنية الهندسية النجف — مختبرات وحضور وامتحانات وحجوزات وسير عمل الكادر في نظام واحد يعمل فعليًا."
     },
-    "cover": "./assets/projects/proj-it-division.jpg",
-    "coverFallback": "./assets/cases/it-division.svg",
+    "cover": "./assets/projects/real/it-dashboard.png",
+    "coverFallback": "./assets/cases/it-division-live.jpg",
     "demo": "https://edu-platform-najaf-prod-2026.web.app",
     "problem": {
       "en": "Lab operations, attendance, exams, and support tickets were scattered across manual steps and disconnected tools — slow for staff and unclear for students.",
@@ -67,7 +67,7 @@
       "en": "Arabic-first system for student records, research stages, staff roles, and delivery-ready college processes.",
       "ar": "نظام عربي أولًا لسجلات الطلبة والمراحل البحثية وأدوار الكادر وعمليات جاهزة للتسليم داخل الكلية."
     },
-    "cover": "./assets/projects/proj-graduate.jpg",
+    "cover": "./assets/projects/real/grad-dashboard.png",
     "coverFallback": "./assets/cases/graduate-studies.svg",
     "problem": {
       "en": "Graduate processes need clear stages, ownership, and follow-up. Paper-heavy or spreadsheet tracking makes research progress and staff handoffs easy to lose.",
@@ -123,7 +123,7 @@
       "en": "National English prep, Arabic practice, and engineering exam hubs — lightweight, public, and student-ready.",
       "ar": "تحضير الامتحان الوطني الإنجليزي، تدريب عربي، ومراكز امتحانات هندسية — خفيفة وعامة وجاهزة للطالب."
     },
-    "cover": "./assets/projects/proj-exam-en.jpg",
+    "cover": "./assets/projects/real/exam-en.png",
     "coverFallback": "./assets/cases/exam-platforms.svg",
     "demo": "https://warithh.github.io/warith-exam-iq/",
     "github": "https://github.com/Warithh/warith-exam-iq",

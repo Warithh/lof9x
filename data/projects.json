@@ -1,5 +1,7 @@
 [
   {
+    "featured": true,
+    "status": { "en": "Live in production", "ar": "يعمل في الإنتاج" },
     "name": {
       "en": "IT Division Platform — Al-Najaf Engineering Technical College",
       "ar": "منصة شعبة تكنولوجيا المعلومات — الكلية التقنية الهندسية النجف"
@@ -9,11 +11,13 @@
       "ar": "نظام إنتاجي بـ Flutter وFirebase لإدارة المختبرات والحضور والامتحانات والحجوزات والتذاكر وسير عمل الكادر — يعمل فعليًا في الكلية."
     },
     "tech": ["Flutter", "Firebase", "Firestore", "Cloud Functions", "Realtime", "RBAC"],
-    "image": "./assets/projects/proj-it-division.jpg",
+    "image": "./assets/projects/real/it-dashboard.png",
     "demo": "https://edu-platform-najaf-prod-2026.web.app",
     "learn": "./cases/view.html?id=it-division"
   },
   {
+    "featured": true,
+    "status": { "en": "College delivery", "ar": "جاهز لتسليم الكلية" },
     "name": {
       "en": "Graduate Studies Management System",
       "ar": "نظام إدارة الدراسات العليا"
@@ -23,10 +27,11 @@
       "ar": "إدارة كاملة لسير عمل الدراسات العليا: سجلات الطلبة، المراحل البحثية، أدوار الكادر، واجهة عربية، وعمليات جاهزة للتسليم داخل الكلية."
     },
     "tech": ["Flutter", "Firebase", "Role-based Access", "Arabic UX", "Workflow Automation"],
-    "image": "./assets/projects/proj-graduate.jpg",
+    "image": "./assets/projects/real/grad-dashboard.png",
     "learn": "./cases/view.html?id=graduate-studies"
   },
   {
+    "status": { "en": "Public", "ar": "متاح للعامة" },
     "name": {
       "en": "Iraqi National English Exam Prep",
       "ar": "منصة التحضير للامتحان الوطني الإنجليزي"
@@ -36,12 +41,13 @@
       "ar": "تجربة تحضير للامتحان الوطني الإنجليزي مع نصوص وأسئلة مفتاحية ومسار تدريب عملي."
     },
     "tech": ["HTML", "JavaScript", "Assessment UX", "GitHub Pages"],
-    "image": "./assets/projects/proj-exam-en.jpg",
+    "image": "./assets/projects/real/exam-en.png",
     "demo": "https://warithh.github.io/warith-exam-iq/",
     "github": "https://github.com/Warithh/warith-exam-iq",
     "learn": "./cases/view.html?id=exam-platforms"
   },
   {
+    "status": { "en": "Public", "ar": "متاح للعامة" },
     "name": {
       "en": "Arabic Exam Practice Platform",
       "ar": "منصة تدريب الامتحان العربي"
@@ -51,10 +57,12 @@
       "ar": "تمارين مركّزة للامتحان العربي بمسارات تدريب منظمة للطلبة."
     },
     "tech": ["Web", "Education", "Assessment"],
-    "image": "./assets/projects/proj-exam-ar.jpg",
+    "image": "./assets/projects/real/exam-ar.png",
+    "demo": "https://warithh.github.io/WARITHARABICEXAM/",
     "github": "https://github.com/Warithh/WARITHARABICEXAM"
   },
   {
+    "status": { "en": "Public", "ar": "متاح للعامة" },
     "name": {
       "en": "Engineering Exam Hub",
       "ar": "مركز امتحانات هندسية"
@@ -64,10 +72,12 @@
       "ar": "مركز تعلّم موجّه للامتحانات لطلبة الهندسة بمسارات تقييم عملية."
     },
     "tech": ["Web", "Engineering", "Assessment"],
-    "image": "./assets/projects/proj-exam-eng.jpg",
+    "image": "./assets/projects/real/exam-eng.png",
+    "demo": "https://warithh.github.io/engeaxam/",
     "github": "https://github.com/Warithh/engeaxam"
   },
   {
+    "status": { "en": "Live", "ar": "مباشر" },
     "name": {
       "en": "AI Agent & Automation Hub (lof9x)",
       "ar": "مركز وكلاء الذكاء الاصطناعي والأتمتة (lof9x)"
@@ -77,7 +87,7 @@
       "ar": "مركز ثنائي اللغة لتحديثات AI ودليل الأدوات وتدفقات الوكلاء وطرق التدريس التطبيقية."
     },
     "tech": ["Static Web", "i18n", "Curated AI Tools", "Agentic Workflows"],
-    "image": "./assets/projects/proj-lof9x-ai.jpg",
+    "image": "./assets/projects/real/lof9x-home.png",
     "demo": "https://warithh.github.io/lof9x/",
     "github": "https://github.com/Warithh/lof9x"
   },
@@ -93,17 +103,5 @@
     "tech": ["Telegram Bot", "AI API", "Automation"],
     "image": "./assets/projects/proj-telegram-bot.jpg",
     "github": "https://github.com/Warithh/warith_ai_bot"
-  },
-  {
-    "name": {
-      "en": "Modern Methods Stack (Teaching + Delivery)",
-      "ar": "حزمة الطرق الحديثة (تدريس + تسليم)"
-    },
-    "description": {
-      "en": "Practical stack used in real college projects: Flutter/Firebase, role security, realtime sessions, AI pair-programming (Cursor), and bilingual product UX.",
-      "ar": "حزمة عملية مستخدمة في مشاريع الكلية: Flutter/Firebase، صلاحيات الأدوار، جلسات لحظية، برمجة بمساعدة AI (Cursor)، وتجربة منتج عربية/إنجليزية."
-    },
-    "tech": ["Flutter", "Firebase Auth", "Realtime", "Cursor AI", "CI/CD", "Bilingual UX"],
-    "image": "./assets/projects/proj-stack.jpg"
   }
 ]
